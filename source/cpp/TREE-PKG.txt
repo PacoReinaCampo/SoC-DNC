@@ -1,0 +1,73 @@
+library
+├── arithmetic
+│   ├── ntm_arithmetic.hpp
+│   ├── matrix
+│   ├── scalar
+│   ├── tensor
+│   └── vector
+├── controller
+│   ├── ntm_controller.hpp
+│   ├── FNN
+│   │   ├── convolutional
+│   │   └── standard
+│   ├── LSTM
+│   │   ├── convolutional
+│   │   └── standard
+│   └── transformer
+│       ├── components
+│       ├── fnn
+│       ├── functions
+│       ├── inputs
+│       ├── lstm
+│       └── top
+├── dnc
+│   ├── dnc.hpp
+│   ├── memory
+│   ├── top
+│   └── trained
+├── math
+│   ├── algebra
+│   │   ├── ntm_math_algebra.hpp
+│   │   ├── matrix
+│   │   ├── scalar
+│   │   ├── tensor
+│   │   └── vector
+│   ├── calculus
+│   │   ├── ntm_math_calculus.hpp
+│   │   ├── matrix
+│   │   ├── tensor
+│   │   └── vector
+│   ├── function
+│   │   ├── ntm_math_function.hpp
+│   │   ├── matrix
+│   │   ├── scalar
+│   │   └── vector
+│   └── statitics
+│       ├── ntm_math_statitics.hpp
+│       ├── matrix
+│       ├── scalar
+│       └── vector
+├── ntm
+│   ├── ntm.hpp
+│   ├── memory
+│   ├── read_heads
+│   ├── top
+│   ├── trained
+│   └── write_heads
+├── state
+│   ├── ntm_state.hpp
+│   ├── feedback
+│   ├── outputs
+│   └── top
+└── trainer
+    ├── ntm_fnn.hpp
+    ├── ntm_lstm.hpp
+    ├── differentiation
+    ├── FNN
+    └── LSTM
+        ├── activation
+        ├── forget
+        ├── input
+        └── output
+
+59 directories, 11 files
