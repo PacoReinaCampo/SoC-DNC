@@ -1,4 +1,4 @@
-verilog
+code
 ├── arithmetic
 │   ├── float
 │   │   ├── matrix
@@ -218,19 +218,6 @@ verilog
 │           ├── ntm_vector_sinh_function.sv
 │           ├── ntm_vector_sqrt_function.sv
 │           └── ntm_vector_tanh_function.sv
-├── ntm
-│   ├── memory
-│   │   ├── ntm_addressing.sv
-│   │   └── ntm_content_based_addressing.sv
-│   ├── read_heads
-│   │   └── ntm_reading.sv
-│   ├── top
-│   │   ├── ntm_interface_vector.sv
-│   │   ├── ntm_output_vector.sv
-│   │   └── ntm_top.sv
-│   └── write_heads
-│       ├── ntm_erasing.sv
-│       └── ntm_writing.sv
 ├── pkg
 │   ├── dnc_core_pkg.sv
 │   ├── ntm_arithmetic_pkg.sv
@@ -259,4 +246,4 @@ verilog
         ├── ntm_input_trainer.sv
         └── ntm_output_trainer.sv
 
-66 directories, 193 files
+61 directories, 185 files

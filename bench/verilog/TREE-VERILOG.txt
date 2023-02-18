@@ -1,4 +1,4 @@
-verilog
+code
 ├── tests
 │   ├── design
 │   │   ├── arithmetic
@@ -76,23 +76,6 @@ verilog
 │   │   │       ├── ntm_series_pkg.sv
 │   │   │       ├── ntm_series_stimulus.sv
 │   │   │       └── ntm_series_testbench.sv
-│   │   ├── ntm
-│   │   │   ├── memory
-│   │   │   │   ├── ntm_memory_pkg.sv
-│   │   │   │   ├── ntm_memory_stimulus.sv
-│   │   │   │   └── ntm_memory_testbench.sv
-│   │   │   ├── read_heads
-│   │   │   │   ├── ntm_read_heads_pkg.sv
-│   │   │   │   ├── ntm_read_heads_stimulus.sv
-│   │   │   │   └── ntm_read_heads_testbench.sv
-│   │   │   ├── top
-│   │   │   │   ├── ntm_top_pkg.sv
-│   │   │   │   ├── ntm_top_stimulus.sv
-│   │   │   │   └── ntm_top_testbench.sv
-│   │   │   └── write_heads
-│   │   │       ├── ntm_write_heads_pkg.sv
-│   │   │       ├── ntm_write_heads_stimulus.sv
-│   │   │       └── ntm_write_heads_testbench.sv
 │   │   ├── state
 │   │   │   ├── feedback
 │   │   │   │   ├── ntm_state_feedback_pkg.sv
@@ -191,23 +174,6 @@ verilog
 │       │       ├── model_series_pkg.sv
 │       │       ├── model_series_stimulus.sv
 │       │       └── model_series_testbench.sv
-│       ├── ntm
-│       │   ├── memory
-│       │   │   ├── model_memory_pkg.sv
-│       │   │   ├── model_memory_stimulus.sv
-│       │   │   └── model_memory_testbench.sv
-│       │   ├── read_heads
-│       │   │   ├── model_read_heads_pkg.sv
-│       │   │   ├── model_read_heads_stimulus.sv
-│       │   │   └── model_read_heads_testbench.sv
-│       │   ├── top
-│       │   │   ├── model_top_pkg.sv
-│       │   │   ├── model_top_stimulus.sv
-│       │   │   └── model_top_testbench.sv
-│       │   └── write_heads
-│       │       ├── model_write_heads_pkg.sv
-│       │       ├── model_write_heads_stimulus.sv
-│       │       └── model_write_heads_testbench.sv
 │       ├── state
 │       │   ├── feedback
 │       │   │   ├── model_state_feedback_pkg.sv
@@ -441,55 +407,6 @@ verilog
     │       ├── ntm_series_testbench.sv
     │       ├── ntm_series_test.sv
     │       └── ntm_series_transaction.sv
-    ├── ntm
-    │   ├── memory
-    │   │   ├── ntm_memory_agent.sv
-    │   │   ├── ntm_memory_driver.sv
-    │   │   ├── ntm_memory_env.sv
-    │   │   ├── ntm_memory_monitor.sv
-    │   │   ├── ntm_memory_scoreboard.sv
-    │   │   ├── ntm_memory_sequencer.sv
-    │   │   ├── ntm_memory_sequence.sv
-    │   │   ├── ntm_memory_subscriber.sv
-    │   │   ├── ntm_memory_testbench.sv
-    │   │   ├── ntm_memory_test.sv
-    │   │   └── ntm_memory_transaction.sv
-    │   ├── read_heads
-    │   │   ├── ntm_read_heads_agent.sv
-    │   │   ├── ntm_read_heads_driver.sv
-    │   │   ├── ntm_read_heads_env.sv
-    │   │   ├── ntm_read_heads_monitor.sv
-    │   │   ├── ntm_read_heads_scoreboard.sv
-    │   │   ├── ntm_read_heads_sequencer.sv
-    │   │   ├── ntm_read_heads_sequence.sv
-    │   │   ├── ntm_read_heads_subscriber.sv
-    │   │   ├── ntm_read_heads_testbench.sv
-    │   │   ├── ntm_read_heads_test.sv
-    │   │   └── ntm_read_heads_transaction.sv
-    │   ├── top
-    │   │   ├── ntm_top_agent.sv
-    │   │   ├── ntm_top_driver.sv
-    │   │   ├── ntm_top_env.sv
-    │   │   ├── ntm_top_monitor.sv
-    │   │   ├── ntm_top_scoreboard.sv
-    │   │   ├── ntm_top_sequencer.sv
-    │   │   ├── ntm_top_sequence.sv
-    │   │   ├── ntm_top_subscriber.sv
-    │   │   ├── ntm_top_testbench.sv
-    │   │   ├── ntm_top_test.sv
-    │   │   └── ntm_top_transaction.sv
-    │   └── write_heads
-    │       ├── ntm_write_heads_agent.sv
-    │       ├── ntm_write_heads_driver.sv
-    │       ├── ntm_write_heads_env.sv
-    │       ├── ntm_write_heads_monitor.sv
-    │       ├── ntm_write_heads_scoreboard.sv
-    │       ├── ntm_write_heads_sequencer.sv
-    │       ├── ntm_write_heads_sequence.sv
-    │       ├── ntm_write_heads_subscriber.sv
-    │       ├── ntm_write_heads_testbench.sv
-    │       ├── ntm_write_heads_test.sv
-    │       └── ntm_write_heads_transaction.sv
     ├── state
     │   ├── feedback
     │   │   ├── ntm_state_feedback_agent.sv
@@ -565,4 +482,4 @@ verilog
             ├── ntm_trainer_transformer_test.sv
             └── ntm_trainer_transformer_transaction.sv
 
-112 directories, 453 files
+97 directories, 385 files

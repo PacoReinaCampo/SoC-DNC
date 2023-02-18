@@ -1,4 +1,4 @@
-vhdl
+code
 ├── arithmetic
 │   ├── float
 │   │   ├── matrix
@@ -211,20 +211,6 @@ vhdl
 │           ├── ntm_vector_sinh_function.vhd
 │           ├── ntm_vector_sqrt_function.vhd
 │           └── ntm_vector_tanh_function.vhd
-├── ntm
-│   ├── memory
-│   │   ├── ntm_addressing.vhd
-│   │   └── ntm_content_based_addressing.vhd
-│   ├── read_heads
-│   │   └── ntm_reading.vhd
-│   ├── top
-│   │   ├── ntm_interface_matrix.vhd
-│   │   ├── ntm_interface_vector.vhd
-│   │   ├── ntm_output_vector.vhd
-│   │   └── ntm_top.vhd
-│   └── write_heads
-│       ├── ntm_erasing.vhd
-│       └── ntm_writing.vhd
 ├── pkg
 │   ├── dnc_core_pkg.vhd
 │   ├── ntm_arithmetic_pkg.vhd
@@ -254,4 +240,4 @@ vhdl
         ├── ntm_input_trainer.vhd
         └── ntm_output_trainer.vhd
 
-66 directories, 188 files
+61 directories, 179 files
