@@ -1,4 +1,4 @@
-vhdl
+code
 ├── arithmetic
 │   ├── float
 │   │   ├── matrix
@@ -211,20 +211,6 @@ vhdl
 │           ├── model_vector_sinh_function.vhd
 │           ├── model_vector_sqrt_function.vhd
 │           └── model_vector_tanh_function.vhd
-├── ntm
-│   ├── memory
-│   │   ├── model_addressing.vhd
-│   │   └── model_content_based_addressing.vhd
-│   ├── read_heads
-│   │   └── model_reading.vhd
-│   ├── top
-│   │   ├── model_interface_matrix.vhd
-│   │   ├── model_interface_vector.vhd
-│   │   ├── model_output_vector.vhd
-│   │   └── model_top.vhd
-│   └── write_heads
-│       ├── model_erasing.vhd
-│       └── model_writing.vhd
 ├── pkg
 │   ├── model_arithmetic_pkg.vhd
 │   ├── model_dnc_core_pkg.vhd
@@ -254,4 +240,4 @@ vhdl
         ├── model_input_trainer.vhd
         └── model_output_trainer.vhd
 
-66 directories, 188 files
+61 directories, 179 files
