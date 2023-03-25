@@ -22,6 +22,6 @@ verilog work ../../../../../../../model/verilog/math/function/vector/model_vecto
 verilog work ../../../../../../../model/verilog/math/function/matrix/model_matrix_logistic_function.sv
 verilog work ../../../../../../../model/verilog/math/function/matrix/model_matrix_oneplus_function.sv
 
-verilog work ../../../../../../../bench/verilog/tests/model/math/function/model_function_pkg.sv
-verilog work ../../../../../../../bench/verilog/tests/model/math/function/model_function_stimulus.sv
-verilog work ../../../../../../../bench/verilog/tests/model/math/function/model_function_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/math/function/model_function_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/math/function/model_function_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/math/function/model_function_testbench.sv

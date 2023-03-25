@@ -43,6 +43,6 @@ verilog work ../../../../../../../model/verilog/state/feedback/model_state_matri
 verilog work ../../../../../../../model/verilog/state/outputs/model_state_vector_output.sv
 verilog work ../../../../../../../model/verilog/state/outputs/model_state_vector_state.sv
 
-verilog work ../../../../../../../bench/verilog/tests/model/state/outputs/model_state_outputs_pkg.sv
-verilog work ../../../../../../../bench/verilog/tests/model/state/outputs/model_state_outputs_stimulus.sv
-verilog work ../../../../../../../bench/verilog/tests/model/state/outputs/model_state_outputs_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/state/outputs/model_state_outputs_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/state/outputs/model_state_outputs_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/state/outputs/model_state_outputs_testbench.sv

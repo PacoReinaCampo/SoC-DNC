@@ -40,6 +40,6 @@ verilog work ../../../../../../../model/verilog/state/feedback/model_state_matri
 verilog work ../../../../../../../model/verilog/state/feedback/model_state_matrix_output.sv
 verilog work ../../../../../../../model/verilog/state/feedback/model_state_matrix_state.sv
 
-verilog work ../../../../../../../bench/verilog/tests/model/state/feedback/model_state_feedback_pkg.sv
-verilog work ../../../../../../../bench/verilog/tests/model/state/feedback/model_state_feedback_stimulus.sv
-verilog work ../../../../../../../bench/verilog/tests/model/state/feedback/model_state_feedback_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/state/feedback/model_state_feedback_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/state/feedback/model_state_feedback_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/tests/model/state/feedback/model_state_feedback_testbench.sv
