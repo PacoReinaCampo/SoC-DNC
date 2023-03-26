@@ -1,7 +1,7 @@
 @echo off
-call ../../../../../../settings64_vivado.bat
+call ../../../../../../../settings64_vivado.bat
 
 xvhdl -prj system.prj
-xelab dnc_top_testbench
-xsim -R dnc_top_testbench
+xelab ntm_top_testbench
+xsim -R ntm_top_testbench
 pause
