@@ -48,8 +48,8 @@ build:
 	xvhdl -prj system.prj
 
 simulate:
-	xelab ntm_write_heads_testbench
-	xsim -R ntm_write_heads_testbench
+	xelab dnc_write_heads_testbench
+	xsim -R dnc_write_heads_testbench
 
 clean:
 	rm -rf *.dir *.jou *.log *.pb .Xil

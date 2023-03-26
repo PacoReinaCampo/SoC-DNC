@@ -27,7 +27,7 @@ alias model_free_gates_verification_compilation {
 
   #WAVES
   view -title model_free_gates wave
-  do $simulation_path/model/dnc/read_heads/msim/waves/model_free_gates.do
+  do $simulation_path/mpsoc/dnc/read_heads/msim/waves/model_free_gates.do
 
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_FREE_GATES_TEST true 0
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_FREE_GATES_CASE_0 true 0
@@ -56,7 +56,7 @@ alias model_read_keys_verification_compilation {
 
   #WAVES
   view -title model_read_keys wave
-  do $simulation_path/model/dnc/read_heads/msim/waves/model_read_keys.do
+  do $simulation_path/mpsoc/dnc/read_heads/msim/waves/model_read_keys.do
 
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_READ_KEYS_TEST true 0
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_READ_KEYS_CASE_0 true 0
@@ -85,7 +85,7 @@ alias model_read_modes_verification_compilation {
 
   #WAVES
   view -title model_read_modes wave
-  do $simulation_path/model/dnc/read_heads/msim/waves/model_read_modes.do
+  do $simulation_path/mpsoc/dnc/read_heads/msim/waves/model_read_modes.do
 
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_READ_MODES_TEST true 0
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_READ_MODES_CASE_0 true 0
@@ -114,7 +114,7 @@ alias model_read_strengths_verification_compilation {
 
   #WAVES
   view -title model_read_strengths wave
-  do $simulation_path/model/dnc/read_heads/msim/waves/model_read_strengths.do
+  do $simulation_path/mpsoc/dnc/read_heads/msim/waves/model_read_strengths.do
 
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_READ_STRENGTHS_TEST true 0
   force -freeze sim:/model_read_heads_pkg/STIMULUS_DNC_READ_STRENGTHS_CASE_0 true 0

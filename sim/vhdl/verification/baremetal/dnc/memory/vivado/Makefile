@@ -48,8 +48,8 @@ build:
 	xvhdl -prj system.prj
 
 simulate:
-	xelab ntm_memory_testbench
-	xsim -R ntm_memory_testbench
+	xelab dnc_memory_testbench
+	xsim -R dnc_memory_testbench
 
 clean:
 	rm -rf *.dir *.jou *.log *.pb .Xil

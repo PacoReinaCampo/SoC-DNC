@@ -23,10 +23,23 @@ add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector
 
 add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/convolution_ctrl_fsm_int
 
-add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/index_loop
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/index_i_loop
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/index_m_loop
 
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/start_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/operation_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_a_in_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_b_in_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/ready_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_out_scalar_float_adder
+
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/start_scalar_float_multiplier
 add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_a_in_convolution_int
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_a_in_scalar_float_multiplier
 add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_b_in_convolution_int
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_b_in_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/ready_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_vector_convolution_test/vector_convolution/data_out_scalar_float_multiplier
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {1042309203 ps} 0} {{Cursor 2} {7446987402 ps} 0}

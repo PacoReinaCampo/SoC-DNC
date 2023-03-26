@@ -14,7 +14,7 @@ vlib work
 alias model_free_gates_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd
@@ -31,7 +31,7 @@ alias model_free_gates_design_compilation {
 alias model_read_keys_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/dnc/read_heads/model_read_keys.vhd
 }
 
@@ -42,7 +42,7 @@ alias model_read_keys_design_compilation {
 alias model_read_modes_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd
@@ -57,7 +57,7 @@ alias model_read_modes_design_compilation {
 
 alias model_read_strengths_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd

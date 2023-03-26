@@ -27,7 +27,7 @@ alias model_allocation_gate_verification_compilation {
 
   #WAVES
   view -title model_allocation_gate wave
-  do $simulation_path/model/dnc/write_heads/msim/waves/model_allocation_gate.do
+  do $simulation_path/mpsoc/dnc/write_heads/msim/waves/model_allocation_gate.do
 
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_ALLOCATION_GATE_TEST true 0
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_ALLOCATION_GATE_CASE_0 true 0
@@ -56,7 +56,7 @@ alias model_erase_vector_verification_compilation {
 
   #WAVES
   view -title model_erase_vector wave
-  do $simulation_path/model/dnc/write_heads/msim/waves/model_erase_vector.do
+  do $simulation_path/mpsoc/dnc/write_heads/msim/waves/model_erase_vector.do
 
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_ERASE_VECTOR_TEST true 0
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_ERASE_VECTOR_CASE_0 true 0
@@ -85,7 +85,7 @@ alias model_write_gate_verification_compilation {
 
   #WAVES
   view -title model_write_gate wave
-  do $simulation_path/model/dnc/write_heads/msim/waves/model_write_gate.do
+  do $simulation_path/mpsoc/dnc/write_heads/msim/waves/model_write_gate.do
 
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_GATE_TEST true 0
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_GATE_CASE_0 true 0
@@ -114,7 +114,7 @@ alias model_write_key_verification_compilation {
 
   #WAVES
   view -title model_write_key wave
-  do $simulation_path/model/dnc/write_heads/msim/waves/model_write_key.do
+  do $simulation_path/mpsoc/dnc/write_heads/msim/waves/model_write_key.do
 
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_KEY_TEST true 0
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_KEY_CASE_0 true 0
@@ -143,7 +143,7 @@ alias model_write_strength_verification_compilation {
 
   #WAVES
   view -title model_write_strength wave
-  do $simulation_path/model/dnc/write_heads/msim/waves/model_write_strength.do
+  do $simulation_path/mpsoc/dnc/write_heads/msim/waves/model_write_strength.do
 
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_STRENGTH_TEST true 0
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_STRENGTH_CASE_0 true 0
@@ -173,7 +173,7 @@ alias model_write_vector_verification_compilation {
 
   #WAVES
   view -title model_write_vector wave
-  do $simulation_path/model/dnc/write_heads/msim/waves/model_write_vector.do
+  do $simulation_path/mpsoc/dnc/write_heads/msim/waves/model_write_vector.do
 
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_VECTOR_TEST true 0
   force -freeze sim:/model_write_heads_pkg/STIMULUS_DNC_WRITE_VECTOR_CASE_0 true 0

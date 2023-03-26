@@ -25,6 +25,21 @@ add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/p
 
 add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/index_loop
 
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/start_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/operation_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_a_in_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_b_in_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/ready_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_out_scalar_float_adder
+
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/start_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_a_in_product_int
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_a_in_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_b_in_product_int
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_b_in_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/ready_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_dot_product_test/dot_product/data_out_scalar_float_multiplier
+
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {1042309203 ps} 0} {{Cursor 2} {7446987402 ps} 0}
 configure wave -namecolwidth 305

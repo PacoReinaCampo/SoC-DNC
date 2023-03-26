@@ -19,9 +19,8 @@ add wave -noupdate /model_integer_testbench/model_scalar_integer_divider_test/sc
 add wave -noupdate /model_integer_testbench/model_scalar_integer_divider_test/scalar_integer_divider/REMAINDER_OUT
 
 add wave -noupdate /model_integer_testbench/model_scalar_integer_divider_test/scalar_integer_divider/divider_ctrl_fsm_int
-
 add wave -noupdate /model_integer_testbench/model_scalar_integer_divider_test/scalar_integer_divider/divider_int
-add wave -noupdate /model_integer_testbench/model_scalar_integer_divider_test/scalar_integer_divider/remainder_int
+add wave -noupdate /model_integer_testbench/model_scalar_integer_divider_test/scalar_integer_divider/index_loop
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {1042309203 ps} 0} {{Cursor 2} {7446987402 ps} 0}

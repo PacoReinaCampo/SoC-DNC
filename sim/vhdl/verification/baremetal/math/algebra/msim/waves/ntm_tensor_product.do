@@ -40,6 +40,7 @@ add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_pro
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/index_i_loop
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/index_j_loop
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/index_k_loop
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/index_m_loop
 
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_a_in_i_product_int
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_a_in_j_product_int
@@ -47,6 +48,21 @@ add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_pro
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_b_in_i_product_int
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_b_in_j_product_int
 add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_b_in_k_product_int
+
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/start_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/operation_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_a_in_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_b_in_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/ready_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_out_scalar_float_adder
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/overflow_out_scalar_float_adder
+
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/start_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_a_in_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_b_in_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/ready_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/data_out_scalar_float_multiplier
+add wave -noupdate /model_algebra_testbench/model_tensor_product_test/tensor_product/overflow_out_scalar_float_multiplier
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {1042309203 ps} 0} {{Cursor 2} {7446987402 ps} 0}

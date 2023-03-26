@@ -27,7 +27,7 @@ alias model_memory_sort_vector_verification_compilation {
 
   #WAVES
   view -title model_memory_sort_vector wave
-  do $simulation_path/model/dnc/memory/msim/waves/model_memory_sort_vector.do
+  do $simulation_path/mpsoc/dnc/memory/msim/waves/model_memory_sort_vector.do
 
   force -freeze sim:/model_memory_pkg/STIMULUS_DNC_MEMORY_SORT_VECTOR_TEST true 0
   force -freeze sim:/model_memory_pkg/STIMULUS_DNC_MEMORY_SORT_VECTOR_CASE_0 true 0

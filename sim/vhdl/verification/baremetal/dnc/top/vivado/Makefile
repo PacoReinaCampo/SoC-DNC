@@ -48,8 +48,8 @@ build:
 	xvhdl -prj system.prj
 
 simulate:
-	xelab ntm_top_testbench
-	xsim -R ntm_top_testbench
+	xelab dnc_top_testbench
+	xsim -R dnc_top_testbench
 
 clean:
 	rm -rf *.dir *.jou *.log *.pb .Xil

@@ -17,12 +17,19 @@ add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_f
 add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/DATA_B_IN
 add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/READY
 add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/DATA_OUT
-add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/OVERFLOW_OUT
 
 add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/adder_ctrl_fsm_int
 
-add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_a_int
-add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_b_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_a_in_mantissa_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_b_in_mantissa_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_a_in_exponent_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_b_in_exponent_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_a_in_sign_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_b_in_sign_int
+
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_out_exponent_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_out_mantissa_int
+add wave -noupdate /model_float_testbench/model_scalar_float_adder_test/scalar_float_adder/data_out_sign_int
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {1042309203 ps} 0} {{Cursor 2} {7446987402 ps} 0}
