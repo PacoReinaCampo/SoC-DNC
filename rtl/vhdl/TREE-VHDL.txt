@@ -1,4 +1,9 @@
 code
+├── architecture
+│   ├── pu
+│   │   └── ntm_pu.vhd
+│   └── soc
+│       └── ntm_soc.vhd
 ├── arithmetic
 │   ├── float
 │   │   ├── matrix
@@ -241,4 +246,4 @@ code
         ├── ntm_input_trainer.vhd
         └── ntm_output_trainer.vhd
 
-61 directories, 180 files
+64 directories, 182 files
