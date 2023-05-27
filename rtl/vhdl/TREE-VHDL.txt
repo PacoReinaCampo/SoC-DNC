@@ -219,7 +219,6 @@ code
 │   ├── ntm_arithmetic_pkg.vhd
 │   ├── ntm_core_pkg.vhd
 │   ├── ntm_fnn_controller_pkg.vhd
-│   ├── ntm_intro_pkg.vhd
 │   ├── ntm_lstm_controller_pkg.vhd
 │   ├── ntm_math_pkg.vhd
 │   └── ntm_state_pkg.vhd
@@ -246,4 +245,4 @@ code
         ├── ntm_input_trainer.vhd
         └── ntm_output_trainer.vhd
 
-64 directories, 182 files
+64 directories, 181 files
