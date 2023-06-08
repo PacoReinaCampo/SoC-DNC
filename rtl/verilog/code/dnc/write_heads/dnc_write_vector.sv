@@ -91,7 +91,7 @@ module dnc_write_vector #(
   // Finite State Machine
   reg                    write_vector_ctrl_fsm_int;
 
-  // Internal Signals
+  // Data Internal
   reg [CONTROL_SIZE-1:0] index_loop;
 
   //////////////////////////////////////////////////////////////////////////////

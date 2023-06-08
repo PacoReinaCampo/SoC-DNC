@@ -94,7 +94,7 @@ module dnc_read_keys #(
   // Finite State Machine
   reg                    read_keys_ctrl_fsm_int;
 
-  // Internal Signals
+  // Data Internal
   reg [CONTROL_SIZE-1:0] index_i_loop;
   reg [CONTROL_SIZE-1:0] index_j_loop;
 
