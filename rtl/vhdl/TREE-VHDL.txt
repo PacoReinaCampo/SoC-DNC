@@ -5,6 +5,23 @@ code
 │   └── soc
 │       └── ntm_soc.vhd
 ├── arithmetic
+│   ├── fixed
+│   │   ├── matrix
+│   │   │   ├── ntm_matrix_fixed_adder.vhd
+│   │   │   ├── ntm_matrix_fixed_divider.vhd
+│   │   │   └── ntm_matrix_fixed_multiplier.vhd
+│   │   ├── scalar
+│   │   │   ├── ntm_scalar_fixed_adder.vhd
+│   │   │   ├── ntm_scalar_fixed_divider.vhd
+│   │   │   └── ntm_scalar_fixed_multiplier.vhd
+│   │   ├── tensor
+│   │   │   ├── ntm_tensor_fixed_adder.vhd
+│   │   │   ├── ntm_tensor_fixed_divider.vhd
+│   │   │   └── ntm_tensor_fixed_multiplier.vhd
+│   │   └── vector
+│   │       ├── ntm_vector_fixed_adder.vhd
+│   │       ├── ntm_vector_fixed_divider.vhd
+│   │       └── ntm_vector_fixed_multiplier.vhd
 │   ├── float
 │   │   ├── matrix
 │   │   │   ├── ntm_matrix_float_adder.vhd
@@ -22,44 +39,23 @@ code
 │   │       ├── ntm_vector_float_adder.vhd
 │   │       ├── ntm_vector_float_divider.vhd
 │   │       └── ntm_vector_float_multiplier.vhd
-│   ├── integer
-│   │   ├── matrix
-│   │   │   ├── ntm_matrix_integer_adder.vhd
-│   │   │   ├── ntm_matrix_integer_divider.vhd
-│   │   │   └── ntm_matrix_integer_multiplier.vhd
-│   │   ├── scalar
-│   │   │   ├── ntm_scalar_integer_adder.vhd
-│   │   │   ├── ntm_scalar_integer_divider.vhd
-│   │   │   └── ntm_scalar_integer_multiplier.vhd
-│   │   ├── tensor
-│   │   │   ├── ntm_tensor_integer_adder.vhd
-│   │   │   ├── ntm_tensor_integer_divider.vhd
-│   │   │   └── ntm_tensor_integer_multiplier.vhd
-│   │   └── vector
-│   │       ├── ntm_vector_integer_adder.vhd
-│   │       ├── ntm_vector_integer_divider.vhd
-│   │       └── ntm_vector_integer_multiplier.vhd
-│   └── modular
+│   └── integer
 │       ├── matrix
-│       │   ├── ntm_matrix_modular_adder.vhd
-│       │   ├── ntm_matrix_modular_inverter.vhd
-│       │   ├── ntm_matrix_modular_mod.vhd
-│       │   └── ntm_matrix_modular_multiplier.vhd
+│       │   ├── ntm_matrix_integer_adder.vhd
+│       │   ├── ntm_matrix_integer_divider.vhd
+│       │   └── ntm_matrix_integer_multiplier.vhd
 │       ├── scalar
-│       │   ├── ntm_scalar_modular_adder.vhd
-│       │   ├── ntm_scalar_modular_inverter.vhd
-│       │   ├── ntm_scalar_modular_mod.vhd
-│       │   └── ntm_scalar_modular_multiplier.vhd
+│       │   ├── ntm_scalar_integer_adder.vhd
+│       │   ├── ntm_scalar_integer_divider.vhd
+│       │   └── ntm_scalar_integer_multiplier.vhd
 │       ├── tensor
-│       │   ├── ntm_tensor_modular_adder.vhd
-│       │   ├── ntm_tensor_modular_inverter.vhd
-│       │   ├── ntm_tensor_modular_mod.vhd
-│       │   └── ntm_tensor_modular_multiplier.vhd
+│       │   ├── ntm_tensor_integer_adder.vhd
+│       │   ├── ntm_tensor_integer_divider.vhd
+│       │   └── ntm_tensor_integer_multiplier.vhd
 │       └── vector
-│           ├── ntm_vector_modular_adder.vhd
-│           ├── ntm_vector_modular_inverter.vhd
-│           ├── ntm_vector_modular_mod.vhd
-│           └── ntm_vector_modular_multiplier.vhd
+│           ├── ntm_vector_integer_adder.vhd
+│           ├── ntm_vector_integer_divider.vhd
+│           └── ntm_vector_integer_multiplier.vhd
 ├── controller
 │   ├── FNN
 │   │   ├── convolutional
@@ -245,4 +241,4 @@ code
         ├── ntm_input_trainer.vhd
         └── ntm_output_trainer.vhd
 
-64 directories, 181 files
+64 directories, 177 files
