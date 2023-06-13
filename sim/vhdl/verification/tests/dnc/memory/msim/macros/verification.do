@@ -45,5 +45,5 @@ alias v01 {
 }
 
 echo "************************************************************"
-echo "v01 . DNC-MEMORY-SORT-VECTOR-TEST"
+echo "v01 . ACCELERATOR-MEMORY-SORT-VECTOR-TEST"
 echo "************************************************************"

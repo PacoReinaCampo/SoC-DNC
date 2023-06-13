@@ -144,8 +144,8 @@ alias v04 {
 }
 
 echo "****************************************"
-echo "v01 . DNC-FREE-GATES-TEST"
-echo "v02 . DNC-READ-KEYS-TEST"
-echo "v03 . DNC-READ-MODES-TEST"
-echo "v04 . DNC-READ-STRENGTHS-TEST"
+echo "v01 . ACCELERATOR-FREE-GATES-TEST"
+echo "v02 . ACCELERATOR-READ-KEYS-TEST"
+echo "v03 . ACCELERATOR-READ-MODES-TEST"
+echo "v04 . ACCELERATOR-READ-STRENGTHS-TEST"
 echo "****************************************"

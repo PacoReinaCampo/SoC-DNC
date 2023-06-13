@@ -87,8 +87,8 @@ alias d04 {
 }
 
 echo "****************************************"
-echo "d01 . DNC-FREE-GATES-TEST"
-echo "d02 . DNC-READ-KEYS-TEST"
-echo "d03 . DNC-READ-MODES-TEST"
-echo "d04 . DNC-READ-STRENGTHS-TEST"
+echo "d01 . ACCELERATOR-FREE-GATES-TEST"
+echo "d02 . ACCELERATOR-READ-KEYS-TEST"
+echo "d03 . ACCELERATOR-READ-MODES-TEST"
+echo "d04 . ACCELERATOR-READ-STRENGTHS-TEST"
 echo "****************************************"

@@ -211,10 +211,10 @@ alias v06 {
 }
 
 echo "****************************************"
-echo "v01 . DNC-ALLOCATION-GATE-TEST"
-echo "v02 . DNC-ERASE-VECTOR-TEST"
-echo "v03 . DNC-WRITE-GATE-TEST"
-echo "v04 . DNC-WRITE-KEY-TEST"
-echo "v05 . DNC-WRITE-STRENGTH-TEST"
-echo "v06 . DNC-WRITE-VECTOR-TEST"
+echo "v01 . ACCELERATOR-ALLOCATION-GATE-TEST"
+echo "v02 . ACCELERATOR-ERASE-VECTOR-TEST"
+echo "v03 . ACCELERATOR-WRITE-GATE-TEST"
+echo "v04 . ACCELERATOR-WRITE-KEY-TEST"
+echo "v05 . ACCELERATOR-WRITE-STRENGTH-TEST"
+echo "v06 . ACCELERATOR-WRITE-VECTOR-TEST"
 echo "****************************************"
