@@ -3,100 +3,100 @@ code
 │   ├── design
 │   │   ├── arithmetic
 │   │   │   ├── fixed
-│   │   │   │   ├── ntm_fixed_pkg.vhd
-│   │   │   │   ├── ntm_fixed_stimulus.vhd
-│   │   │   │   └── ntm_fixed_testbench.vhd
+│   │   │   │   ├── accelerator_fixed_pkg.vhd
+│   │   │   │   ├── accelerator_fixed_stimulus.vhd
+│   │   │   │   └── accelerator_fixed_testbench.vhd
 │   │   │   ├── float
-│   │   │   │   ├── ntm_float_pkg.vhd
-│   │   │   │   ├── ntm_float_stimulus.vhd
-│   │   │   │   └── ntm_float_testbench.vhd
+│   │   │   │   ├── accelerator_float_pkg.vhd
+│   │   │   │   ├── accelerator_float_stimulus.vhd
+│   │   │   │   └── accelerator_float_testbench.vhd
 │   │   │   └── integer
-│   │   │       ├── ntm_integer_pkg.vhd
-│   │   │       ├── ntm_integer_stimulus.vhd
-│   │   │       └── ntm_integer_testbench.vhd
+│   │   │       ├── accelerator_integer_pkg.vhd
+│   │   │       ├── accelerator_integer_stimulus.vhd
+│   │   │       └── accelerator_integer_testbench.vhd
 │   │   ├── controller
 │   │   │   ├── FNN
 │   │   │   │   ├── convolutional
-│   │   │   │   │   ├── ntm_convolutional_fnn_pkg.vhd
-│   │   │   │   │   ├── ntm_convolutional_fnn_stimulus.vhd
-│   │   │   │   │   └── ntm_convolutional_fnn_testbench.vhd
+│   │   │   │   │   ├── accelerator_convolutional_fnn_pkg.vhd
+│   │   │   │   │   ├── accelerator_convolutional_fnn_stimulus.vhd
+│   │   │   │   │   └── accelerator_convolutional_fnn_testbench.vhd
 │   │   │   │   └── standard
-│   │   │   │       ├── ntm_standard_fnn_pkg.vhd
-│   │   │   │       ├── ntm_standard_fnn_stimulus.vhd
-│   │   │   │       └── ntm_standard_fnn_testbench.vhd
+│   │   │   │       ├── accelerator_standard_fnn_pkg.vhd
+│   │   │   │       ├── accelerator_standard_fnn_stimulus.vhd
+│   │   │   │       └── accelerator_standard_fnn_testbench.vhd
 │   │   │   ├── LSTM
 │   │   │   │   ├── convolutional
-│   │   │   │   │   ├── ntm_convolutional_lstm_pkg.vhd
-│   │   │   │   │   ├── ntm_convolutional_lstm_stimulus.vhd
-│   │   │   │   │   └── ntm_convolutional_lstm_testbench.vhd
+│   │   │   │   │   ├── accelerator_convolutional_lstm_pkg.vhd
+│   │   │   │   │   ├── accelerator_convolutional_lstm_stimulus.vhd
+│   │   │   │   │   └── accelerator_convolutional_lstm_testbench.vhd
 │   │   │   │   └── standard
-│   │   │   │       ├── ntm_standard_lstm_pkg.vhd
-│   │   │   │       ├── ntm_standard_lstm_stimulus.vhd
-│   │   │   │       └── ntm_standard_lstm_testbench.vhd
+│   │   │   │       ├── accelerator_standard_lstm_pkg.vhd
+│   │   │   │       ├── accelerator_standard_lstm_stimulus.vhd
+│   │   │   │       └── accelerator_standard_lstm_testbench.vhd
 │   │   │   └── transformer
-│   │   │       ├── ntm_transformer_pkg.vhd
-│   │   │       ├── ntm_transformer_stimulus.vhd
-│   │   │       └── ntm_transformer_testbench.vhd
+│   │   │       ├── accelerator_transformer_pkg.vhd
+│   │   │       ├── accelerator_transformer_stimulus.vhd
+│   │   │       └── accelerator_transformer_testbench.vhd
 │   │   ├── dnc
 │   │   │   ├── memory
-│   │   │   │   ├── dnc_memory_pkg.vhd
-│   │   │   │   ├── dnc_memory_stimulus.vhd
-│   │   │   │   └── dnc_memory_testbench.vhd
+│   │   │   │   ├── accelerator_memory_pkg.vhd
+│   │   │   │   ├── accelerator_memory_stimulus.vhd
+│   │   │   │   └── accelerator_memory_testbench.vhd
 │   │   │   ├── read_heads
-│   │   │   │   ├── dnc_read_heads_pkg.vhd
-│   │   │   │   ├── dnc_read_heads_stimulus.vhd
-│   │   │   │   └── dnc_read_heads_testbench.vhd
+│   │   │   │   ├── accelerator_read_heads_pkg.vhd
+│   │   │   │   ├── accelerator_read_heads_stimulus.vhd
+│   │   │   │   └── accelerator_read_heads_testbench.vhd
 │   │   │   ├── top
-│   │   │   │   ├── dnc_top_pkg.vhd
-│   │   │   │   ├── dnc_top_stimulus.vhd
-│   │   │   │   └── dnc_top_testbench.vhd
+│   │   │   │   ├── accelerator_top_pkg.vhd
+│   │   │   │   ├── accelerator_top_stimulus.vhd
+│   │   │   │   └── accelerator_top_testbench.vhd
 │   │   │   └── write_heads
-│   │   │       ├── dnc_write_heads_pkg.vhd
-│   │   │       ├── dnc_write_heads_stimulus.vhd
-│   │   │       └── dnc_write_heads_testbench.vhd
+│   │   │       ├── accelerator_write_heads_pkg.vhd
+│   │   │       ├── accelerator_write_heads_stimulus.vhd
+│   │   │       └── accelerator_write_heads_testbench.vhd
 │   │   ├── math
 │   │   │   ├── algebra
-│   │   │   │   ├── ntm_algebra_pkg.vhd
-│   │   │   │   ├── ntm_algebra_stimulus.vhd
-│   │   │   │   └── ntm_algebra_testbench.vhd
+│   │   │   │   ├── accelerator_algebra_pkg.vhd
+│   │   │   │   ├── accelerator_algebra_stimulus.vhd
+│   │   │   │   └── accelerator_algebra_testbench.vhd
 │   │   │   ├── calculus
-│   │   │   │   ├── ntm_calculus_pkg.vhd
-│   │   │   │   ├── ntm_calculus_stimulus.vhd
-│   │   │   │   └── ntm_calculus_testbench.vhd
+│   │   │   │   ├── accelerator_calculus_pkg.vhd
+│   │   │   │   ├── accelerator_calculus_stimulus.vhd
+│   │   │   │   └── accelerator_calculus_testbench.vhd
 │   │   │   ├── function
-│   │   │   │   ├── ntm_function_pkg.vhd
-│   │   │   │   ├── ntm_function_stimulus.vhd
-│   │   │   │   └── ntm_function_testbench.vhd
+│   │   │   │   ├── accelerator_function_pkg.vhd
+│   │   │   │   ├── accelerator_function_stimulus.vhd
+│   │   │   │   └── accelerator_function_testbench.vhd
 │   │   │   └── series
-│   │   │       ├── ntm_series_pkg.vhd
-│   │   │       ├── ntm_series_stimulus.vhd
-│   │   │       └── ntm_series_testbench.vhd
+│   │   │       ├── accelerator_series_pkg.vhd
+│   │   │       ├── accelerator_series_stimulus.vhd
+│   │   │       └── accelerator_series_testbench.vhd
 │   │   ├── state
 │   │   │   ├── feedback
-│   │   │   │   ├── ntm_state_feedback_pkg.vhd
-│   │   │   │   ├── ntm_state_feedback_stimulus.vhd
-│   │   │   │   └── ntm_state_feedback_testbench.vhd
+│   │   │   │   ├── accelerator_state_feedback_pkg.vhd
+│   │   │   │   ├── accelerator_state_feedback_stimulus.vhd
+│   │   │   │   └── accelerator_state_feedback_testbench.vhd
 │   │   │   ├── outputs
-│   │   │   │   ├── ntm_state_outputs_pkg.vhd
-│   │   │   │   ├── ntm_state_outputs_stimulus.vhd
-│   │   │   │   └── ntm_state_outputs_testbench.vhd
+│   │   │   │   ├── accelerator_state_outputs_pkg.vhd
+│   │   │   │   ├── accelerator_state_outputs_stimulus.vhd
+│   │   │   │   └── accelerator_state_outputs_testbench.vhd
 │   │   │   └── top
-│   │   │       ├── ntm_state_top_pkg.vhd
-│   │   │       ├── ntm_state_top_stimulus.vhd
-│   │   │       └── ntm_state_top_testbench.vhd
+│   │   │       ├── accelerator_state_top_pkg.vhd
+│   │   │       ├── accelerator_state_top_stimulus.vhd
+│   │   │       └── accelerator_state_top_testbench.vhd
 │   │   └── trainer
 │   │       ├── differentiation
-│   │       │   ├── ntm_trainer_differentiation_pkg.vhd
-│   │       │   ├── ntm_trainer_differentiation_stimulus.vhd
-│   │       │   └── ntm_trainer_differentiation_testbench.vhd
+│   │       │   ├── accelerator_trainer_differentiation_pkg.vhd
+│   │       │   ├── accelerator_trainer_differentiation_stimulus.vhd
+│   │       │   └── accelerator_trainer_differentiation_testbench.vhd
 │   │       ├── FNN
-│   │       │   ├── ntm_trainer_fnn_pkg.vhd
-│   │       │   ├── ntm_trainer_fnn_stimulus.vhd
-│   │       │   └── ntm_trainer_fnn_testbench.vhd
+│   │       │   ├── accelerator_trainer_fnn_pkg.vhd
+│   │       │   ├── accelerator_trainer_fnn_stimulus.vhd
+│   │       │   └── accelerator_trainer_fnn_testbench.vhd
 │   │       └── LSTM
-│   │           ├── ntm_trainer_lstm_pkg.vhd
-│   │           ├── ntm_trainer_lstm_stimulus.vhd
-│   │           └── ntm_trainer_lstm_testbench.vhd
+│   │           ├── accelerator_trainer_lstm_pkg.vhd
+│   │           ├── accelerator_trainer_lstm_stimulus.vhd
+│   │           └── accelerator_trainer_lstm_testbench.vhd
 │   └── model
 │       ├── arithmetic
 │       │   ├── fixed
@@ -198,100 +198,100 @@ code
     ├── design
     │   ├── arithmetic
     │   │   ├── fixed
-    │   │   │   ├── ntm_fixed_pkg.vhd
-    │   │   │   ├── ntm_fixed_stimulus.vhd
-    │   │   │   └── ntm_fixed_testbench.vhd
+    │   │   │   ├── accelerator_fixed_pkg.vhd
+    │   │   │   ├── accelerator_fixed_stimulus.vhd
+    │   │   │   └── accelerator_fixed_testbench.vhd
     │   │   ├── float
-    │   │   │   ├── ntm_float_pkg.vhd
-    │   │   │   ├── ntm_float_stimulus.vhd
-    │   │   │   └── ntm_float_testbench.vhd
+    │   │   │   ├── accelerator_float_pkg.vhd
+    │   │   │   ├── accelerator_float_stimulus.vhd
+    │   │   │   └── accelerator_float_testbench.vhd
     │   │   └── integer
-    │   │       ├── ntm_integer_pkg.vhd
-    │   │       ├── ntm_integer_stimulus.vhd
-    │   │       └── ntm_integer_testbench.vhd
+    │   │       ├── accelerator_integer_pkg.vhd
+    │   │       ├── accelerator_integer_stimulus.vhd
+    │   │       └── accelerator_integer_testbench.vhd
     │   ├── controller
     │   │   ├── FNN
     │   │   │   ├── convolutional
-    │   │   │   │   ├── ntm_convolutional_fnn_pkg.vhd
-    │   │   │   │   ├── ntm_convolutional_fnn_stimulus.vhd
-    │   │   │   │   └── ntm_convolutional_fnn_testbench.vhd
+    │   │   │   │   ├── accelerator_convolutional_fnn_pkg.vhd
+    │   │   │   │   ├── accelerator_convolutional_fnn_stimulus.vhd
+    │   │   │   │   └── accelerator_convolutional_fnn_testbench.vhd
     │   │   │   └── standard
-    │   │   │       ├── ntm_standard_fnn_pkg.vhd
-    │   │   │       ├── ntm_standard_fnn_stimulus.vhd
-    │   │   │       └── ntm_standard_fnn_testbench.vhd
+    │   │   │       ├── accelerator_standard_fnn_pkg.vhd
+    │   │   │       ├── accelerator_standard_fnn_stimulus.vhd
+    │   │   │       └── accelerator_standard_fnn_testbench.vhd
     │   │   ├── LSTM
     │   │   │   ├── convolutional
-    │   │   │   │   ├── ntm_convolutional_lstm_pkg.vhd
-    │   │   │   │   ├── ntm_convolutional_lstm_stimulus.vhd
-    │   │   │   │   └── ntm_convolutional_lstm_testbench.vhd
+    │   │   │   │   ├── accelerator_convolutional_lstm_pkg.vhd
+    │   │   │   │   ├── accelerator_convolutional_lstm_stimulus.vhd
+    │   │   │   │   └── accelerator_convolutional_lstm_testbench.vhd
     │   │   │   └── standard
-    │   │   │       ├── ntm_standard_lstm_pkg.vhd
-    │   │   │       ├── ntm_standard_lstm_stimulus.vhd
-    │   │   │       └── ntm_standard_lstm_testbench.vhd
+    │   │   │       ├── accelerator_standard_lstm_pkg.vhd
+    │   │   │       ├── accelerator_standard_lstm_stimulus.vhd
+    │   │   │       └── accelerator_standard_lstm_testbench.vhd
     │   │   └── transformer
-    │   │       ├── ntm_transformer_pkg.vhd
-    │   │       ├── ntm_transformer_stimulus.vhd
-    │   │       └── ntm_transformer_testbench.vhd
+    │   │       ├── accelerator_transformer_pkg.vhd
+    │   │       ├── accelerator_transformer_stimulus.vhd
+    │   │       └── accelerator_transformer_testbench.vhd
     │   ├── dnc
     │   │   ├── memory
-    │   │   │   ├── dnc_memory_pkg.vhd
-    │   │   │   ├── dnc_memory_stimulus.vhd
-    │   │   │   └── dnc_memory_testbench.vhd
+    │   │   │   ├── accelerator_memory_pkg.vhd
+    │   │   │   ├── accelerator_memory_stimulus.vhd
+    │   │   │   └── accelerator_memory_testbench.vhd
     │   │   ├── read_heads
-    │   │   │   ├── dnc_read_heads_pkg.vhd
-    │   │   │   ├── dnc_read_heads_stimulus.vhd
-    │   │   │   └── dnc_read_heads_testbench.vhd
+    │   │   │   ├── accelerator_read_heads_pkg.vhd
+    │   │   │   ├── accelerator_read_heads_stimulus.vhd
+    │   │   │   └── accelerator_read_heads_testbench.vhd
     │   │   ├── top
-    │   │   │   ├── dnc_top_pkg.vhd
-    │   │   │   ├── dnc_top_stimulus.vhd
-    │   │   │   └── dnc_top_testbench.vhd
+    │   │   │   ├── accelerator_top_pkg.vhd
+    │   │   │   ├── accelerator_top_stimulus.vhd
+    │   │   │   └── accelerator_top_testbench.vhd
     │   │   └── write_heads
-    │   │       ├── dnc_write_heads_pkg.vhd
-    │   │       ├── dnc_write_heads_stimulus.vhd
-    │   │       └── dnc_write_heads_testbench.vhd
+    │   │       ├── accelerator_write_heads_pkg.vhd
+    │   │       ├── accelerator_write_heads_stimulus.vhd
+    │   │       └── accelerator_write_heads_testbench.vhd
     │   ├── math
     │   │   ├── algebra
-    │   │   │   ├── ntm_algebra_pkg.vhd
-    │   │   │   ├── ntm_algebra_stimulus.vhd
-    │   │   │   └── ntm_algebra_testbench.vhd
+    │   │   │   ├── accelerator_algebra_pkg.vhd
+    │   │   │   ├── accelerator_algebra_stimulus.vhd
+    │   │   │   └── accelerator_algebra_testbench.vhd
     │   │   ├── calculus
-    │   │   │   ├── ntm_calculus_pkg.vhd
-    │   │   │   ├── ntm_calculus_stimulus.vhd
-    │   │   │   └── ntm_calculus_testbench.vhd
+    │   │   │   ├── accelerator_calculus_pkg.vhd
+    │   │   │   ├── accelerator_calculus_stimulus.vhd
+    │   │   │   └── accelerator_calculus_testbench.vhd
     │   │   ├── function
-    │   │   │   ├── ntm_function_pkg.vhd
-    │   │   │   ├── ntm_function_stimulus.vhd
-    │   │   │   └── ntm_function_testbench.vhd
+    │   │   │   ├── accelerator_function_pkg.vhd
+    │   │   │   ├── accelerator_function_stimulus.vhd
+    │   │   │   └── accelerator_function_testbench.vhd
     │   │   └── series
-    │   │       ├── ntm_series_pkg.vhd
-    │   │       ├── ntm_series_stimulus.vhd
-    │   │       └── ntm_series_testbench.vhd
+    │   │       ├── accelerator_series_pkg.vhd
+    │   │       ├── accelerator_series_stimulus.vhd
+    │   │       └── accelerator_series_testbench.vhd
     │   ├── state
     │   │   ├── feedback
-    │   │   │   ├── ntm_state_feedback_pkg.vhd
-    │   │   │   ├── ntm_state_feedback_stimulus.vhd
-    │   │   │   └── ntm_state_feedback_testbench.vhd
+    │   │   │   ├── accelerator_state_feedback_pkg.vhd
+    │   │   │   ├── accelerator_state_feedback_stimulus.vhd
+    │   │   │   └── accelerator_state_feedback_testbench.vhd
     │   │   ├── outputs
-    │   │   │   ├── ntm_state_outputs_pkg.vhd
-    │   │   │   ├── ntm_state_outputs_stimulus.vhd
-    │   │   │   └── ntm_state_outputs_testbench.vhd
+    │   │   │   ├── accelerator_state_outputs_pkg.vhd
+    │   │   │   ├── accelerator_state_outputs_stimulus.vhd
+    │   │   │   └── accelerator_state_outputs_testbench.vhd
     │   │   └── top
-    │   │       ├── ntm_state_top_pkg.vhd
-    │   │       ├── ntm_state_top_stimulus.vhd
-    │   │       └── ntm_state_top_testbench.vhd
+    │   │       ├── accelerator_state_top_pkg.vhd
+    │   │       ├── accelerator_state_top_stimulus.vhd
+    │   │       └── accelerator_state_top_testbench.vhd
     │   └── trainer
     │       ├── differentiation
-    │       │   ├── ntm_trainer_differentiation_pkg.vhd
-    │       │   ├── ntm_trainer_differentiation_stimulus.vhd
-    │       │   └── ntm_trainer_differentiation_testbench.vhd
+    │       │   ├── accelerator_trainer_differentiation_pkg.vhd
+    │       │   ├── accelerator_trainer_differentiation_stimulus.vhd
+    │       │   └── accelerator_trainer_differentiation_testbench.vhd
     │       ├── FNN
-    │       │   ├── ntm_trainer_fnn_pkg.vhd
-    │       │   ├── ntm_trainer_fnn_stimulus.vhd
-    │       │   └── ntm_trainer_fnn_testbench.vhd
+    │       │   ├── accelerator_trainer_fnn_pkg.vhd
+    │       │   ├── accelerator_trainer_fnn_stimulus.vhd
+    │       │   └── accelerator_trainer_fnn_testbench.vhd
     │       └── LSTM
-    │           ├── ntm_trainer_lstm_pkg.vhd
-    │           ├── ntm_trainer_lstm_stimulus.vhd
-    │           └── ntm_trainer_lstm_testbench.vhd
+    │           ├── accelerator_trainer_lstm_pkg.vhd
+    │           ├── accelerator_trainer_lstm_stimulus.vhd
+    │           └── accelerator_trainer_lstm_testbench.vhd
     └── model
         ├── arithmetic
         │   ├── fixed

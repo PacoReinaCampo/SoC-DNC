@@ -14,7 +14,7 @@ vlib work
 alias model_memory_sort_vector_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/dnc/memory/model_sort_vector.vhd
 }
 

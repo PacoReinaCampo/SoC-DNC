@@ -14,7 +14,7 @@ vlib work
 alias model_allocation_gate_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd
@@ -30,7 +30,7 @@ alias model_allocation_gate_design_compilation {
 alias model_erase_vector_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd
@@ -46,7 +46,7 @@ alias model_erase_vector_design_compilation {
 alias model_write_gate_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd
@@ -61,7 +61,7 @@ alias model_write_gate_design_compilation {
 
 alias model_write_key_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/dnc/write_heads/model_write_key.vhd
 }
 
@@ -72,7 +72,7 @@ alias model_write_key_design_compilation {
 alias model_write_strength_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_arithmetic_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_adder.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_multiplier.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/arithmetic/float/scalar/model_scalar_float_divider.vhd
@@ -88,7 +88,7 @@ alias model_write_strength_design_compilation {
 
 alias model_write_vector_design_compilation {
   vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_math_pkg.vhd
-  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_dnc_core_pkg.vhd
+  vcom -2008 -reportprogress 300 -work work $design_path/pkg/model_accelerator_core_pkg.vhd
   vcom -2008 -reportprogress 300 -work work $design_path/dnc/write_heads/model_write_vector.vhd
 }
 

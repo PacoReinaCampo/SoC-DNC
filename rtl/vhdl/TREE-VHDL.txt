@@ -1,244 +1,243 @@
 code
 ├── architecture
 │   ├── pu
-│   │   └── ntm_pu.vhd
+│   │   └── accelerator_pu.vhd
 │   └── soc
-│       └── ntm_soc.vhd
+│       └── accelerator_soc.vhd
 ├── arithmetic
 │   ├── fixed
 │   │   ├── matrix
-│   │   │   ├── ntm_matrix_fixed_adder.vhd
-│   │   │   ├── ntm_matrix_fixed_divider.vhd
-│   │   │   └── ntm_matrix_fixed_multiplier.vhd
+│   │   │   ├── accelerator_matrix_fixed_adder.vhd
+│   │   │   ├── accelerator_matrix_fixed_divider.vhd
+│   │   │   └── accelerator_matrix_fixed_multiplier.vhd
 │   │   ├── scalar
-│   │   │   ├── ntm_scalar_fixed_adder.vhd
-│   │   │   ├── ntm_scalar_fixed_divider.vhd
-│   │   │   └── ntm_scalar_fixed_multiplier.vhd
+│   │   │   ├── accelerator_scalar_fixed_adder.vhd
+│   │   │   ├── accelerator_scalar_fixed_divider.vhd
+│   │   │   └── accelerator_scalar_fixed_multiplier.vhd
 │   │   ├── tensor
-│   │   │   ├── ntm_tensor_fixed_adder.vhd
-│   │   │   ├── ntm_tensor_fixed_divider.vhd
-│   │   │   └── ntm_tensor_fixed_multiplier.vhd
+│   │   │   ├── accelerator_tensor_fixed_adder.vhd
+│   │   │   ├── accelerator_tensor_fixed_divider.vhd
+│   │   │   └── accelerator_tensor_fixed_multiplier.vhd
 │   │   └── vector
-│   │       ├── ntm_vector_fixed_adder.vhd
-│   │       ├── ntm_vector_fixed_divider.vhd
-│   │       └── ntm_vector_fixed_multiplier.vhd
+│   │       ├── accelerator_vector_fixed_adder.vhd
+│   │       ├── accelerator_vector_fixed_divider.vhd
+│   │       └── accelerator_vector_fixed_multiplier.vhd
 │   ├── float
 │   │   ├── matrix
-│   │   │   ├── ntm_matrix_float_adder.vhd
-│   │   │   ├── ntm_matrix_float_divider.vhd
-│   │   │   └── ntm_matrix_float_multiplier.vhd
+│   │   │   ├── accelerator_matrix_float_adder.vhd
+│   │   │   ├── accelerator_matrix_float_divider.vhd
+│   │   │   └── accelerator_matrix_float_multiplier.vhd
 │   │   ├── scalar
-│   │   │   ├── ntm_scalar_float_adder.vhd
-│   │   │   ├── ntm_scalar_float_divider.vhd
-│   │   │   └── ntm_scalar_float_multiplier.vhd
+│   │   │   ├── accelerator_scalar_float_adder.vhd
+│   │   │   ├── accelerator_scalar_float_divider.vhd
+│   │   │   └── accelerator_scalar_float_multiplier.vhd
 │   │   ├── tensor
-│   │   │   ├── ntm_tensor_float_adder.vhd
-│   │   │   ├── ntm_tensor_float_divider.vhd
-│   │   │   └── ntm_tensor_float_multiplier.vhd
+│   │   │   ├── accelerator_tensor_float_adder.vhd
+│   │   │   ├── accelerator_tensor_float_divider.vhd
+│   │   │   └── accelerator_tensor_float_multiplier.vhd
 │   │   └── vector
-│   │       ├── ntm_vector_float_adder.vhd
-│   │       ├── ntm_vector_float_divider.vhd
-│   │       └── ntm_vector_float_multiplier.vhd
+│   │       ├── accelerator_vector_float_adder.vhd
+│   │       ├── accelerator_vector_float_divider.vhd
+│   │       └── accelerator_vector_float_multiplier.vhd
 │   └── integer
 │       ├── matrix
-│       │   ├── ntm_matrix_integer_adder.vhd
-│       │   ├── ntm_matrix_integer_divider.vhd
-│       │   └── ntm_matrix_integer_multiplier.vhd
+│       │   ├── accelerator_matrix_integer_adder.vhd
+│       │   ├── accelerator_matrix_integer_divider.vhd
+│       │   └── accelerator_matrix_integer_multiplier.vhd
 │       ├── scalar
-│       │   ├── ntm_scalar_integer_adder.vhd
-│       │   ├── ntm_scalar_integer_divider.vhd
-│       │   └── ntm_scalar_integer_multiplier.vhd
+│       │   ├── accelerator_scalar_integer_adder.vhd
+│       │   ├── accelerator_scalar_integer_divider.vhd
+│       │   └── accelerator_scalar_integer_multiplier.vhd
 │       ├── tensor
-│       │   ├── ntm_tensor_integer_adder.vhd
-│       │   ├── ntm_tensor_integer_divider.vhd
-│       │   └── ntm_tensor_integer_multiplier.vhd
+│       │   ├── accelerator_tensor_integer_adder.vhd
+│       │   ├── accelerator_tensor_integer_divider.vhd
+│       │   └── accelerator_tensor_integer_multiplier.vhd
 │       └── vector
-│           ├── ntm_vector_integer_adder.vhd
-│           ├── ntm_vector_integer_divider.vhd
-│           └── ntm_vector_integer_multiplier.vhd
+│           ├── accelerator_vector_integer_adder.vhd
+│           ├── accelerator_vector_integer_divider.vhd
+│           └── accelerator_vector_integer_multiplier.vhd
 ├── controller
 │   ├── FNN
 │   │   ├── convolutional
-│   │   │   └── ntm_controller.vhd
+│   │   │   └── accelerator_controller.vhd
 │   │   └── standard
-│   │       └── ntm_controller.vhd
+│   │       └── accelerator_controller.vhd
 │   ├── LSTM
 │   │   ├── convolutional
-│   │   │   ├── ntm_activation_gate_vector.vhd
-│   │   │   ├── ntm_controller.vhd
-│   │   │   ├── ntm_forget_gate_vector.vhd
-│   │   │   ├── ntm_hidden_gate_vector.vhd
-│   │   │   ├── ntm_input_gate_vector.vhd
-│   │   │   ├── ntm_output_gate_vector.vhd
-│   │   │   └── ntm_state_gate_vector.vhd
+│   │   │   ├── accelerator_activation_gate_vector.vhd
+│   │   │   ├── accelerator_controller.vhd
+│   │   │   ├── accelerator_forget_gate_vector.vhd
+│   │   │   ├── accelerator_hidden_gate_vector.vhd
+│   │   │   ├── accelerator_input_gate_vector.vhd
+│   │   │   ├── accelerator_output_gate_vector.vhd
+│   │   │   └── accelerator_state_gate_vector.vhd
 │   │   └── standard
-│   │       ├── ntm_activation_gate_vector.vhd
-│   │       ├── ntm_controller.vhd
-│   │       ├── ntm_forget_gate_vector.vhd
-│   │       ├── ntm_hidden_gate_vector.vhd
-│   │       ├── ntm_input_gate_vector.vhd
-│   │       ├── ntm_output_gate_vector.vhd
-│   │       └── ntm_state_gate_vector.vhd
+│   │       ├── accelerator_activation_gate_vector.vhd
+│   │       ├── accelerator_controller.vhd
+│   │       ├── accelerator_forget_gate_vector.vhd
+│   │       ├── accelerator_hidden_gate_vector.vhd
+│   │       ├── accelerator_input_gate_vector.vhd
+│   │       ├── accelerator_output_gate_vector.vhd
+│   │       └── accelerator_state_gate_vector.vhd
 │   └── transformer
 │       ├── components
-│       │   ├── ntm_masked_multi_head_attention.vhd
-│       │   ├── ntm_masked_scaled_dot_product_attention.vhd
-│       │   ├── ntm_multi_head_attention.vhd
-│       │   └── ntm_scaled_dot_product_attention.vhd
+│       │   ├── accelerator_masked_multi_head_attention.vhd
+│       │   ├── accelerator_masked_scaled_dot_product_attention.vhd
+│       │   ├── accelerator_multi_head_attention.vhd
+│       │   └── accelerator_scaled_dot_product_attention.vhd
 │       ├── fnn
-│       │   └── ntm_fnn.vhd
+│       │   └── accelerator_fnn.vhd
 │       ├── functions
-│       │   ├── ntm_layer_norm.vhd
-│       │   └── ntm_positional_encoding.vhd
+│       │   ├── accelerator_layer_norm.vhd
+│       │   └── accelerator_positional_encoding.vhd
 │       ├── inputs
-│       │   ├── ntm_inputs_vector.vhd
-│       │   ├── ntm_keys_vector.vhd
-│       │   ├── ntm_queries_vector.vhd
-│       │   └── ntm_values_vector.vhd
+│       │   ├── accelerator_inputs_vector.vhd
+│       │   ├── accelerator_keys_vector.vhd
+│       │   ├── accelerator_queries_vector.vhd
+│       │   └── accelerator_values_vector.vhd
 │       ├── lstm
-│       │   ├── ntm_activation_gate_vector.vhd
-│       │   ├── ntm_forget_gate_vector.vhd
-│       │   ├── ntm_hidden_gate_vector.vhd
-│       │   ├── ntm_input_gate_vector.vhd
-│       │   ├── ntm_lstm.vhd
-│       │   ├── ntm_output_gate_vector.vhd
-│       │   └── ntm_state_gate_vector.vhd
+│       │   ├── accelerator_activation_gate_vector.vhd
+│       │   ├── accelerator_forget_gate_vector.vhd
+│       │   ├── accelerator_hidden_gate_vector.vhd
+│       │   ├── accelerator_input_gate_vector.vhd
+│       │   ├── accelerator_lstm.vhd
+│       │   ├── accelerator_output_gate_vector.vhd
+│       │   └── accelerator_state_gate_vector.vhd
 │       └── top
-│           ├── ntm_controller.vhd
-│           ├── ntm_decoder.vhd
-│           └── ntm_encoder.vhd
+│           ├── accelerator_controller.vhd
+│           ├── accelerator_decoder.vhd
+│           └── accelerator_encoder.vhd
 ├── dnc
 │   ├── memory
-│   │   ├── dnc_addressing.vhd
-│   │   ├── dnc_allocation_weighting.vhd
-│   │   ├── dnc_backward_weighting.vhd
-│   │   ├── dnc_content_based_addressing.vhd
-│   │   ├── dnc_forward_weighting.vhd
-│   │   ├── dnc_memory_matrix.vhd
-│   │   ├── dnc_memory_retention_vector.vhd
-│   │   ├── dnc_precedence_weighting.vhd
-│   │   ├── dnc_read_content_weighting.vhd
-│   │   ├── dnc_read_vectors.vhd
-│   │   ├── dnc_read_weighting.vhd
-│   │   ├── dnc_sort_vector.vhd
-│   │   ├── dnc_temporal_link_matrix.vhd
-│   │   ├── dnc_usage_vector.vhd
-│   │   ├── dnc_write_content_weighting.vhd
-│   │   └── dnc_write_weighting.vhd
+│   │   ├── accelerator_addressing.vhd
+│   │   ├── accelerator_allocation_weighting.vhd
+│   │   ├── accelerator_backward_weighting.vhd
+│   │   ├── accelerator_content_based_addressing.vhd
+│   │   ├── accelerator_forward_weighting.vhd
+│   │   ├── accelerator_memory_matrix.vhd
+│   │   ├── accelerator_memory_retention_vector.vhd
+│   │   ├── accelerator_precedence_weighting.vhd
+│   │   ├── accelerator_read_content_weighting.vhd
+│   │   ├── accelerator_read_vectors.vhd
+│   │   ├── accelerator_read_weighting.vhd
+│   │   ├── accelerator_sort_vector.vhd
+│   │   ├── accelerator_temporal_link_matrix.vhd
+│   │   ├── accelerator_usage_vector.vhd
+│   │   ├── accelerator_write_content_weighting.vhd
+│   │   └── accelerator_write_weighting.vhd
 │   ├── read_heads
-│   │   └── dnc_read_heads.vhd
+│   │   └── accelerator_read_heads.vhd
 │   ├── top
-│   │   ├── dnc_interface_matrix.vhd
-│   │   ├── dnc_interface_vector.vhd
-│   │   ├── dnc_output_vector.vhd
-│   │   └── dnc_top.vhd
+│   │   ├── accelerator_interface_matrix.vhd
+│   │   ├── accelerator_interface_vector.vhd
+│   │   ├── accelerator_output_vector.vhd
+│   │   └── accelerator_top.vhd
 │   └── write_heads
-│       └── dnc_write_heads.vhd
+│       └── accelerator_write_heads.vhd
 ├── math
 │   ├── algebra
 │   │   ├── matrix
-│   │   │   ├── ntm_matrix_convolution.vhd
-│   │   │   ├── ntm_matrix_inverse.vhd
-│   │   │   ├── ntm_matrix_multiplication.vhd
-│   │   │   ├── ntm_matrix_product.vhd
-│   │   │   ├── ntm_matrix_summation.vhd
-│   │   │   ├── ntm_matrix_transpose.vhd
-│   │   │   ├── ntm_matrix_vector_convolution.vhd
-│   │   │   ├── ntm_matrix_vector_product.vhd
-│   │   │   └── ntm_transpose_vector_product.vhd
+│   │   │   ├── accelerator_matrix_convolution.vhd
+│   │   │   ├── accelerator_matrix_inverse.vhd
+│   │   │   ├── accelerator_matrix_multiplication.vhd
+│   │   │   ├── accelerator_matrix_product.vhd
+│   │   │   ├── accelerator_matrix_summation.vhd
+│   │   │   ├── accelerator_matrix_transpose.vhd
+│   │   │   ├── accelerator_matrix_vector_convolution.vhd
+│   │   │   ├── accelerator_matrix_vector_product.vhd
+│   │   │   └── accelerator_transpose_vector_product.vhd
 │   │   ├── tensor
-│   │   │   ├── ntm_tensor_convolution.vhd
-│   │   │   ├── ntm_tensor_inverse.vhd
-│   │   │   ├── ntm_tensor_matrix_convolution.vhd
-│   │   │   ├── ntm_tensor_matrix_product.vhd
-│   │   │   ├── ntm_tensor_multiplication.vhd
-│   │   │   ├── ntm_tensor_product.vhd
-│   │   │   ├── ntm_tensor_summation.vhd
-│   │   │   └── ntm_tensor_transpose.vhd
+│   │   │   ├── accelerator_tensor_convolution.vhd
+│   │   │   ├── accelerator_tensor_inverse.vhd
+│   │   │   ├── accelerator_tensor_matrix_convolution.vhd
+│   │   │   ├── accelerator_tensor_matrix_product.vhd
+│   │   │   ├── accelerator_tensor_multiplication.vhd
+│   │   │   ├── accelerator_tensor_product.vhd
+│   │   │   ├── accelerator_tensor_summation.vhd
+│   │   │   └── accelerator_tensor_transpose.vhd
 │   │   └── vector
-│   │       ├── ntm_dot_product.vhd
-│   │       ├── ntm_vector_convolution.vhd
-│   │       ├── ntm_vector_cosine_similarity.vhd
-│   │       ├── ntm_vector_module.vhd
-│   │       ├── ntm_vector_multiplication.vhd
-│   │       └── ntm_vector_summation.vhd
+│   │       ├── accelerator_dot_product.vhd
+│   │       ├── accelerator_vector_convolution.vhd
+│   │       ├── accelerator_vector_cosine_similarity.vhd
+│   │       ├── accelerator_vector_module.vhd
+│   │       ├── accelerator_vector_multiplication.vhd
+│   │       └── accelerator_vector_summation.vhd
 │   ├── calculus
 │   │   ├── matrix
-│   │   │   ├── ntm_matrix_differentiation.vhd
-│   │   │   ├── ntm_matrix_integration.vhd
-│   │   │   └── ntm_matrix_softmax.vhd
+│   │   │   ├── accelerator_matrix_differentiation.vhd
+│   │   │   ├── accelerator_matrix_integration.vhd
+│   │   │   └── accelerator_matrix_softmax.vhd
 │   │   ├── tensor
-│   │   │   ├── ntm_tensor_differentiation.vhd
-│   │   │   ├── ntm_tensor_integration.vhd
-│   │   │   └── ntm_tensor_softmax.vhd
+│   │   │   ├── accelerator_tensor_differentiation.vhd
+│   │   │   ├── accelerator_tensor_integration.vhd
+│   │   │   └── accelerator_tensor_softmax.vhd
 │   │   └── vector
-│   │       ├── ntm_vector_differentiation.vhd
-│   │       ├── ntm_vector_integration.vhd
-│   │       └── ntm_vector_softmax.vhd
+│   │       ├── accelerator_vector_differentiation.vhd
+│   │       ├── accelerator_vector_integration.vhd
+│   │       └── accelerator_vector_softmax.vhd
 │   ├── function
 │   │   ├── matrix
-│   │   │   ├── ntm_matrix_logistic_function.vhd
-│   │   │   └── ntm_matrix_oneplus_function.vhd
+│   │   │   ├── accelerator_matrix_logistic_function.vhd
+│   │   │   └── accelerator_matrix_oneplus_function.vhd
 │   │   ├── scalar
-│   │   │   ├── ntm_scalar_logistic_function.vhd
-│   │   │   └── ntm_scalar_oneplus_function.vhd
+│   │   │   ├── accelerator_scalar_logistic_function.vhd
+│   │   │   └── accelerator_scalar_oneplus_function.vhd
 │   │   └── vector
-│   │       ├── ntm_vector_logistic_function.vhd
-│   │       └── ntm_vector_oneplus_function.vhd
+│   │       ├── accelerator_vector_logistic_function.vhd
+│   │       └── accelerator_vector_oneplus_function.vhd
 │   └── series
 │       ├── matrix
-│       │   ├── ntm_matrix_cosh_function.vhd
-│       │   ├── ntm_matrix_exponentiator_function.vhd
-│       │   ├── ntm_matrix_logarithm_function.vhd
-│       │   ├── ntm_matrix_power_function.vhd
-│       │   ├── ntm_matrix_sinh_function.vhd
-│       │   ├── ntm_matrix_sqrt_function.vhd
-│       │   └── ntm_matrix_tanh_function.vhd
+│       │   ├── accelerator_matrix_cosh_function.vhd
+│       │   ├── accelerator_matrix_exponentiator_function.vhd
+│       │   ├── accelerator_matrix_logarithm_function.vhd
+│       │   ├── accelerator_matrix_power_function.vhd
+│       │   ├── accelerator_matrix_sinh_function.vhd
+│       │   ├── accelerator_matrix_sqrt_function.vhd
+│       │   └── accelerator_matrix_tanh_function.vhd
 │       ├── scalar
-│       │   ├── ntm_scalar_cosh_function.vhd
-│       │   ├── ntm_scalar_exponentiator_function.vhd
-│       │   ├── ntm_scalar_logarithm_function.vhd
-│       │   ├── ntm_scalar_power_function.vhd
-│       │   ├── ntm_scalar_sinh_function.vhd
-│       │   ├── ntm_scalar_sqrt_function.vhd
-│       │   └── ntm_scalar_tanh_function.vhd
+│       │   ├── accelerator_scalar_cosh_function.vhd
+│       │   ├── accelerator_scalar_exponentiator_function.vhd
+│       │   ├── accelerator_scalar_logarithm_function.vhd
+│       │   ├── accelerator_scalar_power_function.vhd
+│       │   ├── accelerator_scalar_sinh_function.vhd
+│       │   ├── accelerator_scalar_sqrt_function.vhd
+│       │   └── accelerator_scalar_tanh_function.vhd
 │       └── vector
-│           ├── ntm_vector_cosh_function.vhd
-│           ├── ntm_vector_exponentiator_function.vhd
-│           ├── ntm_vector_logarithm_function.vhd
-│           ├── ntm_vector_power_function.vhd
-│           ├── ntm_vector_sinh_function.vhd
-│           ├── ntm_vector_sqrt_function.vhd
-│           └── ntm_vector_tanh_function.vhd
+│           ├── accelerator_vector_cosh_function.vhd
+│           ├── accelerator_vector_exponentiator_function.vhd
+│           ├── accelerator_vector_logarithm_function.vhd
+│           ├── accelerator_vector_power_function.vhd
+│           ├── accelerator_vector_sinh_function.vhd
+│           ├── accelerator_vector_sqrt_function.vhd
+│           └── accelerator_vector_tanh_function.vhd
 ├── pkg
-│   ├── dnc_core_pkg.vhd
-│   ├── ntm_arithmetic_pkg.vhd
-│   ├── ntm_core_pkg.vhd
-│   ├── ntm_fnn_controller_pkg.vhd
-│   ├── ntm_lstm_controller_pkg.vhd
-│   ├── ntm_math_pkg.vhd
-│   └── ntm_state_pkg.vhd
+│   ├── accelerator_arithmetic_pkg.vhd
+│   ├── accelerator_core_pkg.vhd
+│   ├── accelerator_fnn_controller_pkg.vhd
+│   ├── accelerator_lstm_controller_pkg.vhd
+│   ├── accelerator_math_pkg.vhd
+│   └── accelerator_state_pkg.vhd
 ├── state
 │   ├── feedback
-│   │   ├── ntm_state_matrix_feedforward.vhd
-│   │   ├── ntm_state_matrix_input.vhd
-│   │   ├── ntm_state_matrix_output.vhd
-│   │   └── ntm_state_matrix_state.vhd
+│   │   ├── accelerator_state_matrix_feedforward.vhd
+│   │   ├── accelerator_state_matrix_input.vhd
+│   │   ├── accelerator_state_matrix_output.vhd
+│   │   └── accelerator_state_matrix_state.vhd
 │   ├── outputs
-│   │   ├── ntm_state_vector_output.vhd
-│   │   └── ntm_state_vector_state.vhd
+│   │   ├── accelerator_state_vector_output.vhd
+│   │   └── accelerator_state_vector_state.vhd
 │   └── top
-│       └── ntm_state_top.vhd
+│       └── accelerator_state_top.vhd
 └── trainer
     ├── differentiation
-    │   ├── ntm_matrix_controller_differentiation.vhd
-    │   └── ntm_vector_controller_differentiation.vhd
+    │   ├── accelerator_matrix_controller_differentiation.vhd
+    │   └── accelerator_vector_controller_differentiation.vhd
     ├── FNN
-    │   └── ntm_trainer.vhd
+    │   └── accelerator_trainer.vhd
     └── LSTM
-        ├── ntm_activation_trainer.vhd
-        ├── ntm_forget_trainer.vhd
-        ├── ntm_input_trainer.vhd
-        └── ntm_output_trainer.vhd
+        ├── accelerator_activation_trainer.vhd
+        ├── accelerator_forget_trainer.vhd
+        ├── accelerator_input_trainer.vhd
+        └── accelerator_output_trainer.vhd
 
-64 directories, 177 files
+64 directories, 176 files
