@@ -210,7 +210,7 @@ begin
       if (STIMULUS_ACCELERATOR_READ_HEADS_CASE_0) then
 
         -------------------------------------------------------------------
-        MONITOR_CASE <= "STIMULUS_ACCELERATOR_READ_HEADS_CASE 0          ";
+        MONITOR_CASE <= "STIMULUS_NTM_READ_HEADS_CASE 0          ";
         -------------------------------------------------------------------
 
         -- INITIAL CONDITIONS
@@ -270,7 +270,7 @@ begin
       if (STIMULUS_ACCELERATOR_READ_HEADS_CASE_1) then
 
         -------------------------------------------------------------------
-        MONITOR_CASE <= "STIMULUS_ACCELERATOR_READ_HEADS_CASE 1          ";
+        MONITOR_CASE <= "STIMULUS_NTM_READ_HEADS_CASE 1          ";
         -------------------------------------------------------------------
 
         -- INITIAL CONDITIONS
