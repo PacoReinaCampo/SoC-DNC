@@ -159,9 +159,7 @@ code
 │   │   │   ├── accelerator_tensor_inverse.sv
 │   │   │   ├── accelerator_tensor_matrix_convolution.sv
 │   │   │   ├── accelerator_tensor_matrix_product.sv
-│   │   │   ├── accelerator_tensor_multiplication.sv
 │   │   │   ├── accelerator_tensor_product.sv
-│   │   │   ├── accelerator_tensor_summation.sv
 │   │   │   └── accelerator_tensor_transpose.sv
 │   │   └── vector
 │   │       ├── accelerator_dot_product.sv
@@ -249,4 +247,4 @@ code
         ├── accelerator_input_trainer.sv
         └── accelerator_output_trainer.sv
 
-65 directories, 184 files
+65 directories, 182 files

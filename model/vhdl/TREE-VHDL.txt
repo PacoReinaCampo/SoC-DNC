@@ -1,5 +1,7 @@
 code
 ├── architecture
+│   ├── mpsoc
+│   │   └── ntm_mpsoc.vhd
 │   ├── pu
 │   │   └── ntm_pu.vhd
 │   └── soc
@@ -151,9 +153,7 @@ code
 │   │   │   ├── model_tensor_inverse.vhd
 │   │   │   ├── model_tensor_matrix_convolution.vhd
 │   │   │   ├── model_tensor_matrix_product.vhd
-│   │   │   ├── model_tensor_multiplication.vhd
 │   │   │   ├── model_tensor_product.vhd
-│   │   │   ├── model_tensor_summation.vhd
 │   │   │   └── model_tensor_transpose.vhd
 │   │   └── vector
 │   │       ├── model_dot_product.vhd
@@ -212,7 +212,6 @@ code
 │           └── model_vector_tanh_function.vhd
 ├── pkg
 │   ├── model_arithmetic_pkg.vhd
-│   ├── model_dnc_core_pkg.vhd
 │   ├── model_fnn_controller_pkg.vhd
 │   ├── model_lstm_controller_pkg.vhd
 │   ├── model_math_pkg.vhd
@@ -241,4 +240,4 @@ code
         ├── model_input_trainer.vhd
         └── model_output_trainer.vhd
 
-64 directories, 177 files
+65 directories, 175 files

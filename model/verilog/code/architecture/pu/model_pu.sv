@@ -37,33 +37,54 @@
 // Author(s):
 //   Paco Reina Campo <pacoreinacampo@queenfield.tech>
 
-package model_dnc_core_pkg;
+module model_pu #(
+  parameter DATA_SIZE    = 64,
+  parameter CONTROL_SIZE = 64
+) (
+  // GLOBAL
+  input CLK,
+  input RST,
+
+  // CONTROL
+  input      START,
+  output reg READY
+);
 
   //////////////////////////////////////////////////////////////////////////////
   // Types
   //////////////////////////////////////////////////////////////////////////////
 
+  parameter [2:0] STARTER_STATE = 0;
+
   //////////////////////////////////////////////////////////////////////////////
   // Constants
   //////////////////////////////////////////////////////////////////////////////
-
-  parameter DATA_SIZE = 64;
-  parameter CONTROL_SIZE = 64;
 
   parameter ZERO_CONTROL = 0;
   parameter ONE_CONTROL = 1;
   parameter TWO_CONTROL = 2;
   parameter THREE_CONTROL = 3;
 
-  parameter ZERO_DATA = 0.0;
-  parameter ONE_DATA = 1.0;
-  parameter TWO_DATA = 2.0;
-  parameter THREE_DATA = 3.0;
+  parameter ZERO_DATA = 0;
+  parameter ONE_DATA = 1;
+  parameter TWO_DATA = 2;
+  parameter THREE_DATA = 3;
 
-  parameter LENGTH_IN = 0.001;
+  parameter FULL = 1;
+  parameter EMPTY = 0;
+
+  parameter EULER = 0;
 
   //////////////////////////////////////////////////////////////////////////////
-  // Functions
+  // Signals
   //////////////////////////////////////////////////////////////////////////////
 
-endpackage
+  // Finite State Machine
+
+  //////////////////////////////////////////////////////////////////////////////
+  // Body
+  //////////////////////////////////////////////////////////////////////////////
+
+  // CONTROL
+
+endmodule

@@ -37,7 +37,7 @@
 // Author(s):
 //   Paco Reina Campo <pacoreinacampo@queenfield.tech>
 
-module accelerator_matrix_controller_differentiation #(
+module accelerator_vector_controller_differentiation #(
   parameter DATA_SIZE    = 64,
   parameter CONTROL_SIZE = 64
 ) (
