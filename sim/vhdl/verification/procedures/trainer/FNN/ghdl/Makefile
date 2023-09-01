@@ -76,9 +76,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/controller/FNN/convolutional/accelerator_controller.vhd
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/controller/FNN/convolutional/accelerator_trainer.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/trainer/FNN/accelerator_trainer_fnn_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/trainer/FNN/accelerator_trainer_fnn_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/trainer/FNN/accelerator_trainer_fnn_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/trainer/FNN/accelerator_trainer_fnn_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/trainer/FNN/accelerator_trainer_fnn_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/trainer/FNN/accelerator_trainer_fnn_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_trainer_fnn_testbench

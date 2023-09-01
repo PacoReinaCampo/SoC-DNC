@@ -88,9 +88,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../model/vhdl/code/transformer/convolutional/model_output_gate_vector.vhd
 	ghdl -a --std=08 ../../../../../../../model/vhdl/code/transformer/convolutional/model_state_gate_vector.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/transformer/convolutional/model_convolutional_transformer_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/transformer/convolutional/model_convolutional_transformer_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/transformer/convolutional/model_convolutional_transformer_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/transformer/convolutional/model_convolutional_transformer_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/transformer/convolutional/model_convolutional_transformer_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/transformer/convolutional/model_convolutional_transformer_testbench.vhd
 
 simulate:
 

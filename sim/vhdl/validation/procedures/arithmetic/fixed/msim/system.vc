@@ -16,6 +16,6 @@
 ../../../../../../../model/vhdl/code/arithmetic/fixed/tensor/model_tensor_fixed_multiplier.vhd
 ../../../../../../../model/vhdl/code/arithmetic/fixed/tensor/model_tensor_fixed_divider.vhd
 
-../../../../../../../bench/vhdl/code/baremetal/model/arithmetic/fixed/model_fixed_pkg.vhd
-../../../../../../../bench/vhdl/code/baremetal/model/arithmetic/fixed/model_fixed_stimulus.vhd
-../../../../../../../bench/vhdl/code/baremetal/model/arithmetic/fixed/model_fixed_testbench.vhd
+../../../../../../../bench/vhdl/code/procedures/model/arithmetic/fixed/model_fixed_pkg.vhd
+../../../../../../../bench/vhdl/code/procedures/model/arithmetic/fixed/model_fixed_stimulus.vhd
+../../../../../../../bench/vhdl/code/procedures/model/arithmetic/fixed/model_fixed_testbench.vhd

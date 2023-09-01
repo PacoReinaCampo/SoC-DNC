@@ -51,6 +51,6 @@
 ../../../../../../../rtl/vhdl/code/math/series/matrix/accelerator_matrix_sinh_function.vhd
 ../../../../../../../rtl/vhdl/code/math/series/matrix/accelerator_matrix_tanh_function.vhd
 
-../../../../../../../bench/vhdl/code/baremetal/design/math/series/accelerator_series_pkg.vhd
-../../../../../../../bench/vhdl/code/baremetal/design/math/series/accelerator_series_stimulus.vhd
-../../../../../../../bench/vhdl/code/baremetal/design/math/series/accelerator_series_testbench.vhd
+../../../../../../../bench/vhdl/code/procedures/design/math/series/accelerator_series_pkg.vhd
+../../../../../../../bench/vhdl/code/procedures/design/math/series/accelerator_series_stimulus.vhd
+../../../../../../../bench/vhdl/code/procedures/design/math/series/accelerator_series_testbench.vhd

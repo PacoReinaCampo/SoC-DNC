@@ -80,6 +80,6 @@
 
 ../../../../../../../../rtl/vhdl/code/controller/FNN/standard/accelerator_controller.vhd
 
-../../../../../../../../bench/vhdl/code/baremetal/design/controller/FNN/standard/accelerator_standard_fnn_pkg.vhd
-../../../../../../../../bench/vhdl/code/baremetal/design/controller/FNN/standard/accelerator_standard_fnn_stimulus.vhd
-../../../../../../../../bench/vhdl/code/baremetal/design/controller/FNN/standard/accelerator_standard_fnn_testbench.vhd
+../../../../../../../../bench/vhdl/code/procedures/design/controller/FNN/standard/accelerator_standard_fnn_pkg.vhd
+../../../../../../../../bench/vhdl/code/procedures/design/controller/FNN/standard/accelerator_standard_fnn_stimulus.vhd
+../../../../../../../../bench/vhdl/code/procedures/design/controller/FNN/standard/accelerator_standard_fnn_testbench.vhd

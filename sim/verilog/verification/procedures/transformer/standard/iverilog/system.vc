@@ -77,6 +77,6 @@
 ../../../../../../../rtl/verilog/code/transformer/standard/accelerator_output_gate_vector.sv
 ../../../../../../../rtl/verilog/code/transformer/standard/accelerator_state_gate_vector.sv
 
-../../../../../../../bench/verilog/code/baremetal/design/transformer/standard/accelerator_standard_transformer_pkg.sv
-../../../../../../../bench/verilog/code/baremetal/design/transformer/standard/accelerator_standard_transformer_stimulus.sv
-../../../../../../../bench/verilog/code/baremetal/design/transformer/standard/accelerator_standard_transformer_testbench.sv
+../../../../../../../bench/verilog/code/procedures/design/transformer/standard/accelerator_standard_transformer_pkg.sv
+../../../../../../../bench/verilog/code/procedures/design/transformer/standard/accelerator_standard_transformer_stimulus.sv
+../../../../../../../bench/verilog/code/procedures/design/transformer/standard/accelerator_standard_transformer_testbench.sv

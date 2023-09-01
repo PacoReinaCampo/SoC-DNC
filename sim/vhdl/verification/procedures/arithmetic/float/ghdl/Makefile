@@ -19,9 +19,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/float/tensor/accelerator_tensor_float_multiplier.vhd
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/float/tensor/accelerator_tensor_float_divider.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/float/accelerator_float_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/float/accelerator_float_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/float/accelerator_float_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/float/accelerator_float_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/float/accelerator_float_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/float/accelerator_float_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_float_testbench

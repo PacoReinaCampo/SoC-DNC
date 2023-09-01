@@ -80,6 +80,6 @@
 
 ../../../../../../../../model/vhdl/code/state/linear/convolutional/model_controller.vhd
 
-../../../../../../../../bench/vhdl/code/baremetal/model/state/linear/convolutional/model_convolutional_linear_pkg.vhd
-../../../../../../../../bench/vhdl/code/baremetal/model/state/linear/convolutional/model_convolutional_linear_stimulus.vhd
-../../../../../../../../bench/vhdl/code/baremetal/model/state/linear/convolutional/model_convolutional_linear_testbench.vhd
+../../../../../../../../bench/vhdl/code/procedures/model/state/linear/convolutional/model_convolutional_linear_pkg.vhd
+../../../../../../../../bench/vhdl/code/procedures/model/state/linear/convolutional/model_convolutional_linear_stimulus.vhd
+../../../../../../../../bench/vhdl/code/procedures/model/state/linear/convolutional/model_convolutional_linear_testbench.vhd

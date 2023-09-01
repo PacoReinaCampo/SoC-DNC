@@ -32,6 +32,6 @@ verilog work ../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerat
 verilog work ../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_product.sv
 verilog work ../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_transpose.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/algebra/accelerator_algebra_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/algebra/accelerator_algebra_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/algebra/accelerator_algebra_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/algebra/accelerator_algebra_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/algebra/accelerator_algebra_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/algebra/accelerator_algebra_testbench.sv

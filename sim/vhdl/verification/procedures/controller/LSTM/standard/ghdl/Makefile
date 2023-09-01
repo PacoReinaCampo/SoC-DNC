@@ -75,9 +75,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/series/matrix/accelerator_matrix_sinh_function.vhd
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/series/matrix/accelerator_matrix_tanh_function.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/controller/LSTM/standard/accelerator_standard_lstm_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/controller/LSTM/standard/accelerator_standard_lstm_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/controller/LSTM/standard/accelerator_standard_lstm_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/controller/LSTM/standard/accelerator_standard_lstm_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/controller/LSTM/standard/accelerator_standard_lstm_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/controller/LSTM/standard/accelerator_standard_lstm_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_standard_lstm_testbench

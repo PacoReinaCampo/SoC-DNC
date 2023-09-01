@@ -80,6 +80,6 @@
 
 ../../../../../../../../rtl/vhdl/code/state/linear/standard/accelerator_controller.vhd
 
-../../../../../../../../bench/vhdl/code/baremetal/design/state/linear/standard/accelerator_standard_linear_pkg.vhd
-../../../../../../../../bench/vhdl/code/baremetal/design/state/linear/standard/accelerator_standard_linear_stimulus.vhd
-../../../../../../../../bench/vhdl/code/baremetal/design/state/linear/standard/accelerator_standard_linear_testbench.vhd
+../../../../../../../../bench/vhdl/code/procedures/design/state/linear/standard/accelerator_standard_linear_pkg.vhd
+../../../../../../../../bench/vhdl/code/procedures/design/state/linear/standard/accelerator_standard_linear_stimulus.vhd
+../../../../../../../../bench/vhdl/code/procedures/design/state/linear/standard/accelerator_standard_linear_testbench.vhd

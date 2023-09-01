@@ -85,6 +85,6 @@ sv work ../../../../../../../rtl/verilog/code/controller/LSTM/convolutional/acce
 sv work ../../../../../../../rtl/verilog/code/controller/LSTM/convolutional/accelerator_output_gate_vector.sv
 sv work ../../../../../../../rtl/verilog/code/controller/LSTM/convolutional/accelerator_state_gate_vector.sv
 
-sv work ../../../../../../../bench/verilog/code/baremetal/design/trainer/LSTM/accelerator_trainer_lstm_pkg.sv
-sv work ../../../../../../../bench/verilog/code/baremetal/design/trainer/LSTM/accelerator_trainer_lstm_stimulus.sv
-sv work ../../../../../../../bench/verilog/code/baremetal/design/trainer/LSTM/accelerator_trainer_lstm_testbench.sv
+sv work ../../../../../../../bench/verilog/code/procedures/design/trainer/LSTM/accelerator_trainer_lstm_pkg.sv
+sv work ../../../../../../../bench/verilog/code/procedures/design/trainer/LSTM/accelerator_trainer_lstm_stimulus.sv
+sv work ../../../../../../../bench/verilog/code/procedures/design/trainer/LSTM/accelerator_trainer_lstm_testbench.sv

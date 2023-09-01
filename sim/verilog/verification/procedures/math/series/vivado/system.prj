@@ -31,6 +31,6 @@ verilog work ../../../../../../../rtl/verilog/code/math/series/matrix/accelerato
 verilog work ../../../../../../../rtl/verilog/code/math/series/matrix/accelerator_matrix_sinh_function.sv
 verilog work ../../../../../../../rtl/verilog/code/math/series/matrix/accelerator_matrix_tanh_function.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/series/accelerator_series_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/series/accelerator_series_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/series/accelerator_series_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/series/accelerator_series_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/series/accelerator_series_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/series/accelerator_series_testbench.sv

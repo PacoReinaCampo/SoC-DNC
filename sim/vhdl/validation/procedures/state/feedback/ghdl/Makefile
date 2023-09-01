@@ -41,9 +41,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../model/vhdl/code/state/feedback/model_state_matrix_output.vhd
 	ghdl -a --std=08 ../../../../../../../model/vhdl/code/state/feedback/model_state_matrix_state.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/state/feedback/model_state_feedback_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/state/feedback/model_state_feedback_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/state/feedback/model_state_feedback_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/state/feedback/model_state_feedback_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/state/feedback/model_state_feedback_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/state/feedback/model_state_feedback_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 model_state_feedback_testbench

@@ -68,6 +68,6 @@
 
 ../../../../../../../../rtl/verilog/code/controller/FNN/standard/accelerator_controller.sv
 
-../../../../../../../../bench/verilog/code/baremetal/design/controller/FNN/standard/accelerator_standard_fnn_pkg.sv
-../../../../../../../../bench/verilog/code/baremetal/design/controller/FNN/standard/accelerator_standard_fnn_stimulus.sv
-../../../../../../../../bench/verilog/code/baremetal/design/controller/FNN/standard/accelerator_standard_fnn_testbench.sv
+../../../../../../../../bench/verilog/code/procedures/design/controller/FNN/standard/accelerator_standard_fnn_pkg.sv
+../../../../../../../../bench/verilog/code/procedures/design/controller/FNN/standard/accelerator_standard_fnn_stimulus.sv
+../../../../../../../../bench/verilog/code/procedures/design/controller/FNN/standard/accelerator_standard_fnn_testbench.sv

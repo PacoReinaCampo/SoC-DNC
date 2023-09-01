@@ -51,6 +51,6 @@
 ../../../../../../../rtl/vhdl/code/math/calculus/tensor/accelerator_tensor_integration.vhd
 ../../../../../../../rtl/vhdl/code/math/calculus/tensor/accelerator_tensor_softmax.vhd
 
-../../../../../../../bench/vhdl/code/baremetal/design/math/calculus/accelerator_calculus_pkg.vhd
-../../../../../../../bench/vhdl/code/baremetal/design/math/calculus/accelerator_calculus_stimulus.vhd
-../../../../../../../bench/vhdl/code/baremetal/design/math/calculus/accelerator_calculus_testbench.vhd
+../../../../../../../bench/vhdl/code/procedures/design/math/calculus/accelerator_calculus_pkg.vhd
+../../../../../../../bench/vhdl/code/procedures/design/math/calculus/accelerator_calculus_stimulus.vhd
+../../../../../../../bench/vhdl/code/procedures/design/math/calculus/accelerator_calculus_testbench.vhd

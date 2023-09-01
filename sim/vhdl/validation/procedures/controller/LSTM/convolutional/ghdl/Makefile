@@ -88,9 +88,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../../model/vhdl/code/controller/LSTM/convolutional/model_output_gate_vector.vhd
 	ghdl -a --std=08 ../../../../../../../../model/vhdl/code/controller/LSTM/convolutional/model_state_gate_vector.vhd
 
-	ghdl -a --std=08 ../../../../../../../../bench/vhdl/code/baremetal/model/controller/LSTM/convolutional/model_convolutional_lstm_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../../bench/vhdl/code/baremetal/model/controller/LSTM/convolutional/model_convolutional_lstm_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../../bench/vhdl/code/baremetal/model/controller/LSTM/convolutional/model_convolutional_lstm_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../../bench/vhdl/code/procedures/model/controller/LSTM/convolutional/model_convolutional_lstm_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../../bench/vhdl/code/procedures/model/controller/LSTM/convolutional/model_convolutional_lstm_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../../bench/vhdl/code/procedures/model/controller/LSTM/convolutional/model_convolutional_lstm_testbench.vhd
 
 simulate:
 

@@ -37,6 +37,6 @@ verilog work ../../../../../../../rtl/verilog/code/math/calculus/tensor/accelera
 verilog work ../../../../../../../rtl/verilog/code/math/calculus/tensor/accelerator_tensor_integration.sv
 verilog work ../../../../../../../rtl/verilog/code/math/calculus/tensor/accelerator_tensor_softmax.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/calculus/accelerator_calculus_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/calculus/accelerator_calculus_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/calculus/accelerator_calculus_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/calculus/accelerator_calculus_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/calculus/accelerator_calculus_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/calculus/accelerator_calculus_testbench.sv

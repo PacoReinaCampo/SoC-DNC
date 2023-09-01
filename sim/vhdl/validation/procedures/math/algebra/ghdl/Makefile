@@ -39,9 +39,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../model/vhdl/code/math/algebra/tensor/model_tensor_product.vhd
 	ghdl -a --std=08 ../../../../../../../model/vhdl/code/math/algebra/tensor/model_tensor_transpose.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/math/algebra/model_algebra_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/math/algebra/model_algebra_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/model/math/algebra/model_algebra_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/math/algebra/model_algebra_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/math/algebra/model_algebra_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/model/math/algebra/model_algebra_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 model_algebra_testbench

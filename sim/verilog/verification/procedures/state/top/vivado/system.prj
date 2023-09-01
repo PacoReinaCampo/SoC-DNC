@@ -43,6 +43,6 @@ verilog work ../../../../../../../rtl/verilog/code/state/outputs/accelerator_sta
 
 verilog work ../../../../../../../rtl/verilog/code/state/top/accelerator_state_top.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/state/top/accelerator_state_top_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/state/top/accelerator_state_top_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/state/top/accelerator_state_top_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/state/top/accelerator_state_top_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/state/top/accelerator_state_top_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/state/top/accelerator_state_top_testbench.sv

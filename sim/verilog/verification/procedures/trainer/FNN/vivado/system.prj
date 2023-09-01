@@ -76,6 +76,6 @@ sv work ../../../../../../../rtl/verilog/code/trainer/FNN/accelerator_trainer.sv
 
 sv work ../../../../../../../rtl/verilog/code/controller/FNN/convolutional/accelerator_controller.sv
 
-sv work ../../../../../../../bench/verilog/code/baremetal/design/trainer/FNN/accelerator_trainer_fnn_pkg.sv
-sv work ../../../../../../../bench/verilog/code/baremetal/design/trainer/FNN/accelerator_trainer_fnn_stimulus.sv
-sv work ../../../../../../../bench/verilog/code/baremetal/design/trainer/FNN/accelerator_trainer_fnn_testbench.sv
+sv work ../../../../../../../bench/verilog/code/procedures/design/trainer/FNN/accelerator_trainer_fnn_pkg.sv
+sv work ../../../../../../../bench/verilog/code/procedures/design/trainer/FNN/accelerator_trainer_fnn_stimulus.sv
+sv work ../../../../../../../bench/verilog/code/procedures/design/trainer/FNN/accelerator_trainer_fnn_testbench.sv

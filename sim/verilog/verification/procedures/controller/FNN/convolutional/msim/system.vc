@@ -76,6 +76,6 @@
 
 ../../../../../../../../rtl/verilog/code/controller/FNN/convolutional/accelerator_controller.sv
 
-../../../../../../../../bench/verilog/code/baremetal/design/controller/FNN/convolutional/accelerator_convolutional_fnn_pkg.sv
-../../../../../../../../bench/verilog/code/baremetal/design/controller/FNN/convolutional/accelerator_convolutional_fnn_stimulus.sv
-../../../../../../../../bench/verilog/code/baremetal/design/controller/FNN/convolutional/accelerator_convolutional_fnn_testbench.sv
+../../../../../../../../bench/verilog/code/procedures/design/controller/FNN/convolutional/accelerator_convolutional_fnn_pkg.sv
+../../../../../../../../bench/verilog/code/procedures/design/controller/FNN/convolutional/accelerator_convolutional_fnn_stimulus.sv
+../../../../../../../../bench/verilog/code/procedures/design/controller/FNN/convolutional/accelerator_convolutional_fnn_testbench.sv

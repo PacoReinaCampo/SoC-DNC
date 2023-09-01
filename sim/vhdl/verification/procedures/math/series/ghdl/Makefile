@@ -34,9 +34,9 @@ build:
     ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/series/matrix/accelerator_matrix_sinh_function.vhd
     ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/series/matrix/accelerator_matrix_tanh_function.vhd
 
-    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/series/accelerator_series_pkg.vhd
-    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/series/accelerator_series_stimulus.vhd
-    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/series/accelerator_series_testbench.vhd
+    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/series/accelerator_series_pkg.vhd
+    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/series/accelerator_series_stimulus.vhd
+    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/series/accelerator_series_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_series_testbench

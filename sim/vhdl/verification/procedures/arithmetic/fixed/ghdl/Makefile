@@ -19,9 +19,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/fixed/tensor/accelerator_tensor_fixed_multiplier.vhd
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/fixed/tensor/accelerator_tensor_fixed_divider.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/fixed/accelerator_fixed_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/fixed/accelerator_fixed_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/fixed/accelerator_fixed_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/fixed/accelerator_fixed_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/fixed/accelerator_fixed_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/fixed/accelerator_fixed_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_fixed_testbench

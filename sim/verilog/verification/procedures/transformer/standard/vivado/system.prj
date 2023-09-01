@@ -85,6 +85,6 @@ verilog work ../../../../../../../rtl/verilog/code/transformer/standard/accelera
 verilog work ../../../../../../../rtl/verilog/code/transformer/standard/accelerator_output_gate_vector.sv
 verilog work ../../../../../../../rtl/verilog/code/transformer/standard/accelerator_state_gate_vector.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/transformer/standard/accelerator_standard_transformer_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/transformer/standard/accelerator_standard_transformer_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/transformer/standard/accelerator_standard_transformer_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/transformer/standard/accelerator_standard_transformer_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/transformer/standard/accelerator_standard_transformer_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/transformer/standard/accelerator_standard_transformer_testbench.sv

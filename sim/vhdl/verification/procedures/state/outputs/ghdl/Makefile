@@ -44,9 +44,9 @@ build:
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/state/outputs/accelerator_state_vector_output.vhd
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/state/outputs/accelerator_state_vector_state.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/state/outputs/accelerator_state_outputs_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/state/outputs/accelerator_state_outputs_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/state/outputs/accelerator_state_outputs_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/state/outputs/accelerator_state_outputs_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/state/outputs/accelerator_state_outputs_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/state/outputs/accelerator_state_outputs_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_state_outputs_testbench

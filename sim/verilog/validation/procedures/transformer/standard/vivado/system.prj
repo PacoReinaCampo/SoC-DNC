@@ -85,6 +85,6 @@ verilog work ../../../../../../../model/verilog/code/transformer/standard/model_
 verilog work ../../../../../../../model/verilog/code/transformer/standard/model_output_gate_vector.sv
 verilog work ../../../../../../../model/verilog/code/transformer/standard/model_state_gate_vector.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/model/transformer/standard/model_standard_transformer_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/model/transformer/standard/model_standard_transformer_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/model/transformer/standard/model_standard_transformer_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/model/transformer/standard/model_standard_transformer_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/model/transformer/standard/model_standard_transformer_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/model/transformer/standard/model_standard_transformer_testbench.sv

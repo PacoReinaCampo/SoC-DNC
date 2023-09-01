@@ -1,6 +1,6 @@
-cd D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/baremetal/math/series/msim
+cd D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/procedures/math/series/msim
 
-do D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/baremetal/math/series/msim/macros/design.do
-do D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/baremetal/math/series/msim/macros/verification.do
+do D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/procedures/math/series/msim/macros/design.do
+do D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/procedures/math/series/msim/macros/verification.do
 
-do D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/baremetal/math/series/msim/list.do
+do D:/GitHub/code/Advanced/SoC-DNC/sim/vhdl/verification/procedures/math/series/msim/list.do

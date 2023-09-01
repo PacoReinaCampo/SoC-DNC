@@ -22,6 +22,6 @@ verilog work ../../../../../../../rtl/verilog/code/math/function/vector/accelera
 verilog work ../../../../../../../rtl/verilog/code/math/function/matrix/accelerator_matrix_logistic_function.sv
 verilog work ../../../../../../../rtl/verilog/code/math/function/matrix/accelerator_matrix_oneplus_function.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/function/accelerator_function_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/function/accelerator_function_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/math/function/accelerator_function_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/function/accelerator_function_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/function/accelerator_function_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/math/function/accelerator_function_testbench.sv

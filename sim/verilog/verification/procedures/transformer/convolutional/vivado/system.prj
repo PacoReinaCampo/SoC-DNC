@@ -85,6 +85,6 @@ verilog work ../../../../../../../rtl/verilog/code/transformer/convolutional/acc
 verilog work ../../../../../../../rtl/verilog/code/transformer/convolutional/accelerator_output_gate_vector.sv
 verilog work ../../../../../../../rtl/verilog/code/transformer/convolutional/accelerator_state_gate_vector.sv
 
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/transformer/convolutional/accelerator_convolutional_transformer_pkg.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/transformer/convolutional/accelerator_convolutional_transformer_stimulus.sv
-verilog work ../../../../../../../bench/verilog/code/baremetal/design/transformer/convolutional/accelerator_convolutional_transformer_testbench.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/transformer/convolutional/accelerator_convolutional_transformer_pkg.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/transformer/convolutional/accelerator_convolutional_transformer_stimulus.sv
+verilog work ../../../../../../../bench/verilog/code/procedures/design/transformer/convolutional/accelerator_convolutional_transformer_testbench.sv

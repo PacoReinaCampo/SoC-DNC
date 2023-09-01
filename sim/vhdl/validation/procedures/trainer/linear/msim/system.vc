@@ -81,6 +81,6 @@
 
 ../../../../../../../model/vhdl/code/state/linear/standard/model_controller.vhd
 
-../../../../../../../bench/vhdl/code/baremetal/model/trainer/linear/model_trainer_linear_pkg.vhd
-../../../../../../../bench/vhdl/code/baremetal/model/trainer/linear/model_trainer_linear_stimulus.vhd
-../../../../../../../bench/vhdl/code/baremetal/model/trainer/linear/model_trainer_linear_testbench.vhd
+../../../../../../../bench/vhdl/code/procedures/model/trainer/linear/model_trainer_linear_pkg.vhd
+../../../../../../../bench/vhdl/code/procedures/model/trainer/linear/model_trainer_linear_stimulus.vhd
+../../../../../../../bench/vhdl/code/procedures/model/trainer/linear/model_trainer_linear_testbench.vhd

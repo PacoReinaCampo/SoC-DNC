@@ -25,9 +25,9 @@ build:
     ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/function/matrix/accelerator_matrix_logistic_function.vhd
     ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/math/function/matrix/accelerator_matrix_oneplus_function.vhd
 
-    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/function/accelerator_function_pkg.vhd
-    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/function/accelerator_function_stimulus.vhd
-    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/math/function/accelerator_function_testbench.vhd
+    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/function/accelerator_function_pkg.vhd
+    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/function/accelerator_function_stimulus.vhd
+    ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/math/function/accelerator_function_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_function_testbench

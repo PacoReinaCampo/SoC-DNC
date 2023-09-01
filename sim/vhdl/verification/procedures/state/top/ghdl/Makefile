@@ -46,9 +46,9 @@ build:
 
 	ghdl -a --std=08 ../../../../../../../rtl/vhdl/code/state/top/accelerator_state_top.vhd
 
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/state/top/accelerator_state_top_pkg.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/state/top/accelerator_state_top_stimulus.vhd
-	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/baremetal/design/state/top/accelerator_state_top_testbench.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/state/top/accelerator_state_top_pkg.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/state/top/accelerator_state_top_stimulus.vhd
+	ghdl -a --std=08 ../../../../../../../bench/vhdl/code/procedures/design/state/top/accelerator_state_top_testbench.vhd
 
 simulate:
 	ghdl -m --std=08 accelerator_state_top_testbench
