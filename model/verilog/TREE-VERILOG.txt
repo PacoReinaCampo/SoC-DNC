@@ -184,14 +184,14 @@ code
 │           ├── model_vector_sinh_function.sv
 │           └── model_vector_tanh_function.sv
 ├── pkg
-│   ├── model_arithmetic_pkg.sv
-│   ├── model_fnn_controller_pkg.sv
-│   ├── model_linear_controller_pkg.sv
-│   ├── model_lstm_controller_pkg.sv
-│   ├── model_math_pkg.sv
-│   ├── model_ntm_core_pkg.sv
-│   ├── model_state_pkg.sv
-│   └── model_transformer_controller_pkg.sv
+│   ├── model_arithmetic_verilog_pkg.sv
+│   ├── model_fnn_controller_verilog_pkg.sv
+│   ├── model_linear_controller_verilog_pkg.sv
+│   ├── model_lstm_controller_verilog_pkg.sv
+│   ├── model_math_verilog_pkg.sv
+│   ├── model_ntm_core_verilog_pkg.sv
+│   ├── model_state_verilog_pkg.sv
+│   └── model_transformer_controller_verilog_pkg.sv
 ├── state
 │   ├── feedback
 │   │   ├── model_state_matrix_feedforward.sv
