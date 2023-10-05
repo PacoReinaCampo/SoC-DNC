@@ -2,8 +2,9 @@
 # VERIFICATION
 #*************************
 
+do variables.do
 
-do ./variables.do
+mkdir wlf
 
 ##################################################################################################
 # TEST SOURCES ###################################################################################
@@ -35,7 +36,7 @@ alias model_memory_sort_vector_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_memory_sort_vector_test.wlf
+  dataset save sim wlf/model_memory_sort_vector_test.wlf
 }
 
 ##################################################################################################

@@ -2,13 +2,12 @@
 # DESIGN COMPILATION
 #*******************
 
-
-do ./variables.do
+do variables.do
 
 vlib work
 
 ##################################################################################################
-# model_allocation_gate_design_compilation #########################################################
+# model_allocation_gate_design_compilation
 ##################################################################################################
 
 alias model_allocation_gate_design_compilation {
@@ -24,7 +23,7 @@ alias model_allocation_gate_design_compilation {
 }
 
 ##################################################################################################
-# model_erase_vector_design_compilation ############################################################
+# model_erase_vector_design_compilation
 ##################################################################################################
 
 alias model_erase_vector_design_compilation {
@@ -40,7 +39,7 @@ alias model_erase_vector_design_compilation {
 }
 
 ##################################################################################################
-# model_write_gate_design_compilation ##############################################################
+# model_write_gate_design_compilation
 ##################################################################################################
 
 alias model_write_gate_design_compilation {
@@ -56,7 +55,7 @@ alias model_write_gate_design_compilation {
 }
 
 ##################################################################################################
-# model_write_key_design_compilation ###############################################################
+# model_write_key_design_compilation
 ##################################################################################################
 
 alias model_write_key_design_compilation {
@@ -66,7 +65,7 @@ alias model_write_key_design_compilation {
 }
 
 ##################################################################################################
-# model_write_strength_design_compilation ##########################################################
+# model_write_strength_design_compilation
 ##################################################################################################
 
 alias model_write_strength_design_compilation {
@@ -83,7 +82,7 @@ alias model_write_strength_design_compilation {
 }
 
 ##################################################################################################
-# model_write_vector_design_compilation ############################################################
+# model_write_vector_design_compilation
 ##################################################################################################
 
 alias model_write_vector_design_compilation {
@@ -95,27 +94,27 @@ alias model_write_vector_design_compilation {
 ##################################################################################################
 
 alias d01 {
-  model_allocation_gate_design_compilation 
+  model_allocation_gate_design_compilation
 }
 
 alias d02 {
-  model_erase_vector_design_compilation 
+  model_erase_vector_design_compilation
 }
 
 alias d03 {
-  model_write_gate_design_compilation 
+  model_write_gate_design_compilation
 }
 
 alias d04 {
-  model_write_key_design_compilation 
+  model_write_key_design_compilation
 }
 
 alias d05 {
-  model_write_strength_design_compilation 
+  model_write_strength_design_compilation
 }
 
 alias d06 {
-  model_write_vector_design_compilation 
+  model_write_vector_design_compilation
 }
 
 echo "****************************************"

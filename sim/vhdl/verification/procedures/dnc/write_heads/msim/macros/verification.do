@@ -2,8 +2,9 @@
 # VERIFICATION
 #*************************
 
+do variables.do
 
-do ./variables.do
+mkdir wlf
 
 ##################################################################################################
 # TEST SOURCES ###################################################################################
@@ -35,7 +36,7 @@ alias model_allocation_gate_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_allocation_gate_test.wlf
+  dataset save sim wlf/model_allocation_gate_test.wlf
 }
 
 ##################################################################################################
@@ -64,7 +65,7 @@ alias model_erase_vector_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_erase_vector_test.wlf
+  dataset save sim wlf/model_erase_vector_test.wlf
 }
 
 ##################################################################################################
@@ -93,7 +94,7 @@ alias model_write_gate_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_write_gate_test.wlf
+  dataset save sim wlf/model_write_gate_test.wlf
 }
 
 ##################################################################################################
@@ -122,7 +123,7 @@ alias model_write_key_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_write_key_test.wlf
+  dataset save sim wlf/model_write_key_test.wlf
 }
 
 ##################################################################################################
@@ -151,9 +152,8 @@ alias model_write_strength_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_write_strength_test.wlf
+  dataset save sim wlf/model_write_strength_test.wlf
 }
-
 
 ##################################################################################################
 # ACCELERATOR_WRITE_VECTOR_TEST 
@@ -181,7 +181,7 @@ alias model_write_vector_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_write_vector_test.wlf
+  dataset save sim wlf/model_write_vector_test.wlf
 }
 
 ##################################################################################################

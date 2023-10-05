@@ -2,8 +2,9 @@
 # VERIFICATION
 #*************************
 
+do variables.do
 
-do ./variables.do
+mkdir wlf
 
 ##################################################################################################
 # TEST SOURCES ###################################################################################
@@ -35,7 +36,7 @@ alias model_free_gates_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_free_gates_test.wlf
+  dataset save sim wlf/model_free_gates_test.wlf
 }
 
 ##################################################################################################
@@ -64,7 +65,7 @@ alias model_read_keys_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_read_keys_test.wlf
+  dataset save sim wlf/model_read_keys_test.wlf
 }
 
 ##################################################################################################
@@ -93,7 +94,7 @@ alias model_read_modes_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_read_modes_test.wlf
+  dataset save sim wlf/model_read_modes_test.wlf
 }
 
 ##################################################################################################
@@ -122,7 +123,7 @@ alias model_read_strengths_verification_compilation {
   onbreak {resume}
   run -all
 
-  dataset save sim model_read_strengths_test.wlf
+  dataset save sim wlf/model_read_strengths_test.wlf
 }
 
 ##################################################################################################

@@ -2,13 +2,12 @@
 # DESIGN COMPILATION
 #*******************
 
-
-do ./variables.do
+do variables.do
 
 vlib work
 
 ##################################################################################################
-# model_free_gates_design_compilation ##############################################################
+# model_free_gates_design_compilation
 ##################################################################################################
 
 alias model_free_gates_design_compilation {
@@ -25,7 +24,7 @@ alias model_free_gates_design_compilation {
 }
 
 ##################################################################################################
-# model_read_keys_design_compilation ###############################################################
+# model_read_keys_design_compilation
 ##################################################################################################
 
 alias model_read_keys_design_compilation {
@@ -36,7 +35,7 @@ alias model_read_keys_design_compilation {
 }
 
 ##################################################################################################
-# model_read_modes_design_compilation ##############################################################
+# model_read_modes_design_compilation
 ##################################################################################################
 
 alias model_read_modes_design_compilation {
@@ -52,7 +51,7 @@ alias model_read_modes_design_compilation {
 }
 
 ##################################################################################################
-# model_read_strengths_design_compilation ##########################################################
+# model_read_strengths_design_compilation
 ##################################################################################################
 
 alias model_read_strengths_design_compilation {
@@ -71,19 +70,19 @@ alias model_read_strengths_design_compilation {
 ##################################################################################################
 
 alias d01 {
-  model_free_gates_design_compilation 
+  model_free_gates_design_compilation
 }
 
 alias d02 {
-  model_read_keys_design_compilation 
+  model_read_keys_design_compilation
 }
 
 alias d03 {
-  model_read_modes_design_compilation 
+  model_read_modes_design_compilation
 }
 
 alias d04 {
-  model_read_strengths_design_compilation 
+  model_read_strengths_design_compilation
 }
 
 echo "****************************************"
