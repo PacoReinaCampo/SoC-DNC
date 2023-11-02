@@ -1,4 +1,4 @@
-../../../../../../../model/verilog/code/pkg/model_arithmetic_pkg.sv
+../../../../../../../model/verilog/code/pkg/model_arithmetic_verilog_pkg.sv
 ../../../../../../../model/verilog/code/pkg/model_math_pkg.sv
 ../../../../../../../model/verilog/code/pkg/model_dnc_core_pkg.sv
 

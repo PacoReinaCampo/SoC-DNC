@@ -1,4 +1,4 @@
-ghdl -a --std=08 ../../../../../../../model/vhdl/code/pkg/model_arithmetic_pkg.vhd
+ghdl -a --std=08 ../../../../../../../model/vhdl/code/pkg/model_arithmetic_vhdl_pkg.vhd
 ghdl -a --std=08 ../../../../../../../model/vhdl/code/pkg/model_math_pkg.vhd
 ghdl -a --std=08 ../../../../../../../model/vhdl/code/pkg/model_fnn_controller_pkg.vhd
 ghdl -a --std=08 ../../../../../../../model/vhdl/code/pkg/model_lstm_controller_pkg.vhd
