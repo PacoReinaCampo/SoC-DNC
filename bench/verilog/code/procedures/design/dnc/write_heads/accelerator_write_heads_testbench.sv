@@ -167,7 +167,7 @@ module accelerator_write_heads_testbench;
     .ACCELERATOR_ERASE_VECTOR_E_IN     (e_in_erase_vector),
     .ACCELERATOR_ERASE_VECTOR_E_OUT    (e_out_erase_vector),
 
-    //WRITE GATE
+    // WRITE GATE
     // CONTROL
     .ACCELERATOR_WRITE_GATE_START(start_write_gate),
     .ACCELERATOR_WRITE_GATE_READY(ready_write_gate),

@@ -75,7 +75,7 @@ module accelerator_write_heads_stimulus #(
   output [DATA_SIZE-1:0] ACCELERATOR_ERASE_VECTOR_E_IN,
   input                  ACCELERATOR_ERASE_VECTOR_E_OUT,
 
-  //WRITE GATE
+  // WRITE GATE
   // CONTROL
   output ACCELERATOR_WRITE_GATE_START,
   input  ACCELERATOR_WRITE_GATE_READY,
