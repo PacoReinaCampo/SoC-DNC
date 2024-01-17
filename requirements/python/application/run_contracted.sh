@@ -42,6 +42,11 @@
 ##                                                                               ##
 ###################################################################################
 
+python3 arithmetic/scalar/adder/test_scalar_adder.py
+python3 arithmetic/scalar/subtractor/test_scalar_subtractor.py
+python3 arithmetic/scalar/multiplier/test_scalar_multiplier.py
+python3 arithmetic/scalar/divider/test_scalar_divider.py
+
 python3 arithmetic/test_matrix_arithmetic.py
 python3 arithmetic/test_scalar_arithmetic.py
 python3 arithmetic/test_tensor_arithmetic.py
@@ -65,10 +70,11 @@ python3 state/test_state_feedback.py
 python3 state/test_state_outputs.py
 python3 state/test_state_top.py
 
-python3 controller/FNN/test_convolutional_fnn_controller.py
-python3 controller/FNN/test_standard_fnn_controller.py
-python3 controller/LSTM/test_convolutional_lstm_controller.py
-python3 controller/LSTM/test_standard_lstm_controller.py
+python3 ntm/test_ntm_memory.py
+python3 ntm/test_ntm_read_heads.py
+python3 ntm/test_ntm_top.py
+python3 ntm/test_ntm_trained.py
+python3 ntm/test_ntm_write_heads.py
 
 python3 dnc/test_dnc_memory.py
 python3 dnc/test_dnc_top.py

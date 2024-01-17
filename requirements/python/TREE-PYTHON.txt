@@ -1,60 +1,77 @@
 library
 ├── arithmetic
 │   ├── matrix
-│   │   ├── ntm_matrix_adder.py
+│   │   ├── adder
+│   │   │   └── ntm_matrix_adder.py
+│   │   ├── divider
+│   │   │   └── ntm_matrix_divider.py
+│   │   ├── multiplier
+│   │   │   └── ntm_matrix_multiplier.py
 │   │   ├── ntm_matrix_arithmetic.py
-│   │   ├── ntm_matrix_divider.py
-│   │   ├── ntm_matrix_multiplier.py
-│   │   └── ntm_matrix_subtractor.py
+│   │   └── subtractor
+│   │       └── ntm_matrix_subtractor.py
 │   ├── scalar
-│   │   ├── ntm_scalar_adder.py
+│   │   ├── adder
+│   │   │   └── ntm_scalar_adder.py
+│   │   ├── divider
+│   │   │   └── ntm_scalar_divider.py
+│   │   ├── multiplier
+│   │   │   └── ntm_scalar_multiplier.py
 │   │   ├── ntm_scalar_arithmetic.py
-│   │   ├── ntm_scalar_divider.py
-│   │   ├── ntm_scalar_multiplier.py
-│   │   └── ntm_scalar_subtractor.py
+│   │   └── subtractor
+│   │       └── ntm_scalar_subtractor.py
 │   ├── tensor
-│   │   ├── ntm_tensor_adder.py
+│   │   ├── adder
+│   │   │   └── ntm_tensor_adder.py
+│   │   ├── divider
+│   │   │   └── ntm_tensor_divider.py
+│   │   ├── multiplier
+│   │   │   └── ntm_tensor_multiplier.py
 │   │   ├── ntm_tensor_arithmetic.py
-│   │   ├── ntm_tensor_divider.py
-│   │   ├── ntm_tensor_multiplier.py
-│   │   └── ntm_tensor_subtractor.py
+│   │   └── subtractor
+│   │       └── ntm_tensor_subtractor.py
 │   ├── test_matrix_arithmetic.py
 │   ├── test_scalar_arithmetic.py
 │   ├── test_tensor_arithmetic.py
 │   ├── test_vector_arithmetic.py
 │   └── vector
-│       ├── ntm_vector_adder.py
+│       ├── adder
+│       │   └── ntm_vector_adder.py
+│       ├── divider
+│       │   └── ntm_vector_divider.py
+│       ├── multiplier
+│       │   └── ntm_vector_multiplier.py
 │       ├── ntm_vector_arithmetic.py
-│       ├── ntm_vector_divider.py
-│       ├── ntm_vector_multiplier.py
-│       └── ntm_vector_subtractor.py
+│       └── subtractor
+│           └── ntm_vector_subtractor.py
 ├── controller
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── ntm_controller.py
-│   │   └── standard
-│   │       └── ntm_controller.py
-│   ├── LSTM
-│   │   ├── convolutional
-│   │   │   ├── ntm_activation_gate_vector.py
-│   │   │   ├── ntm_controller.py
-│   │   │   ├── ntm_forget_gate_vector.py
-│   │   │   ├── ntm_hidden_gate_vector.py
-│   │   │   ├── ntm_input_gate_vector.py
-│   │   │   ├── ntm_output_gate_vector.py
-│   │   │   └── ntm_state_gate_vector.py
-│   │   └── standard
-│   │       ├── ntm_activation_gate_vector.py
-│   │       ├── ntm_controller.py
-│   │       ├── ntm_forget_gate_vector.py
-│   │       ├── ntm_hidden_gate_vector.py
-│   │       ├── ntm_input_gate_vector.py
-│   │       ├── ntm_output_gate_vector.py
-│   │       └── ntm_state_gate_vector.py
-│   ├── ntm_fnn_controller.py
-│   └── ntm_lstm_controller.py
+│   │   ├── standard
+│   │   │   └── ntm_controller.py
+│   │   ├── test_convolutional_fnn_controller.py
+│   │   └── test_standard_fnn_controller.py
+│   └── LSTM
+│       ├── convolutional
+│       │   ├── ntm_activation_gate_vector.py
+│       │   ├── ntm_controller.py
+│       │   ├── ntm_forget_gate_vector.py
+│       │   ├── ntm_hidden_gate_vector.py
+│       │   ├── ntm_input_gate_vector.py
+│       │   ├── ntm_output_gate_vector.py
+│       │   └── ntm_state_gate_vector.py
+│       ├── standard
+│       │   ├── ntm_activation_gate_vector.py
+│       │   ├── ntm_controller.py
+│       │   ├── ntm_forget_gate_vector.py
+│       │   ├── ntm_hidden_gate_vector.py
+│       │   ├── ntm_input_gate_vector.py
+│       │   ├── ntm_output_gate_vector.py
+│       │   └── ntm_state_gate_vector.py
+│       ├── test_convolutional_lstm_controller.py
+│       └── test_standard_lstm_controller.py
 ├── dnc
-│   ├── dnc.py
 │   ├── memory
 │   │   ├── dnc_addressing.py
 │   │   ├── dnc_allocation_weighting.py
@@ -73,6 +90,9 @@ library
 │   │   ├── dnc_vector_content_based_addressing.py
 │   │   ├── dnc_write_content_weighting.py
 │   │   └── dnc_write_weighting.py
+│   ├── test_dnc_memory.py
+│   ├── test_dnc_top.py
+│   ├── test_dnc_trained.py
 │   ├── top
 │   │   ├── dnc_interface_matrix.py
 │   │   ├── dnc_interface_top.py
@@ -177,10 +197,12 @@ library
 │   │   ├── ntm_state_matrix_input.py
 │   │   ├── ntm_state_matrix_output.py
 │   │   └── ntm_state_matrix_state.py
-│   ├── ntm_state.py
 │   ├── outputs
 │   │   ├── ntm_state_vector_output.py
 │   │   └── ntm_state_vector_state.py
+│   ├── test_state_feedback.py
+│   ├── test_state_outputs.py
+│   ├── test_state_top.py
 │   └── top
 │       └── ntm_state_top.py
 ├── trainer
@@ -228,8 +250,9 @@ library
 │   │       ├── ntm_lstm_output_u_trainer.py
 │   │       ├── ntm_lstm_output_v_trainer.py
 │   │       └── ntm_lstm_output_w_trainer.py
-│   ├── ntm_fnn.py
-│   └── ntm_lstm.py
+│   ├── test_trainer_differentiation.py
+│   ├── test_trainer_fnn.py
+│   └── test_trainer_lstm.py
 └── transformer
     ├── components
     │   ├── ntm_masked_multi_head_attention.py
@@ -249,10 +272,14 @@ library
     │   ├── ntm_keys_vector.py
     │   ├── ntm_queries_vector.py
     │   └── ntm_values_vector.py
-    ├── ntm_transformer_controller.py
+    ├── test_transformer_components.py
+    ├── test_transformer_controller.py
+    ├── test_transformer_functions.py
+    ├── test_transformer_inputs.py
+    ├── test_transformer_top.py
     └── top
         ├── ntm_controller.py
         ├── ntm_decoder.py
         └── ntm_encoder.py
 
-54 directories, 201 files
+70 directories, 212 files
