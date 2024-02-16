@@ -33,6 +33,12 @@ library
 │       ├── MatrixMathStatitics
 │       ├── ScalarMathStatitics
 │       └── VectorMathStatitics
+├── ntm
+│   ├── memory
+│   ├── read_heads
+│   ├── top
+│   ├── trained
+│   └── write_heads
 ├── state
 │   ├── feedback
 │   ├── outputs
@@ -54,4 +60,4 @@ library
     ├── inputs
     └── top
 
-54 directories, 0 files
+60 directories, 0 files

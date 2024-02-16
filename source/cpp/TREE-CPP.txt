@@ -372,6 +372,49 @@ library
 │           ├── ntm_vector_mean.cpp
 │           ├── ntm_vector_mean_design.cpp
 │           └── ntm_vector_mean_testbench.cpp
+├── ntm
+│   ├── memory
+│   │   ├── ntm_addressing.cpp
+│   │   ├── ntm_addressing_design.cpp
+│   │   ├── ntm_addressing_testbench.cpp
+│   │   ├── ntm_matrix_content_based_addressing.cpp
+│   │   ├── ntm_matrix_content_based_addressing_design.cpp
+│   │   ├── ntm_matrix_content_based_addressing_testbench.cpp
+│   │   ├── ntm_vector_content_based_addressing.cpp
+│   │   ├── ntm_vector_content_based_addressing_design.cpp
+│   │   └── ntm_vector_content_based_addressing_testbench.cpp
+│   ├── ntm.cpp
+│   ├── read_heads
+│   │   ├── ntm_reading.cpp
+│   │   ├── ntm_reading_design.cpp
+│   │   └── ntm_reading_testbench.cpp
+│   ├── top
+│   │   ├── ntm_interface_matrix.cpp
+│   │   ├── ntm_interface_matrix_design.cpp
+│   │   ├── ntm_interface_matrix_testbench.cpp
+│   │   ├── ntm_interface_top.cpp
+│   │   ├── ntm_interface_top_design.cpp
+│   │   ├── ntm_interface_top_testbench.cpp
+│   │   ├── ntm_interface_vector.cpp
+│   │   ├── ntm_interface_vector_design.cpp
+│   │   ├── ntm_interface_vector_testbench.cpp
+│   │   ├── ntm_output_vector.cpp
+│   │   ├── ntm_output_vector_design.cpp
+│   │   ├── ntm_output_vector_testbench.cpp
+│   │   ├── ntm_top.cpp
+│   │   ├── ntm_top_design.cpp
+│   │   └── ntm_top_testbench.cpp
+│   ├── trained
+│   │   ├── ntm_trained_top.cpp
+│   │   ├── ntm_trained_top_design.cpp
+│   │   └── ntm_trained_top_testbench.cpp
+│   └── write_heads
+│       ├── ntm_erasing.cpp
+│       ├── ntm_erasing_design.cpp
+│       ├── ntm_erasing_testbench.cpp
+│       ├── ntm_writing.cpp
+│       ├── ntm_writing_design.cpp
+│       └── ntm_writing_testbench.cpp
 ├── state
 │   ├── feedback
 │   │   ├── ntm_state_matrix_feedforward.cpp
@@ -574,4 +617,4 @@ library
         ├── ntm_encoder_design.cpp
         └── ntm_encoder_testbench.cpp
 
-70 directories, 504 files
+76 directories, 541 files

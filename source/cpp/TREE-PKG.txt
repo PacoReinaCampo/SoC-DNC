@@ -56,6 +56,13 @@ library
 │       ├── matrix
 │       ├── scalar
 │       └── vector
+├── ntm
+│   ├── ntm.hpp
+│   ├── memory
+│   ├── read_heads
+│   ├── top
+│   ├── trained
+│   └── write_heads
 ├── state
 │   ├── ntm_state.hpp
 │   ├── feedback
@@ -80,4 +87,4 @@ library
     ├── inputs
     └── top
 
-70 directories, 10 files
+76 directories, 11 files

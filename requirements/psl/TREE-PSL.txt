@@ -134,6 +134,24 @@ library
 │       └── vector
 │           ├── ntm_vector_deviation.psl
 │           └── ntm_vector_mean.psl
+├── ntm
+│   ├── memory
+│   │   ├── ntm_addressing.psl
+│   │   ├── ntm_matrix_content_based_addressing.psl
+│   │   └── ntm_vector_content_based_addressing.psl
+│   ├── read_heads
+│   │   └── ntm_reading.psl
+│   ├── top
+│   │   ├── ntm_interface_matrix.psl
+│   │   ├── ntm_interface_top.psl
+│   │   ├── ntm_interface_vector.psl
+│   │   ├── ntm_output_vector.psl
+│   │   └── ntm_top.psl
+│   ├── trained
+│   │   └── ntm_trained_top.psl
+│   └── write_heads
+│       ├── ntm_erasing.psl
+│       └── ntm_writing.psl
 ├── state
 │   ├── feedback
 │   │   ├── ntm_state_matrix_feedforward.psl
@@ -214,4 +232,4 @@ library
         ├── ntm_decoder.psl
         └── ntm_encoder.psl
 
-54 directories, 160 files
+60 directories, 172 files

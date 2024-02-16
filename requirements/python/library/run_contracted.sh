@@ -70,6 +70,12 @@ python3 controller/FNN/test_standard_fnn_controller.py
 python3 controller/LSTM/test_convolutional_lstm_controller.py
 python3 controller/LSTM/test_standard_lstm_controller.py
 
+python3 ntm/test_ntm_memory.py
+python3 ntm/test_ntm_read_heads.py
+python3 ntm/test_ntm_top.py
+python3 ntm/test_ntm_trained.py
+python3 ntm/test_ntm_write_heads.py
+
 python3 dnc/test_dnc_memory.py
 python3 dnc/test_dnc_top.py
 python3 dnc/test_dnc_trained.py
