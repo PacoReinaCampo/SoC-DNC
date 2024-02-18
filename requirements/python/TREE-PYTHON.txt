@@ -191,29 +191,6 @@ library
 │           ├── ntm_vector_deviation.py
 │           ├── ntm_vector_math_statitics.py
 │           └── ntm_vector_mean.py
-├── ntm
-│   ├── memory
-│   │   ├── ntm_addressing.py
-│   │   ├── ntm_matrix_content_based_addressing.py
-│   │   └── ntm_vector_content_based_addressing.py
-│   ├── read_heads
-│   │   └── ntm_reading.py
-│   ├── test_ntm_memory.py
-│   ├── test_ntm_read_heads.py
-│   ├── test_ntm_top.py
-│   ├── test_ntm_trained.py
-│   ├── test_ntm_write_heads.py
-│   ├── top
-│   │   ├── ntm_interface_matrix.py
-│   │   ├── ntm_interface_top.py
-│   │   ├── ntm_interface_vector.py
-│   │   ├── ntm_output_vector.py
-│   │   └── ntm_top.py
-│   ├── trained
-│   │   └── ntm_trained_top.py
-│   └── write_heads
-│       ├── ntm_erasing.py
-│       └── ntm_writing.py
 ├── state
 │   ├── feedback
 │   │   ├── ntm_state_matrix_feedforward.py
@@ -305,4 +282,4 @@ library
         ├── ntm_decoder.py
         └── ntm_encoder.py
 
-76 directories, 229 files
+70 directories, 212 files
