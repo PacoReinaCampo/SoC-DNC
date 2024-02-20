@@ -75,6 +75,6 @@
 ../../../../../../../model/verilog/code/dnc/write_heads/model_write_strength.sv
 ../../../../../../../model/verilog/code/dnc/write_heads/model_write_vector.sv
 
-../../../../../../../bench/verilog/code/procedures/model/dnc/write_heads/model_write_heads_pkg.sv
-../../../../../../../bench/verilog/code/procedures/model/dnc/write_heads/model_write_heads_stimulus.sv
-../../../../../../../bench/verilog/code/procedures/model/dnc/write_heads/model_write_heads_testbench.sv
+../../../../../../../verification/tasks/verilog/library/dnc/write_heads/model_write_heads_pkg.sv
+../../../../../../../verification/tasks/verilog/library/dnc/write_heads/model_write_heads_stimulus.sv
+../../../../../../../verification/tasks/verilog/library/dnc/write_heads/model_write_heads_testbench.sv

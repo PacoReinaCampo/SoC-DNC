@@ -85,6 +85,6 @@
 ../../../../../../../rtl/verilog/code/dnc/memory/accelerator_write_weighting.sv
 ../../../../../../../rtl/verilog/code/dnc/memory/accelerator_addressing.sv
 
-../../../../../../../bench/verilog/code/procedures/design/dnc/memory/accelerator_memory_pkg.sv
-../../../../../../../bench/verilog/code/procedures/design/dnc/memory/accelerator_memory_stimulus.sv
-../../../../../../../bench/verilog/code/procedures/design/dnc/memory/accelerator_memory_testbench.sv
+../../../../../../../verification/procedures/verilog/library/dnc/memory/accelerator_memory_pkg.sv
+../../../../../../../verification/procedures/verilog/library/dnc/memory/accelerator_memory_stimulus.sv
+../../../../../../../verification/procedures/verilog/library/dnc/memory/accelerator_memory_testbench.sv
