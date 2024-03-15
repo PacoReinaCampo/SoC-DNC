@@ -259,28 +259,28 @@ Format of a line in the table:
 | `fmv.q.x`    | `Write the 64-bit integer register rs1 into the quadruple-precision register frd`                                                |
 : RV128Q - "RV128Q Standard Extension for Quadruple-Precision Floating-Point (+ RV64Q)"
 
-| ins name        | instruction description                                                                                                       |
-|-----------------|:------------------------------------------------------------------------------------------------------------------------------|
-| `fnn.w`         | `FNN`                                                                                                                         |
-| `lstm.w`        | `LSTM`                                                                                                                        |
-| `transformer.w` | `Transformer`                                                                                                                 |
-| `dnc.w`         | `Differentiable Neural Computer`                                                                                              |
+| ins name     | instruction description                                                                                                          |
+|--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| `fnn.w`      | `Feed-Forward Neural Network`                                                                                                    |
+| `lstm.w`     | `Long-Short Term Memory Neural Network`                                                                                          |
+| `ann.w`      | `Attention Neural Network`                                                                                                       |
+| `dnc.w`      | `Differentiable Neural Computer`                                                                                                 |
 : RV32DNC - "RV32DNC Standard Extension for Differentiable Neural Computer"
 
-| ins name        | instruction description                                                                                                       |
-|-----------------|:------------------------------------------------------------------------------------------------------------------------------|
-| `fnn .d`        | `FNN`                                                                                                                         |
-| `lstm.d`        | `LSTM`                                                                                                                        |
-| `transformer.d` | `Transformer`                                                                                                                 |
-| `dnc.d`         | `Differentiable Neural Computer`                                                                                              |
+| ins name     | instruction description                                                                                                          |
+|--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| `fnn.d`      | `Feed-Forward Neural Network`                                                                                                    |
+| `lstm.d`     | `Long-Short Term Memory Neural Network`                                                                                          |
+| `ann.d`      | `Attention Neural Network`                                                                                                       |
+| `dnc.d`      | `Differentiable Neural Computer`                                                                                                 |
 : RV64DNC - "RV64DNC Standard Extension for Differentiable Neural Computer (+ RV32DNC)"
 
-| ins name        | instruction description                                                                                                       |
-|-----------------|:------------------------------------------------------------------------------------------------------------------------------|
-| `fnn.q`         | `FNN`                                                                                                                         |
-| `lstm.q`        | `LSTM`                                                                                                                        |
-| `transformer.q` | `Transformer`                                                                                                                 |
-| `dnc.q`         | `Differentiable Neural Computer`                                                                                              |
+| ins name     | instruction description                                                                                                          |
+|--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| `fnn .q`     | `Feed-Forward Neural Network`                                                                                                    |
+| `lstm.q`     | `Long-Short Term Memory Neural Network`                                                                                          |
+| `ann.q`      | `Attention Neural Network`                                                                                                       |
+| `dnc.q`      | `Differentiable Neural Computer`                                                                                                 |
 : RV128DNC - "RV128DNC Standard Extension for Differentiable Neural Computer (+ RV64DNC)"
 
 | ins name     | instruction description                                                                                                          |
