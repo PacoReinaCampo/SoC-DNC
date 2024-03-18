@@ -261,6 +261,8 @@ Format of a line in the table:
 
 | ins name     | instruction description                                                                                                          |
 |--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| `pnn.w`      | `Perceptron Neural Network`                                                                                                      |
+| `cnn.w`      | `Convolutional Neural Network`                                                                                                   |
 | `fnn.w`      | `Feed-Forward Neural Network`                                                                                                    |
 | `lstm.w`     | `Long-Short Term Memory Neural Network`                                                                                          |
 | `ann.w`      | `Attention Neural Network`                                                                                                       |
@@ -269,6 +271,8 @@ Format of a line in the table:
 
 | ins name     | instruction description                                                                                                          |
 |--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| `pnn.d`      | `Perceptron Neural Network`                                                                                                      |
+| `cnn.d`      | `Convolutional Neural Network`                                                                                                   |
 | `fnn.d`      | `Feed-Forward Neural Network`                                                                                                    |
 | `lstm.d`     | `Long-Short Term Memory Neural Network`                                                                                          |
 | `ann.d`      | `Attention Neural Network`                                                                                                       |
@@ -277,7 +281,9 @@ Format of a line in the table:
 
 | ins name     | instruction description                                                                                                          |
 |--------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| `fnn .q`     | `Feed-Forward Neural Network`                                                                                                    |
+| `pnn.q`      | `Perceptron Neural Network`                                                                                                      |
+| `cnn.q`      | `Convolutional Neural Network`                                                                                                   |
+| `fnn.q`      | `Feed-Forward Neural Network`                                                                                                    |
 | `lstm.q`     | `Long-Short Term Memory Neural Network`                                                                                          |
 | `ann.q`      | `Attention Neural Network`                                                                                                       |
 | `dnc.q`      | `Differentiable Neural Computer`                                                                                                 |
