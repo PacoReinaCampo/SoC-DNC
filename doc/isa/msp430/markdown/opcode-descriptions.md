@@ -267,7 +267,7 @@ Format of a line in the table:
 | `lstm.w`     | `Long-Short Term Memory Neural Network`                                                                                          |
 | `ann.w`      | `Attention Neural Network`                                                                                                       |
 | `dnc.w`      | `Differentiable Neural Computer`                                                                                                 |
-: RV32DNC - "RV32DNC Standard Extension for Differentiable Neural Computer"
+: RV32NN - "RV32NN Standard Extension for Neural Network"
 
 | ins name     | instruction description                                                                                                          |
 |--------------|:---------------------------------------------------------------------------------------------------------------------------------|
@@ -277,7 +277,7 @@ Format of a line in the table:
 | `lstm.d`     | `Long-Short Term Memory Neural Network`                                                                                          |
 | `ann.d`      | `Attention Neural Network`                                                                                                       |
 | `dnc.d`      | `Differentiable Neural Computer`                                                                                                 |
-: RV64DNC - "RV64DNC Standard Extension for Differentiable Neural Computer (+ RV32DNC)"
+: RV64NN - "RV64NN Standard Extension for Neural Network (+ RV32NN)"
 
 | ins name     | instruction description                                                                                                          |
 |--------------|:---------------------------------------------------------------------------------------------------------------------------------|
@@ -287,7 +287,7 @@ Format of a line in the table:
 | `lstm.q`     | `Long-Short Term Memory Neural Network`                                                                                          |
 | `ann.q`      | `Attention Neural Network`                                                                                                       |
 | `dnc.q`      | `Differentiable Neural Computer`                                                                                                 |
-: RV128DNC - "RV128DNC Standard Extension for Differentiable Neural Computer (+ RV64DNC)"
+: RV128NN - "RV128NN Standard Extension for Neural Network (+ RV64NN)"
 
 | ins name     | instruction description                                                                                                          |
 |--------------|:---------------------------------------------------------------------------------------------------------------------------------|
