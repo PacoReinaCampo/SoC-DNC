@@ -9,56 +9,6 @@ library
 │   ├── test_scalar_arithmetic.scala
 │   └── vector
 │       └── ntm_vector_arithmetic.scala
-├── controller
-│   ├── FNN
-│   │   ├── convolutional
-│   │   │   └── ntm_controller.scala
-│   │   └── standard
-│   │       └── ntm_controller.scala
-│   └── LSTM
-│       ├── convolutional
-│       │   ├── ntm_activation_gate_vector.scala
-│       │   ├── ntm_controller.scala
-│       │   ├── ntm_forget_gate_vector.scala
-│       │   ├── ntm_hidden_gate_vector.scala
-│       │   ├── ntm_input_gate_vector.scala
-│       │   ├── ntm_output_gate_vector.scala
-│       │   └── ntm_state_gate_vector.scala
-│       └── standard
-│           ├── ntm_activation_gate_vector.scala
-│           ├── ntm_controller.scala
-│           ├── ntm_forget_gate_vector.scala
-│           ├── ntm_hidden_gate_vector.scala
-│           ├── ntm_input_gate_vector.scala
-│           ├── ntm_output_gate_vector.scala
-│           └── ntm_state_gate_vector.scala
-├── dnc
-│   ├── memory
-│   │   ├── dnc_addressing.scala
-│   │   ├── dnc_allocation_weighting.scala
-│   │   ├── dnc_backward_weighting.scala
-│   │   ├── dnc_forward_weighting.scala
-│   │   ├── dnc_matrix_content_based_addressing.scala
-│   │   ├── dnc_memory_matrix.scala
-│   │   ├── dnc_memory_retention_vector.scala
-│   │   ├── dnc_precedence_weighting.scala
-│   │   ├── dnc_read_content_weighting.scala
-│   │   ├── dnc_read_vectors.scala
-│   │   ├── dnc_read_weighting.scala
-│   │   ├── dnc_sort_vector.scala
-│   │   ├── dnc_temporal_link_matrix.scala
-│   │   ├── dnc_usage_vector.scala
-│   │   ├── dnc_vector_content_based_addressing.scala
-│   │   ├── dnc_write_content_weighting.scala
-│   │   └── dnc_write_weighting.scala
-│   ├── top
-│   │   ├── dnc_interface_matrix.scala
-│   │   ├── dnc_interface_top.scala
-│   │   ├── dnc_interface_vector.scala
-│   │   ├── dnc_output_vector.scala
-│   │   └── dnc_top.scala
-│   └── trained
-│       └── dnc_trained_top.scala
 ├── math
 │   ├── algebra
 │   │   ├── matrix
@@ -90,6 +40,79 @@ library
 │       │   └── ntm_scalar_statitics.scala
 │       └── vector
 │           └── ntm_vector_statitics.scala
+├── nn
+│   ├── ANN
+│   │   ├── components
+│   │   │   ├── ntm_masked_multi_head_attention.scala
+│   │   │   ├── ntm_masked_scaled_dot_product_attention.scala
+│   │   │   ├── ntm_multi_head_attention.scala
+│   │   │   └── ntm_scaled_dot_product_attention.scala
+│   │   ├── controller
+│   │   │   ├── fnn
+│   │   │   │   └── ntm_fnn.scala
+│   │   │   └── lstm
+│   │   │       └── ntm_lstm.scala
+│   │   ├── functions
+│   │   │   ├── ntm_layer_norm.scala
+│   │   │   └── ntm_positional_encoding.scala
+│   │   ├── inputs
+│   │   │   ├── ntm_inputs_vector.scala
+│   │   │   ├── ntm_keys_vector.scala
+│   │   │   ├── ntm_queries_vector.scala
+│   │   │   └── ntm_values_vector.scala
+│   │   └── top
+│   │       ├── ntm_controller.scala
+│   │       ├── ntm_decoder.scala
+│   │       └── ntm_encoder.scala
+│   ├── DNC
+│   │   ├── memory
+│   │   │   ├── dnc_addressing.scala
+│   │   │   ├── dnc_allocation_weighting.scala
+│   │   │   ├── dnc_backward_weighting.scala
+│   │   │   ├── dnc_forward_weighting.scala
+│   │   │   ├── dnc_matrix_content_based_addressing.scala
+│   │   │   ├── dnc_memory_matrix.scala
+│   │   │   ├── dnc_memory_retention_vector.scala
+│   │   │   ├── dnc_precedence_weighting.scala
+│   │   │   ├── dnc_read_content_weighting.scala
+│   │   │   ├── dnc_read_vectors.scala
+│   │   │   ├── dnc_read_weighting.scala
+│   │   │   ├── dnc_sort_vector.scala
+│   │   │   ├── dnc_temporal_link_matrix.scala
+│   │   │   ├── dnc_usage_vector.scala
+│   │   │   ├── dnc_vector_content_based_addressing.scala
+│   │   │   ├── dnc_write_content_weighting.scala
+│   │   │   └── dnc_write_weighting.scala
+│   │   ├── top
+│   │   │   ├── dnc_interface_matrix.scala
+│   │   │   ├── dnc_interface_top.scala
+│   │   │   ├── dnc_interface_vector.scala
+│   │   │   ├── dnc_output_vector.scala
+│   │   │   └── dnc_top.scala
+│   │   └── trained
+│   │       └── dnc_trained_top.scala
+│   ├── FNN
+│   │   ├── convolutional
+│   │   │   └── ntm_controller.scala
+│   │   └── standard
+│   │       └── ntm_controller.scala
+│   └── LSTM
+│       ├── convolutional
+│       │   ├── ntm_activation_gate_vector.scala
+│       │   ├── ntm_controller.scala
+│       │   ├── ntm_forget_gate_vector.scala
+│       │   ├── ntm_hidden_gate_vector.scala
+│       │   ├── ntm_input_gate_vector.scala
+│       │   ├── ntm_output_gate_vector.scala
+│       │   └── ntm_state_gate_vector.scala
+│       └── standard
+│           ├── ntm_activation_gate_vector.scala
+│           ├── ntm_controller.scala
+│           ├── ntm_forget_gate_vector.scala
+│           ├── ntm_hidden_gate_vector.scala
+│           ├── ntm_input_gate_vector.scala
+│           ├── ntm_output_gate_vector.scala
+│           └── ntm_state_gate_vector.scala
 ├── state
 │   ├── feedback
 │   │   └── ntm_state_feedback.scala
@@ -97,73 +120,50 @@ library
 │   │   └── ntm_state_outputs.scala
 │   └── top
 │       └── ntm_state_top.scala
-├── trainer
-│   ├── differentiation
-│   │   ├── ntm_matrix_controller_differentiation.scala
-│   │   └── ntm_vector_controller_differentiation.scala
-│   ├── FNN
-│   │   ├── ntm_fnn_b_trainer.scala
-│   │   ├── ntm_fnn_d_trainer.scala
-│   │   ├── ntm_fnn_k_trainer.scala
-│   │   ├── ntm_fnn_trainer.scala
-│   │   ├── ntm_fnn_u_trainer.scala
-│   │   ├── ntm_fnn_v_trainer.scala
-│   │   └── ntm_fnn_w_trainer.scala
-│   └── LSTM
-│       ├── activation
-│       │   ├── ntm_lstm_activation_b_trainer.scala
-│       │   ├── ntm_lstm_activation_d_trainer.scala
-│       │   ├── ntm_lstm_activation_k_trainer.scala
-│       │   ├── ntm_lstm_activation_trainer.scala
-│       │   ├── ntm_lstm_activation_u_trainer.scala
-│       │   ├── ntm_lstm_activation_v_trainer.scala
-│       │   └── ntm_lstm_activation_w_trainer.scala
-│       ├── forget
-│       │   ├── ntm_lstm_forget_b_trainer.scala
-│       │   ├── ntm_lstm_forget_d_trainer.scala
-│       │   ├── ntm_lstm_forget_k_trainer.scala
-│       │   ├── ntm_lstm_forget_trainer.scala
-│       │   ├── ntm_lstm_forget_u_trainer.scala
-│       │   ├── ntm_lstm_forget_v_trainer.scala
-│       │   └── ntm_lstm_forget_w_trainer.scala
-│       ├── input
-│       │   ├── ntm_lstm_input_b_trainer.scala
-│       │   ├── ntm_lstm_input_d_trainer.scala
-│       │   ├── ntm_lstm_input_k_trainer.scala
-│       │   ├── ntm_lstm_input_trainer.scala
-│       │   ├── ntm_lstm_input_u_trainer.scala
-│       │   ├── ntm_lstm_input_v_trainer.scala
-│       │   └── ntm_lstm_input_w_trainer.scala
-│       └── output
-│           ├── ntm_lstm_output_b_trainer.scala
-│           ├── ntm_lstm_output_d_trainer.scala
-│           ├── ntm_lstm_output_k_trainer.scala
-│           ├── ntm_lstm_output_trainer.scala
-│           ├── ntm_lstm_output_u_trainer.scala
-│           ├── ntm_lstm_output_v_trainer.scala
-│           └── ntm_lstm_output_w_trainer.scala
-└── transformer
-    ├── components
-    │   ├── ntm_masked_multi_head_attention.scala
-    │   ├── ntm_masked_scaled_dot_product_attention.scala
-    │   ├── ntm_multi_head_attention.scala
-    │   └── ntm_scaled_dot_product_attention.scala
-    ├── controller
-    │   ├── fnn
-    │   │   └── ntm_fnn.scala
-    │   └── lstm
-    │       └── ntm_lstm.scala
-    ├── functions
-    │   ├── ntm_layer_norm.scala
-    │   └── ntm_positional_encoding.scala
-    ├── inputs
-    │   ├── ntm_inputs_vector.scala
-    │   ├── ntm_keys_vector.scala
-    │   ├── ntm_queries_vector.scala
-    │   └── ntm_values_vector.scala
-    └── top
-        ├── ntm_controller.scala
-        ├── ntm_decoder.scala
-        └── ntm_encoder.scala
+└── trainer
+    ├── differentiation
+    │   ├── ntm_matrix_controller_differentiation.scala
+    │   └── ntm_vector_controller_differentiation.scala
+    ├── FNN
+    │   ├── ntm_fnn_b_trainer.scala
+    │   ├── ntm_fnn_d_trainer.scala
+    │   ├── ntm_fnn_k_trainer.scala
+    │   ├── ntm_fnn_trainer.scala
+    │   ├── ntm_fnn_u_trainer.scala
+    │   ├── ntm_fnn_v_trainer.scala
+    │   └── ntm_fnn_w_trainer.scala
+    └── LSTM
+        ├── activation
+        │   ├── ntm_lstm_activation_b_trainer.scala
+        │   ├── ntm_lstm_activation_d_trainer.scala
+        │   ├── ntm_lstm_activation_k_trainer.scala
+        │   ├── ntm_lstm_activation_trainer.scala
+        │   ├── ntm_lstm_activation_u_trainer.scala
+        │   ├── ntm_lstm_activation_v_trainer.scala
+        │   └── ntm_lstm_activation_w_trainer.scala
+        ├── forget
+        │   ├── ntm_lstm_forget_b_trainer.scala
+        │   ├── ntm_lstm_forget_d_trainer.scala
+        │   ├── ntm_lstm_forget_k_trainer.scala
+        │   ├── ntm_lstm_forget_trainer.scala
+        │   ├── ntm_lstm_forget_u_trainer.scala
+        │   ├── ntm_lstm_forget_v_trainer.scala
+        │   └── ntm_lstm_forget_w_trainer.scala
+        ├── input
+        │   ├── ntm_lstm_input_b_trainer.scala
+        │   ├── ntm_lstm_input_d_trainer.scala
+        │   ├── ntm_lstm_input_k_trainer.scala
+        │   ├── ntm_lstm_input_trainer.scala
+        │   ├── ntm_lstm_input_u_trainer.scala
+        │   ├── ntm_lstm_input_v_trainer.scala
+        │   └── ntm_lstm_input_w_trainer.scala
+        └── output
+            ├── ntm_lstm_output_b_trainer.scala
+            ├── ntm_lstm_output_d_trainer.scala
+            ├── ntm_lstm_output_k_trainer.scala
+            ├── ntm_lstm_output_trainer.scala
+            ├── ntm_lstm_output_u_trainer.scala
+            ├── ntm_lstm_output_v_trainer.scala
+            └── ntm_lstm_output_w_trainer.scala
 
 54 directories, 112 files

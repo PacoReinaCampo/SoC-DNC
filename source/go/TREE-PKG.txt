@@ -4,17 +4,6 @@ library
 │   ├── ScalarArithmetic
 │   ├── TensorArithmetic
 │   └── VectorArithmetic
-├── controller
-│   ├── FNN
-│   │   ├── convolutional
-│   │   └── standard
-│   └── LSTM
-│       ├── convolutional
-│       └── standard
-├── dnc
-│   ├── memory
-│   ├── top
-│   └── trained
 ├── math
 │   ├── algebra
 │   │   ├── matrix
@@ -33,25 +22,36 @@ library
 │       ├── MatrixMathStatitics
 │       ├── ScalarMathStatitics
 │       └── VectorMathStatitics
+├── nn
+│   ├── ANN
+│   │   ├── components
+│   │   ├── controller
+│   │   │   ├── fnn
+│   │   │   └── lstm
+│   │   ├── functions
+│   │   ├── inputs
+│   │   └── top
+│   ├── DNC
+│   │   ├── memory
+│   │   ├── top
+│   │   └── trained
+│   ├── FNN
+│   │   ├── convolutional
+│   │   └── standard
+│   └── LSTM
+│       ├── convolutional
+│       └── standard
 ├── state
 │   ├── feedback
 │   ├── outputs
 │   └── top
-├── trainer
-│   ├── differentiation
-│   ├── FNN
-│   └── LSTM
-│       ├── activation
-│       ├── forget
-│       ├── input
-│       └── output
-└── transformer
-    ├── components
-    ├── controller
-    │   ├── fnn
-    │   └── lstm
-    ├── functions
-    ├── inputs
-    └── top
+└── trainer
+    ├── differentiation
+    ├── FNN
+    └── LSTM
+        ├── activation
+        ├── forget
+        ├── input
+        └── output
 
 54 directories, 0 files

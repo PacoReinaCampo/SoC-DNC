@@ -20,56 +20,6 @@ library
 │       ├── ntm_vector_divider.c
 │       ├── ntm_vector_multiplier.c
 │       └── ntm_vector_subtractor.c
-├── controller
-│   ├── FNN
-│   │   ├── convolutional
-│   │   │   └── ntm_controller.c
-│   │   └── standard
-│   │       └── ntm_controller.c
-│   └── LSTM
-│       ├── convolutional
-│       │   ├── ntm_activation_gate_vector.c
-│       │   ├── ntm_controller.c
-│       │   ├── ntm_forget_gate_vector.c
-│       │   ├── ntm_hidden_gate_vector.c
-│       │   ├── ntm_input_gate_vector.c
-│       │   ├── ntm_output_gate_vector.c
-│       │   └── ntm_state_gate_vector.c
-│       └── standard
-│           ├── ntm_activation_gate_vector.c
-│           ├── ntm_controller.c
-│           ├── ntm_forget_gate_vector.c
-│           ├── ntm_hidden_gate_vector.c
-│           ├── ntm_input_gate_vector.c
-│           ├── ntm_output_gate_vector.c
-│           └── ntm_state_gate_vector.c
-├── dnc
-│   ├── memory
-│   │   ├── dnc_addressing.c
-│   │   ├── dnc_allocation_weighting.c
-│   │   ├── dnc_backward_weighting.c
-│   │   ├── dnc_forward_weighting.c
-│   │   ├── dnc_matrix_content_based_addressing.c
-│   │   ├── dnc_memory_matrix.c
-│   │   ├── dnc_memory_retention_vector.c
-│   │   ├── dnc_precedence_weighting.c
-│   │   ├── dnc_read_content_weighting.c
-│   │   ├── dnc_read_vectors.c
-│   │   ├── dnc_read_weighting.c
-│   │   ├── dnc_sort_vector.c
-│   │   ├── dnc_temporal_link_matrix.c
-│   │   ├── dnc_usage_vector.c
-│   │   ├── dnc_vector_content_based_addressing.c
-│   │   ├── dnc_write_content_weighting.c
-│   │   └── dnc_write_weighting.c
-│   ├── top
-│   │   ├── dnc_interface_matrix.c
-│   │   ├── dnc_interface_top.c
-│   │   ├── dnc_interface_vector.c
-│   │   ├── dnc_output_vector.c
-│   │   └── dnc_top.c
-│   └── trained
-│       └── dnc_trained_top.c
 ├── math
 │   ├── algebra
 │   │   ├── matrix
@@ -134,6 +84,79 @@ library
 │       └── vector
 │           ├── ntm_vector_deviation.c
 │           └── ntm_vector_mean.c
+├── nn
+│   ├── ANN
+│   │   ├── components
+│   │   │   ├── ntm_masked_multi_head_attention.c
+│   │   │   ├── ntm_masked_scaled_dot_product_attention.c
+│   │   │   ├── ntm_multi_head_attention.c
+│   │   │   └── ntm_scaled_dot_product_attention.c
+│   │   ├── controller
+│   │   │   ├── fnn
+│   │   │   │   └── ntm_fnn.c
+│   │   │   └── lstm
+│   │   │       └── ntm_lstm.c
+│   │   ├── functions
+│   │   │   ├── ntm_layer_norm.c
+│   │   │   └── ntm_positional_encoding.c
+│   │   ├── inputs
+│   │   │   ├── ntm_inputs_vector.c
+│   │   │   ├── ntm_keys_vector.c
+│   │   │   ├── ntm_queries_vector.c
+│   │   │   └── ntm_values_vector.c
+│   │   └── top
+│   │       ├── ntm_controller.c
+│   │       ├── ntm_decoder.c
+│   │       └── ntm_encoder.c
+│   ├── DNC
+│   │   ├── memory
+│   │   │   ├── dnc_addressing.c
+│   │   │   ├── dnc_allocation_weighting.c
+│   │   │   ├── dnc_backward_weighting.c
+│   │   │   ├── dnc_forward_weighting.c
+│   │   │   ├── dnc_matrix_content_based_addressing.c
+│   │   │   ├── dnc_memory_matrix.c
+│   │   │   ├── dnc_memory_retention_vector.c
+│   │   │   ├── dnc_precedence_weighting.c
+│   │   │   ├── dnc_read_content_weighting.c
+│   │   │   ├── dnc_read_vectors.c
+│   │   │   ├── dnc_read_weighting.c
+│   │   │   ├── dnc_sort_vector.c
+│   │   │   ├── dnc_temporal_link_matrix.c
+│   │   │   ├── dnc_usage_vector.c
+│   │   │   ├── dnc_vector_content_based_addressing.c
+│   │   │   ├── dnc_write_content_weighting.c
+│   │   │   └── dnc_write_weighting.c
+│   │   ├── top
+│   │   │   ├── dnc_interface_matrix.c
+│   │   │   ├── dnc_interface_top.c
+│   │   │   ├── dnc_interface_vector.c
+│   │   │   ├── dnc_output_vector.c
+│   │   │   └── dnc_top.c
+│   │   └── trained
+│   │       └── dnc_trained_top.c
+│   ├── FNN
+│   │   ├── convolutional
+│   │   │   └── ntm_controller.c
+│   │   └── standard
+│   │       └── ntm_controller.c
+│   └── LSTM
+│       ├── convolutional
+│       │   ├── ntm_activation_gate_vector.c
+│       │   ├── ntm_controller.c
+│       │   ├── ntm_forget_gate_vector.c
+│       │   ├── ntm_hidden_gate_vector.c
+│       │   ├── ntm_input_gate_vector.c
+│       │   ├── ntm_output_gate_vector.c
+│       │   └── ntm_state_gate_vector.c
+│       └── standard
+│           ├── ntm_activation_gate_vector.c
+│           ├── ntm_controller.c
+│           ├── ntm_forget_gate_vector.c
+│           ├── ntm_hidden_gate_vector.c
+│           ├── ntm_input_gate_vector.c
+│           ├── ntm_output_gate_vector.c
+│           └── ntm_state_gate_vector.c
 ├── state
 │   ├── feedback
 │   │   ├── ntm_state_matrix_feedforward.c
@@ -145,73 +168,50 @@ library
 │   │   └── ntm_state_vector_state.c
 │   └── top
 │       └── ntm_state_top.c
-├── trainer
-│   ├── differentiation
-│   │   ├── ntm_matrix_controller_differentiation.c
-│   │   └── ntm_vector_controller_differentiation.c
-│   ├── FNN
-│   │   ├── ntm_fnn_b_trainer.c
-│   │   ├── ntm_fnn_d_trainer.c
-│   │   ├── ntm_fnn_k_trainer.c
-│   │   ├── ntm_fnn_trainer.c
-│   │   ├── ntm_fnn_u_trainer.c
-│   │   ├── ntm_fnn_v_trainer.c
-│   │   └── ntm_fnn_w_trainer.c
-│   └── LSTM
-│       ├── activation
-│       │   ├── ntm_lstm_activation_b_trainer.c
-│       │   ├── ntm_lstm_activation_d_trainer.c
-│       │   ├── ntm_lstm_activation_k_trainer.c
-│       │   ├── ntm_lstm_activation_trainer.c
-│       │   ├── ntm_lstm_activation_u_trainer.c
-│       │   ├── ntm_lstm_activation_v_trainer.c
-│       │   └── ntm_lstm_activation_w_trainer.c
-│       ├── forget
-│       │   ├── ntm_lstm_forget_b_trainer.c
-│       │   ├── ntm_lstm_forget_d_trainer.c
-│       │   ├── ntm_lstm_forget_k_trainer.c
-│       │   ├── ntm_lstm_forget_trainer.c
-│       │   ├── ntm_lstm_forget_u_trainer.c
-│       │   ├── ntm_lstm_forget_v_trainer.c
-│       │   └── ntm_lstm_forget_w_trainer.c
-│       ├── input
-│       │   ├── ntm_lstm_input_b_trainer.c
-│       │   ├── ntm_lstm_input_d_trainer.c
-│       │   ├── ntm_lstm_input_k_trainer.c
-│       │   ├── ntm_lstm_input_trainer.c
-│       │   ├── ntm_lstm_input_u_trainer.c
-│       │   ├── ntm_lstm_input_v_trainer.c
-│       │   └── ntm_lstm_input_w_trainer.c
-│       └── output
-│           ├── ntm_lstm_output_b_trainer.c
-│           ├── ntm_lstm_output_d_trainer.c
-│           ├── ntm_lstm_output_k_trainer.c
-│           ├── ntm_lstm_output_trainer.c
-│           ├── ntm_lstm_output_u_trainer.c
-│           ├── ntm_lstm_output_v_trainer.c
-│           └── ntm_lstm_output_w_trainer.c
-└── transformer
-    ├── components
-    │   ├── ntm_masked_multi_head_attention.c
-    │   ├── ntm_masked_scaled_dot_product_attention.c
-    │   ├── ntm_multi_head_attention.c
-    │   └── ntm_scaled_dot_product_attention.c
-    ├── controller
-    │   ├── fnn
-    │   │   └── ntm_fnn.c
-    │   └── lstm
-    │       └── ntm_lstm.c
-    ├── functions
-    │   ├── ntm_layer_norm.c
-    │   └── ntm_positional_encoding.c
-    ├── inputs
-    │   ├── ntm_inputs_vector.c
-    │   ├── ntm_keys_vector.c
-    │   ├── ntm_queries_vector.c
-    │   └── ntm_values_vector.c
-    └── top
-        ├── ntm_controller.c
-        ├── ntm_decoder.c
-        └── ntm_encoder.c
+└── trainer
+    ├── differentiation
+    │   ├── ntm_matrix_controller_differentiation.c
+    │   └── ntm_vector_controller_differentiation.c
+    ├── FNN
+    │   ├── ntm_fnn_b_trainer.c
+    │   ├── ntm_fnn_d_trainer.c
+    │   ├── ntm_fnn_k_trainer.c
+    │   ├── ntm_fnn_trainer.c
+    │   ├── ntm_fnn_u_trainer.c
+    │   ├── ntm_fnn_v_trainer.c
+    │   └── ntm_fnn_w_trainer.c
+    └── LSTM
+        ├── activation
+        │   ├── ntm_lstm_activation_b_trainer.c
+        │   ├── ntm_lstm_activation_d_trainer.c
+        │   ├── ntm_lstm_activation_k_trainer.c
+        │   ├── ntm_lstm_activation_trainer.c
+        │   ├── ntm_lstm_activation_u_trainer.c
+        │   ├── ntm_lstm_activation_v_trainer.c
+        │   └── ntm_lstm_activation_w_trainer.c
+        ├── forget
+        │   ├── ntm_lstm_forget_b_trainer.c
+        │   ├── ntm_lstm_forget_d_trainer.c
+        │   ├── ntm_lstm_forget_k_trainer.c
+        │   ├── ntm_lstm_forget_trainer.c
+        │   ├── ntm_lstm_forget_u_trainer.c
+        │   ├── ntm_lstm_forget_v_trainer.c
+        │   └── ntm_lstm_forget_w_trainer.c
+        ├── input
+        │   ├── ntm_lstm_input_b_trainer.c
+        │   ├── ntm_lstm_input_d_trainer.c
+        │   ├── ntm_lstm_input_k_trainer.c
+        │   ├── ntm_lstm_input_trainer.c
+        │   ├── ntm_lstm_input_u_trainer.c
+        │   ├── ntm_lstm_input_v_trainer.c
+        │   └── ntm_lstm_input_w_trainer.c
+        └── output
+            ├── ntm_lstm_output_b_trainer.c
+            ├── ntm_lstm_output_d_trainer.c
+            ├── ntm_lstm_output_k_trainer.c
+            ├── ntm_lstm_output_trainer.c
+            ├── ntm_lstm_output_u_trainer.c
+            ├── ntm_lstm_output_v_trainer.c
+            └── ntm_lstm_output_w_trainer.c
 
 54 directories, 160 files
