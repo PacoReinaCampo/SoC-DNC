@@ -1,11 +1,31 @@
 code
 ├── architecture
-│   ├── mpsoc
-│   │   └── accelerator_mpsoc.vhd
 │   ├── pu
-│   │   └── accelerator_pu.vhd
+│   │   ├── ahb3
+│   │   │   └── accelerator_pu_ahb3.vhd
+│   │   ├── apb4
+│   │   │   └── accelerator_pu_apb4.vhd
+│   │   ├── axi4
+│   │   │   └── accelerator_pu_axi4.vhd
+│   │   ├── bb
+│   │   │   └── accelerator_pu_bb.vhd
+│   │   ├── biu
+│   │   │   └── accelerator_pu_biu.vhd
+│   │   └── wb
+│   │       └── accelerator_pu_wb.vhd
 │   └── soc
-│       └── accelerator_soc.vhd
+│       ├── ahb3
+│       │   └── accelerator_soc_ahb3.vhd
+│       ├── apb4
+│       │   └── accelerator_soc_apb4.vhd
+│       ├── axi4
+│       │   └── accelerator_soc_axi4.vhd
+│       ├── bb
+│       │   └── accelerator_soc_bb.vhd
+│       ├── biu
+│       │   └── accelerator_soc_biu.vhd
+│       └── wb
+│           └── accelerator_soc_wb.vhd
 ├── arithmetic
 │   ├── definition
 │   │   ├── matrix
@@ -277,4 +297,4 @@ code
         ├── accelerator_input_trainer.vhd
         └── accelerator_output_trainer.vhd
 
-79 directories, 198 files
+90 directories, 207 files

@@ -1,11 +1,31 @@
 code
 ├── architecture
-│   ├── mpsoc
-│   │   └── accelerator_mpsoc.sv
 │   ├── pu
-│   │   └── accelerator_pu.sv
+│   │   ├── ahb3
+│   │   │   └── model_pu_ahb3.sv
+│   │   ├── apb4
+│   │   │   └── model_pu_apb4.sv
+│   │   ├── axi4
+│   │   │   └── model_pu_axi4.sv
+│   │   ├── bb
+│   │   │   └── model_pu_bb.sv
+│   │   ├── biu
+│   │   │   └── model_pu_biu.sv
+│   │   └── wb
+│   │       └── model_pu_wb.sv
 │   └── soc
-│       └── accelerator_soc.sv
+│       ├── ahb3
+│       │   └── model_soc_ahb3.sv
+│       ├── apb4
+│       │   └── model_soc_apb4.sv
+│       ├── axi4
+│       │   └── model_soc_axi4.sv
+│       ├── bb
+│       │   └── model_soc_bb.sv
+│       ├── biu
+│       │   └── model_soc_biu.sv
+│       └── wb
+│           └── model_soc_wb.sv
 ├── arithmetic
 │   ├── definition
 │   │   ├── matrix
@@ -284,4 +304,4 @@ code
         ├── accelerator_input_trainer.sv
         └── accelerator_output_trainer.sv
 
-79 directories, 205 files
+90 directories, 214 files
