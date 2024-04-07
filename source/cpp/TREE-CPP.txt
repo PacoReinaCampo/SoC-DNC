@@ -1,4 +1,115 @@
 library
+├── algebra
+│   ├── matrix
+│   │   ├── ntm_matrix_convolution.cpp
+│   │   ├── ntm_matrix_convolution_design.cpp
+│   │   ├── ntm_matrix_convolution_testbench.cpp
+│   │   ├── ntm_matrix_differentiation.cpp
+│   │   ├── ntm_matrix_differentiation_design.cpp
+│   │   ├── ntm_matrix_differentiation_testbench.cpp
+│   │   ├── ntm_matrix_integration.cpp
+│   │   ├── ntm_matrix_integration_design.cpp
+│   │   ├── ntm_matrix_integration_testbench.cpp
+│   │   ├── ntm_matrix_inverse.cpp
+│   │   ├── ntm_matrix_inverse_design.cpp
+│   │   ├── ntm_matrix_inverse_testbench.cpp
+│   │   ├── ntm_matrix_multiplication.cpp
+│   │   ├── ntm_matrix_multiplication_design.cpp
+│   │   ├── ntm_matrix_multiplication_testbench.cpp
+│   │   ├── ntm_matrix_product.cpp
+│   │   ├── ntm_matrix_product_design.cpp
+│   │   ├── ntm_matrix_product_testbench.cpp
+│   │   ├── ntm_matrix_softmax.cpp
+│   │   ├── ntm_matrix_softmax_design.cpp
+│   │   ├── ntm_matrix_softmax_testbench.cpp
+│   │   ├── ntm_matrix_summation.cpp
+│   │   ├── ntm_matrix_summation_design.cpp
+│   │   ├── ntm_matrix_summation_testbench.cpp
+│   │   ├── ntm_matrix_transpose.cpp
+│   │   ├── ntm_matrix_transpose_design.cpp
+│   │   ├── ntm_matrix_transpose_testbench.cpp
+│   │   ├── ntm_matrix_vector_convolution.cpp
+│   │   ├── ntm_matrix_vector_convolution_design.cpp
+│   │   ├── ntm_matrix_vector_convolution_testbench.cpp
+│   │   ├── ntm_matrix_vector_product.cpp
+│   │   ├── ntm_matrix_vector_product_design.cpp
+│   │   ├── ntm_matrix_vector_product_testbench.cpp
+│   │   ├── ntm_transpose_vector_product.cpp
+│   │   ├── ntm_transpose_vector_product_design.cpp
+│   │   └── ntm_transpose_vector_product_testbench.cpp
+│   ├── ntm_matrix_algebra.cpp
+│   ├── ntm_scalar_algebra.cpp
+│   ├── ntm_tensor_algebra.cpp
+│   ├── ntm_vector_algebra.cpp
+│   ├── scalar
+│   │   ├── ntm_scalar_multiplication.cpp
+│   │   ├── ntm_scalar_multiplication_design.cpp
+│   │   ├── ntm_scalar_multiplication_testbench.cpp
+│   │   ├── ntm_scalar_summation.cpp
+│   │   ├── ntm_scalar_summation_design.cpp
+│   │   └── ntm_scalar_summation_testbench.cpp
+│   ├── tensor
+│   │   ├── ntm_tensor_convolution.cpp
+│   │   ├── ntm_tensor_convolution_design.cpp
+│   │   ├── ntm_tensor_convolution_testbench.cpp
+│   │   ├── ntm_tensor_differentiation.cpp
+│   │   ├── ntm_tensor_differentiation_design.cpp
+│   │   ├── ntm_tensor_differentiation_testbench.cpp
+│   │   ├── ntm_tensor_integration.cpp
+│   │   ├── ntm_tensor_integration_design.cpp
+│   │   ├── ntm_tensor_integration_testbench.cpp
+│   │   ├── ntm_tensor_inverse.cpp
+│   │   ├── ntm_tensor_inverse_design.cpp
+│   │   ├── ntm_tensor_inverse_testbench.cpp
+│   │   ├── ntm_tensor_matrix_convolution.cpp
+│   │   ├── ntm_tensor_matrix_convolution_design.cpp
+│   │   ├── ntm_tensor_matrix_convolution_testbench.cpp
+│   │   ├── ntm_tensor_matrix_product.cpp
+│   │   ├── ntm_tensor_matrix_product_design.cpp
+│   │   ├── ntm_tensor_matrix_product_testbench.cpp
+│   │   ├── ntm_tensor_multiplication.cpp
+│   │   ├── ntm_tensor_multiplication_design.cpp
+│   │   ├── ntm_tensor_multiplication_testbench.cpp
+│   │   ├── ntm_tensor_product.cpp
+│   │   ├── ntm_tensor_product_design.cpp
+│   │   ├── ntm_tensor_product_testbench.cpp
+│   │   ├── ntm_tensor_softmax.cpp
+│   │   ├── ntm_tensor_softmax_design.cpp
+│   │   ├── ntm_tensor_softmax_testbench.cpp
+│   │   ├── ntm_tensor_summation.cpp
+│   │   ├── ntm_tensor_summation_design.cpp
+│   │   ├── ntm_tensor_summation_testbench.cpp
+│   │   ├── ntm_tensor_transpose.cpp
+│   │   ├── ntm_tensor_transpose_design.cpp
+│   │   └── ntm_tensor_transpose_testbench.cpp
+│   └── vector
+│       ├── ntm_dot_product.cpp
+│       ├── ntm_dot_product_design.cpp
+│       ├── ntm_dot_product_testbench.cpp
+│       ├── ntm_vector_convolution.cpp
+│       ├── ntm_vector_convolution_design.cpp
+│       ├── ntm_vector_convolution_testbench.cpp
+│       ├── ntm_vector_cosine_similarity.cpp
+│       ├── ntm_vector_cosine_similarity_design.cpp
+│       ├── ntm_vector_cosine_similarity_testbench.cpp
+│       ├── ntm_vector_differentiation.cpp
+│       ├── ntm_vector_differentiation_design.cpp
+│       ├── ntm_vector_differentiation_testbench.cpp
+│       ├── ntm_vector_integration.cpp
+│       ├── ntm_vector_integration_design.cpp
+│       ├── ntm_vector_integration_testbench.cpp
+│       ├── ntm_vector_module.cpp
+│       ├── ntm_vector_module_design.cpp
+│       ├── ntm_vector_module_testbench.cpp
+│       ├── ntm_vector_multiplication.cpp
+│       ├── ntm_vector_multiplication_design.cpp
+│       ├── ntm_vector_multiplication_testbench.cpp
+│       ├── ntm_vector_softmax.cpp
+│       ├── ntm_vector_softmax_design.cpp
+│       ├── ntm_vector_softmax_testbench.cpp
+│       ├── ntm_vector_summation.cpp
+│       ├── ntm_vector_summation_design.cpp
+│       └── ntm_vector_summation_testbench.cpp
 ├── arithmetic
 │   ├── matrix
 │   │   ├── adder
@@ -73,174 +184,48 @@ library
 │           ├── ntm_vector_subtractor_design.cpp
 │           └── ntm_vector_subtractor_testbench.cpp
 ├── math
-│   ├── algebra
-│   │   ├── matrix
-│   │   │   ├── ntm_matrix_convolution.cpp
-│   │   │   ├── ntm_matrix_convolution_design.cpp
-│   │   │   ├── ntm_matrix_convolution_testbench.cpp
-│   │   │   ├── ntm_matrix_inverse.cpp
-│   │   │   ├── ntm_matrix_inverse_design.cpp
-│   │   │   ├── ntm_matrix_inverse_testbench.cpp
-│   │   │   ├── ntm_matrix_multiplication.cpp
-│   │   │   ├── ntm_matrix_multiplication_design.cpp
-│   │   │   ├── ntm_matrix_multiplication_testbench.cpp
-│   │   │   ├── ntm_matrix_product.cpp
-│   │   │   ├── ntm_matrix_product_design.cpp
-│   │   │   ├── ntm_matrix_product_testbench.cpp
-│   │   │   ├── ntm_matrix_summation.cpp
-│   │   │   ├── ntm_matrix_summation_design.cpp
-│   │   │   ├── ntm_matrix_summation_testbench.cpp
-│   │   │   ├── ntm_matrix_transpose.cpp
-│   │   │   ├── ntm_matrix_transpose_design.cpp
-│   │   │   ├── ntm_matrix_transpose_testbench.cpp
-│   │   │   ├── ntm_matrix_vector_convolution.cpp
-│   │   │   ├── ntm_matrix_vector_convolution_design.cpp
-│   │   │   ├── ntm_matrix_vector_convolution_testbench.cpp
-│   │   │   ├── ntm_matrix_vector_product.cpp
-│   │   │   ├── ntm_matrix_vector_product_design.cpp
-│   │   │   ├── ntm_matrix_vector_product_testbench.cpp
-│   │   │   ├── ntm_transpose_vector_product.cpp
-│   │   │   ├── ntm_transpose_vector_product_design.cpp
-│   │   │   └── ntm_transpose_vector_product_testbench.cpp
-│   │   ├── ntm_matrix_math_algebra.cpp
-│   │   ├── ntm_scalar_math_algebra.cpp
-│   │   ├── ntm_tensor_math_algebra.cpp
-│   │   ├── ntm_vector_math_algebra.cpp
-│   │   ├── scalar
-│   │   │   ├── ntm_scalar_multiplication.cpp
-│   │   │   ├── ntm_scalar_multiplication_design.cpp
-│   │   │   ├── ntm_scalar_multiplication_testbench.cpp
-│   │   │   ├── ntm_scalar_summation.cpp
-│   │   │   ├── ntm_scalar_summation_design.cpp
-│   │   │   └── ntm_scalar_summation_testbench.cpp
-│   │   ├── tensor
-│   │   │   ├── ntm_tensor_convolution.cpp
-│   │   │   ├── ntm_tensor_convolution_design.cpp
-│   │   │   ├── ntm_tensor_convolution_testbench.cpp
-│   │   │   ├── ntm_tensor_inverse.cpp
-│   │   │   ├── ntm_tensor_inverse_design.cpp
-│   │   │   ├── ntm_tensor_inverse_testbench.cpp
-│   │   │   ├── ntm_tensor_matrix_convolution.cpp
-│   │   │   ├── ntm_tensor_matrix_convolution_design.cpp
-│   │   │   ├── ntm_tensor_matrix_convolution_testbench.cpp
-│   │   │   ├── ntm_tensor_matrix_product.cpp
-│   │   │   ├── ntm_tensor_matrix_product_design.cpp
-│   │   │   ├── ntm_tensor_matrix_product_testbench.cpp
-│   │   │   ├── ntm_tensor_multiplication.cpp
-│   │   │   ├── ntm_tensor_multiplication_design.cpp
-│   │   │   ├── ntm_tensor_multiplication_testbench.cpp
-│   │   │   ├── ntm_tensor_product.cpp
-│   │   │   ├── ntm_tensor_product_design.cpp
-│   │   │   ├── ntm_tensor_product_testbench.cpp
-│   │   │   ├── ntm_tensor_summation.cpp
-│   │   │   ├── ntm_tensor_summation_design.cpp
-│   │   │   ├── ntm_tensor_summation_testbench.cpp
-│   │   │   ├── ntm_tensor_transpose.cpp
-│   │   │   ├── ntm_tensor_transpose_design.cpp
-│   │   │   └── ntm_tensor_transpose_testbench.cpp
-│   │   └── vector
-│   │       ├── ntm_dot_product.cpp
-│   │       ├── ntm_dot_product_design.cpp
-│   │       ├── ntm_dot_product_testbench.cpp
-│   │       ├── ntm_vector_convolution.cpp
-│   │       ├── ntm_vector_convolution_design.cpp
-│   │       ├── ntm_vector_convolution_testbench.cpp
-│   │       ├── ntm_vector_cosine_similarity.cpp
-│   │       ├── ntm_vector_cosine_similarity_design.cpp
-│   │       ├── ntm_vector_cosine_similarity_testbench.cpp
-│   │       ├── ntm_vector_module.cpp
-│   │       ├── ntm_vector_module_design.cpp
-│   │       ├── ntm_vector_module_testbench.cpp
-│   │       ├── ntm_vector_multiplication.cpp
-│   │       ├── ntm_vector_multiplication_design.cpp
-│   │       ├── ntm_vector_multiplication_testbench.cpp
-│   │       ├── ntm_vector_summation.cpp
-│   │       ├── ntm_vector_summation_design.cpp
-│   │       └── ntm_vector_summation_testbench.cpp
-│   ├── calculus
-│   │   ├── matrix
-│   │   │   ├── ntm_matrix_differentiation.cpp
-│   │   │   ├── ntm_matrix_differentiation_design.cpp
-│   │   │   ├── ntm_matrix_differentiation_testbench.cpp
-│   │   │   ├── ntm_matrix_integration.cpp
-│   │   │   ├── ntm_matrix_integration_design.cpp
-│   │   │   ├── ntm_matrix_integration_testbench.cpp
-│   │   │   ├── ntm_matrix_softmax.cpp
-│   │   │   ├── ntm_matrix_softmax_design.cpp
-│   │   │   └── ntm_matrix_softmax_testbench.cpp
-│   │   ├── ntm_matrix_math_calculus.cpp
-│   │   ├── ntm_tensor_math_calculus.cpp
-│   │   ├── ntm_vector_math_calculus.cpp
-│   │   ├── tensor
-│   │   │   ├── ntm_tensor_differentiation.cpp
-│   │   │   ├── ntm_tensor_differentiation_design.cpp
-│   │   │   ├── ntm_tensor_differentiation_testbench.cpp
-│   │   │   ├── ntm_tensor_integration.cpp
-│   │   │   ├── ntm_tensor_integration_design.cpp
-│   │   │   ├── ntm_tensor_integration_testbench.cpp
-│   │   │   ├── ntm_tensor_softmax.cpp
-│   │   │   ├── ntm_tensor_softmax_design.cpp
-│   │   │   └── ntm_tensor_softmax_testbench.cpp
-│   │   └── vector
-│   │       ├── ntm_vector_differentiation.cpp
-│   │       ├── ntm_vector_differentiation_design.cpp
-│   │       ├── ntm_vector_differentiation_testbench.cpp
-│   │       ├── ntm_vector_integration.cpp
-│   │       ├── ntm_vector_integration_design.cpp
-│   │       ├── ntm_vector_integration_testbench.cpp
-│   │       ├── ntm_vector_softmax.cpp
-│   │       ├── ntm_vector_softmax_design.cpp
-│   │       └── ntm_vector_softmax_testbench.cpp
-│   ├── function
-│   │   ├── matrix
-│   │   │   ├── ntm_matrix_logistic_function.cpp
-│   │   │   ├── ntm_matrix_logistic_function_design.cpp
-│   │   │   ├── ntm_matrix_logistic_function_testbench.cpp
-│   │   │   ├── ntm_matrix_oneplus_function.cpp
-│   │   │   ├── ntm_matrix_oneplus_function_design.cpp
-│   │   │   └── ntm_matrix_oneplus_function_testbench.cpp
-│   │   ├── ntm_matrix_math_function.cpp
-│   │   ├── ntm_scalar_math_function.cpp
-│   │   ├── ntm_vector_math_function.cpp
-│   │   ├── scalar
-│   │   │   ├── ntm_scalar_logistic_function.cpp
-│   │   │   ├── ntm_scalar_logistic_function_design.cpp
-│   │   │   ├── ntm_scalar_logistic_function_testbench.cpp
-│   │   │   ├── ntm_scalar_oneplus_function.cpp
-│   │   │   ├── ntm_scalar_oneplus_function_design.cpp
-│   │   │   └── ntm_scalar_oneplus_function_testbench.cpp
-│   │   └── vector
-│   │       ├── ntm_vector_logistic_function.cpp
-│   │       ├── ntm_vector_logistic_function_design.cpp
-│   │       ├── ntm_vector_logistic_function_testbench.cpp
-│   │       ├── ntm_vector_oneplus_function.cpp
-│   │       ├── ntm_vector_oneplus_function_design.cpp
-│   │       └── ntm_vector_oneplus_function_testbench.cpp
-│   └── statitics
-│       ├── matrix
-│       │   ├── ntm_matrix_deviation.cpp
-│       │   ├── ntm_matrix_deviation_design.cpp
-│       │   ├── ntm_matrix_deviation_testbench.cpp
-│       │   ├── ntm_matrix_mean.cpp
-│       │   ├── ntm_matrix_mean_design.cpp
-│       │   └── ntm_matrix_mean_testbench.cpp
-│       ├── ntm_matrix_math_statitics.cpp
-│       ├── ntm_scalar_math_statitics.cpp
-│       ├── ntm_vector_math_statitics.cpp
-│       ├── scalar
-│       │   ├── ntm_scalar_deviation.cpp
-│       │   ├── ntm_scalar_deviation_design.cpp
-│       │   ├── ntm_scalar_deviation_testbench.cpp
-│       │   ├── ntm_scalar_mean.cpp
-│       │   ├── ntm_scalar_mean_design.cpp
-│       │   └── ntm_scalar_mean_testbench.cpp
-│       └── vector
-│           ├── ntm_vector_deviation.cpp
-│           ├── ntm_vector_deviation_design.cpp
-│           ├── ntm_vector_deviation_testbench.cpp
-│           ├── ntm_vector_mean.cpp
-│           ├── ntm_vector_mean_design.cpp
-│           └── ntm_vector_mean_testbench.cpp
+│   ├── matrix
+│   │   ├── ntm_matrix_deviation.cpp
+│   │   ├── ntm_matrix_deviation_design.cpp
+│   │   ├── ntm_matrix_deviation_testbench.cpp
+│   │   ├── ntm_matrix_logistic_function.cpp
+│   │   ├── ntm_matrix_logistic_function_design.cpp
+│   │   ├── ntm_matrix_logistic_function_testbench.cpp
+│   │   ├── ntm_matrix_mean.cpp
+│   │   ├── ntm_matrix_mean_design.cpp
+│   │   ├── ntm_matrix_mean_testbench.cpp
+│   │   ├── ntm_matrix_oneplus_function.cpp
+│   │   ├── ntm_matrix_oneplus_function_design.cpp
+│   │   └── ntm_matrix_oneplus_function_testbench.cpp
+│   ├── ntm_matrix_math.cpp
+│   ├── ntm_scalar_math.cpp
+│   ├── ntm_vector_math.cpp
+│   ├── scalar
+│   │   ├── ntm_scalar_deviation.cpp
+│   │   ├── ntm_scalar_deviation_design.cpp
+│   │   ├── ntm_scalar_deviation_testbench.cpp
+│   │   ├── ntm_scalar_logistic_function.cpp
+│   │   ├── ntm_scalar_logistic_function_design.cpp
+│   │   ├── ntm_scalar_logistic_function_testbench.cpp
+│   │   ├── ntm_scalar_mean.cpp
+│   │   ├── ntm_scalar_mean_design.cpp
+│   │   ├── ntm_scalar_mean_testbench.cpp
+│   │   ├── ntm_scalar_oneplus_function.cpp
+│   │   ├── ntm_scalar_oneplus_function_design.cpp
+│   │   └── ntm_scalar_oneplus_function_testbench.cpp
+│   └── vector
+│       ├── ntm_vector_deviation.cpp
+│       ├── ntm_vector_deviation_design.cpp
+│       ├── ntm_vector_deviation_testbench.cpp
+│       ├── ntm_vector_logistic_function.cpp
+│       ├── ntm_vector_logistic_function_design.cpp
+│       ├── ntm_vector_logistic_function_testbench.cpp
+│       ├── ntm_vector_mean.cpp
+│       ├── ntm_vector_mean_design.cpp
+│       ├── ntm_vector_mean_testbench.cpp
+│       ├── ntm_vector_oneplus_function.cpp
+│       ├── ntm_vector_oneplus_function_design.cpp
+│       └── ntm_vector_oneplus_function_testbench.cpp
 ├── nn
 │   ├── ANN
 │   │   ├── components
@@ -574,4 +559,4 @@ library
     ├── ntm_fnn.cpp
     └── ntm_lstm.cpp
 
-70 directories, 504 files
+61 directories, 498 files

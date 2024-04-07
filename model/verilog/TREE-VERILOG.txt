@@ -1,4 +1,38 @@
 code
+├── algebra
+│   ├── matrix
+│   │   ├── model_matrix_convolution.sv
+│   │   ├── model_matrix_differentiation.sv
+│   │   ├── model_matrix_integration.sv
+│   │   ├── model_matrix_inverse.sv
+│   │   ├── model_matrix_multiplication.sv
+│   │   ├── model_matrix_product.sv
+│   │   ├── model_matrix_softmax.sv
+│   │   ├── model_matrix_summation.sv
+│   │   ├── model_matrix_transpose.sv
+│   │   ├── model_matrix_vector_convolution.sv
+│   │   ├── model_matrix_vector_product.sv
+│   │   └── model_transpose_vector_product.sv
+│   ├── tensor
+│   │   ├── model_tensor_convolution.sv
+│   │   ├── model_tensor_differentiation.sv
+│   │   ├── model_tensor_integration.sv
+│   │   ├── model_tensor_inverse.sv
+│   │   ├── model_tensor_matrix_convolution.sv
+│   │   ├── model_tensor_matrix_product.sv
+│   │   ├── model_tensor_product.sv
+│   │   ├── model_tensor_softmax.sv
+│   │   └── model_tensor_transpose.sv
+│   └── vector
+│       ├── model_dot_product.sv
+│       ├── model_vector_convolution.sv
+│       ├── model_vector_cosine_similarity.sv
+│       ├── model_vector_differentiation.sv
+│       ├── model_vector_integration.sv
+│       ├── model_vector_module.sv
+│       ├── model_vector_multiplication.sv
+│       ├── model_vector_softmax.sv
+│       └── model_vector_summation.sv
 ├── architecture
 │   ├── pu
 │   │   ├── ahb3
@@ -91,73 +125,30 @@ code
 │           ├── model_vector_integer_multiplier.sv
 │           └── model_vector_integer_subtractor.sv
 ├── math
-│   ├── algebra
-│   │   ├── matrix
-│   │   │   ├── model_matrix_convolution.sv
-│   │   │   ├── model_matrix_inverse.sv
-│   │   │   ├── model_matrix_multiplication.sv
-│   │   │   ├── model_matrix_product.sv
-│   │   │   ├── model_matrix_summation.sv
-│   │   │   ├── model_matrix_transpose.sv
-│   │   │   ├── model_matrix_vector_convolution.sv
-│   │   │   ├── model_matrix_vector_product.sv
-│   │   │   └── model_transpose_vector_product.sv
-│   │   ├── tensor
-│   │   │   ├── model_tensor_convolution.sv
-│   │   │   ├── model_tensor_inverse.sv
-│   │   │   ├── model_tensor_matrix_convolution.sv
-│   │   │   ├── model_tensor_matrix_product.sv
-│   │   │   ├── model_tensor_product.sv
-│   │   │   └── model_tensor_transpose.sv
-│   │   └── vector
-│   │       ├── model_dot_product.sv
-│   │       ├── model_vector_convolution.sv
-│   │       ├── model_vector_cosine_similarity.sv
-│   │       ├── model_vector_module.sv
-│   │       ├── model_vector_multiplication.sv
-│   │       └── model_vector_summation.sv
-│   ├── calculus
-│   │   ├── matrix
-│   │   │   ├── model_matrix_differentiation.sv
-│   │   │   ├── model_matrix_integration.sv
-│   │   │   └── model_matrix_softmax.sv
-│   │   ├── tensor
-│   │   │   ├── model_tensor_differentiation.sv
-│   │   │   ├── model_tensor_integration.sv
-│   │   │   └── model_tensor_softmax.sv
-│   │   └── vector
-│   │       ├── model_vector_differentiation.sv
-│   │       ├── model_vector_integration.sv
-│   │       └── model_vector_softmax.sv
-│   ├── function
-│   │   ├── matrix
-│   │   │   ├── model_matrix_logistic_function.sv
-│   │   │   └── model_matrix_oneplus_function.sv
-│   │   ├── scalar
-│   │   │   ├── model_scalar_logistic_function.sv
-│   │   │   └── model_scalar_oneplus_function.sv
-│   │   └── vector
-│   │       ├── model_vector_logistic_function.sv
-│   │       └── model_vector_oneplus_function.sv
-│   └── series
-│       ├── matrix
-│       │   ├── model_matrix_cosh_function.sv
-│       │   ├── model_matrix_exponentiator_function.sv
-│       │   ├── model_matrix_logarithm_function.sv
-│       │   ├── model_matrix_sinh_function.sv
-│       │   └── model_matrix_tanh_function.sv
-│       ├── scalar
-│       │   ├── model_scalar_cosh_function.sv
-│       │   ├── model_scalar_exponentiator_function.sv
-│       │   ├── model_scalar_logarithm_function.sv
-│       │   ├── model_scalar_sinh_function.sv
-│       │   └── model_scalar_tanh_function.sv
-│       └── vector
-│           ├── model_vector_cosh_function.sv
-│           ├── model_vector_exponentiator_function.sv
-│           ├── model_vector_logarithm_function.sv
-│           ├── model_vector_sinh_function.sv
-│           └── model_vector_tanh_function.sv
+│   ├── matrix
+│   │   ├── model_matrix_cosh_function.sv
+│   │   ├── model_matrix_exponentiator_function.sv
+│   │   ├── model_matrix_logarithm_function.sv
+│   │   ├── model_matrix_logistic_function.sv
+│   │   ├── model_matrix_oneplus_function.sv
+│   │   ├── model_matrix_sinh_function.sv
+│   │   └── model_matrix_tanh_function.sv
+│   ├── scalar
+│   │   ├── model_scalar_cosh_function.sv
+│   │   ├── model_scalar_exponentiator_function.sv
+│   │   ├── model_scalar_logarithm_function.sv
+│   │   ├── model_scalar_logistic_function.sv
+│   │   ├── model_scalar_oneplus_function.sv
+│   │   ├── model_scalar_sinh_function.sv
+│   │   └── model_scalar_tanh_function.sv
+│   └── vector
+│       ├── model_vector_cosh_function.sv
+│       ├── model_vector_exponentiator_function.sv
+│       ├── model_vector_logarithm_function.sv
+│       ├── model_vector_logistic_function.sv
+│       ├── model_vector_oneplus_function.sv
+│       ├── model_vector_sinh_function.sv
+│       └── model_vector_tanh_function.sv
 ├── nn
 │   ├── ANN
 │   │   ├── components
@@ -283,4 +274,4 @@ code
         ├── model_input_trainer.sv
         └── model_output_trainer.sv
 
-85 directories, 198 files
+76 directories, 198 files

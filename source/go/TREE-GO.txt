@@ -1,4 +1,40 @@
 library
+├── algebra
+│   ├── matrix
+│   │   ├── ntm_matrix_convolution.go
+│   │   ├── ntm_matrix_inverse.go
+│   │   ├── ntm_matrix_multiplication.go
+│   │   ├── ntm_matrix_product.go
+│   │   ├── ntm_matrix_summation.go
+│   │   ├── ntm_matrix_transpose.go
+│   │   ├── ntm_matrix_vector_convolution.go
+│   │   ├── ntm_matrix_vector_product.go
+│   │   └── ntm_transpose_vector_product.go
+│   ├── MatrixMathCalculus
+│   │   └── MatrixMathCalculus.go
+│   ├── scalar
+│   │   ├── ntm_scalar_multiplication.go
+│   │   └── ntm_scalar_summation.go
+│   ├── tensor
+│   │   ├── ntm_tensor_convolution.go
+│   │   ├── ntm_tensor_inverse.go
+│   │   ├── ntm_tensor_matrix_convolution.go
+│   │   ├── ntm_tensor_matrix_product.go
+│   │   ├── ntm_tensor_multiplication.go
+│   │   ├── ntm_tensor_product.go
+│   │   ├── ntm_tensor_summation.go
+│   │   └── ntm_tensor_transpose.go
+│   ├── TensorMathCalculus
+│   │   └── TensorMathCalculus.go
+│   ├── vector
+│   │   ├── ntm_dot_product.go
+│   │   ├── ntm_vector_convolution.go
+│   │   ├── ntm_vector_cosine_similarity.go
+│   │   ├── ntm_vector_module.go
+│   │   ├── ntm_vector_multiplication.go
+│   │   └── ntm_vector_summation.go
+│   └── VectorMathCalculus
+│       └── VectorMathCalculus.go
 ├── arithmetic
 │   ├── MatrixArithmetic
 │   │   └── MatrixArithmetic.go
@@ -9,57 +45,18 @@ library
 │   └── VectorArithmetic
 │       └── VectorArithmetic.go
 ├── math
-│   ├── algebra
-│   │   ├── matrix
-│   │   │   ├── ntm_matrix_convolution.go
-│   │   │   ├── ntm_matrix_inverse.go
-│   │   │   ├── ntm_matrix_multiplication.go
-│   │   │   ├── ntm_matrix_product.go
-│   │   │   ├── ntm_matrix_summation.go
-│   │   │   ├── ntm_matrix_transpose.go
-│   │   │   ├── ntm_matrix_vector_convolution.go
-│   │   │   ├── ntm_matrix_vector_product.go
-│   │   │   └── ntm_transpose_vector_product.go
-│   │   ├── scalar
-│   │   │   ├── ntm_scalar_multiplication.go
-│   │   │   └── ntm_scalar_summation.go
-│   │   ├── tensor
-│   │   │   ├── ntm_tensor_convolution.go
-│   │   │   ├── ntm_tensor_inverse.go
-│   │   │   ├── ntm_tensor_matrix_convolution.go
-│   │   │   ├── ntm_tensor_matrix_product.go
-│   │   │   ├── ntm_tensor_multiplication.go
-│   │   │   ├── ntm_tensor_product.go
-│   │   │   ├── ntm_tensor_summation.go
-│   │   │   └── ntm_tensor_transpose.go
-│   │   └── vector
-│   │       ├── ntm_dot_product.go
-│   │       ├── ntm_vector_convolution.go
-│   │       ├── ntm_vector_cosine_similarity.go
-│   │       ├── ntm_vector_module.go
-│   │       ├── ntm_vector_multiplication.go
-│   │       └── ntm_vector_summation.go
-│   ├── calculus
-│   │   ├── MatrixMathCalculus
-│   │   │   └── MatrixMathCalculus.go
-│   │   ├── TensorMathCalculus
-│   │   │   └── TensorMathCalculus.go
-│   │   └── VectorMathCalculus
-│   │       └── VectorMathCalculus.go
-│   ├── function
-│   │   ├── MatrixMathFunction
-│   │   │   └── MatrixMathFunction.go
-│   │   ├── ScalarMathFunction
-│   │   │   └── ScalarMathFunction.go
-│   │   └── VectorMathFunction
-│   │       └── VectorMathFunction.go
-│   └── statitics
-│       ├── MatrixMathStatitics
-│       │   └── MatrixMathStatitics.go
-│       ├── ScalarMathStatitics
-│       │   └── ScalarMathStatitics.go
-│       └── VectorMathStatitics
-│           └── VectorMathStatitics.go
+│   ├── MatrixMathFunction
+│   │   └── MatrixMathFunction.go
+│   ├── MatrixMathStatitics
+│   │   └── MatrixMathStatitics.go
+│   ├── ScalarMathFunction
+│   │   └── ScalarMathFunction.go
+│   ├── ScalarMathStatitics
+│   │   └── ScalarMathStatitics.go
+│   ├── VectorMathFunction
+│   │   └── VectorMathFunction.go
+│   └── VectorMathStatitics
+│       └── VectorMathStatitics.go
 ├── nn
 │   ├── ANN
 │   │   ├── components
@@ -190,4 +187,4 @@ library
             ├── ntm_lstm_output_v_trainer.go
             └── ntm_lstm_output_w_trainer.go
 
-54 directories, 136 files
+51 directories, 136 files

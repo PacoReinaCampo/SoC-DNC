@@ -1,27 +1,24 @@
 library
+├── algebra
+│   ├── matrix
+│   ├── MatrixMathCalculus
+│   ├── scalar
+│   ├── tensor
+│   ├── TensorMathCalculus
+│   ├── vector
+│   └── VectorMathCalculus
 ├── arithmetic
 │   ├── MatrixArithmetic
 │   ├── ScalarArithmetic
 │   ├── TensorArithmetic
 │   └── VectorArithmetic
 ├── math
-│   ├── algebra
-│   │   ├── matrix
-│   │   ├── scalar
-│   │   ├── tensor
-│   │   └── vector
-│   ├── calculus
-│   │   ├── MatrixMathCalculus
-│   │   ├── TensorMathCalculus
-│   │   └── VectorMathCalculus
-│   ├── function
-│   │   ├── MatrixMathFunction
-│   │   ├── ScalarMathFunction
-│   │   └── VectorMathFunction
-│   └── statitics
-│       ├── MatrixMathStatitics
-│       ├── ScalarMathStatitics
-│       └── VectorMathStatitics
+│   ├── MatrixMathFunction
+│   ├── MatrixMathStatitics
+│   ├── ScalarMathFunction
+│   ├── ScalarMathStatitics
+│   ├── VectorMathFunction
+│   └── VectorMathStatitics
 ├── nn
 │   ├── ANN
 │   │   ├── components
@@ -54,4 +51,4 @@ library
         ├── input
         └── output
 
-54 directories, 0 files
+51 directories, 0 files

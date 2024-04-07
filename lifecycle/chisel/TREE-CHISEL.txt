@@ -1,4 +1,13 @@
 library
+├── algebra
+│   ├── matrix
+│   │   └── ntm_matrix_algebra.scala
+│   ├── scalar
+│   │   └── ntm_scalar_algebra.scala
+│   ├── tensor
+│   │   └── ntm_tensor_algebra.scala
+│   └── vector
+│       └── ntm_vector_algebra.scala
 ├── arithmetic
 │   ├── matrix
 │   │   └── ntm_matrix_arithmetic.scala
@@ -10,36 +19,12 @@ library
 │   └── vector
 │       └── ntm_vector_arithmetic.scala
 ├── math
-│   ├── algebra
-│   │   ├── matrix
-│   │   │   └── ntm_matrix_algebra.scala
-│   │   ├── scalar
-│   │   │   └── ntm_scalar_algebra.scala
-│   │   ├── tensor
-│   │   │   └── ntm_tensor_algebra.scala
-│   │   └── vector
-│   │       └── ntm_vector_algebra.scala
-│   ├── calculus
-│   │   ├── matrix
-│   │   │   └── ntm_matrix_calculus.scala
-│   │   ├── tensor
-│   │   │   └── ntm_tensor_calculus.scala
-│   │   └── vector
-│   │       └── ntm_vector_calculus.scala
-│   ├── function
-│   │   ├── matrix
-│   │   │   └── ntm_matrix_function.scala
-│   │   ├── scalar
-│   │   │   └── ntm_scalar_function.scala
-│   │   └── vector
-│   │       └── ntm_vector_function.scala
-│   └── statitics
-│       ├── matrix
-│       │   └── ntm_matrix_statitics.scala
-│       ├── scalar
-│       │   └── ntm_scalar_statitics.scala
-│       └── vector
-│           └── ntm_vector_statitics.scala
+│   ├── matrix
+│   │   └── ntm_matrix_math.scala
+│   ├── scalar
+│   │   └── ntm_scalar_math.scala
+│   └── vector
+│       └── ntm_vector_math.scala
 ├── nn
 │   ├── ANN
 │   │   ├── components
@@ -166,4 +151,4 @@ library
             ├── ntm_lstm_output_v_trainer.scala
             └── ntm_lstm_output_w_trainer.scala
 
-54 directories, 112 files
+45 directories, 106 files

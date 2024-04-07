@@ -1,4 +1,10 @@
 library
+├── algebra
+│   ├── ntm_math_algebra.hpp
+│   ├── matrix
+│   ├── scalar
+│   ├── tensor
+│   └── vector
 ├── arithmetic
 │   ├── ntm_arithmetic.hpp
 │   ├── matrix
@@ -22,27 +28,10 @@ library
 │       ├── multiplier
 │       └── subtractor
 ├── math
-│   ├── algebra
-│   │   ├── ntm_math_algebra.hpp
-│   │   ├── matrix
-│   │   ├── scalar
-│   │   ├── tensor
-│   │   └── vector
-│   ├── calculus
-│   │   ├── ntm_math_calculus.hpp
-│   │   ├── matrix
-│   │   ├── tensor
-│   │   └── vector
-│   ├── function
-│   │   ├── ntm_math_function.hpp
-│   │   ├── matrix
-│   │   ├── scalar
-│   │   └── vector
-│   └── statitics
-│       ├── ntm_math_statitics.hpp
-│       ├── matrix
-│       ├── scalar
-│       └── vector
+│   ├── ntm_math.hpp
+│   ├── matrix
+│   ├── scalar
+│   └── vector
 ├── nn
 │   ├── ntm_controller.hpp
 │   ├── ANN
@@ -80,4 +69,4 @@ library
         ├── input
         └── output
 
-70 directories, 10 files
+61 directories, 8 files
