@@ -44,10 +44,12 @@
 ###################################################################################
 %}
 
-% Package
-addpath(genpath('../../../library/math/algebra/matrix'));
+warning('off','all');
 
-addpath(genpath('../../../library/dnc/memory'));
+% Package
+addpath(genpath('../../../../library/algebra/matrix'));
+
+addpath(genpath('../../../../library/nn/DNC/memory'));
 
 % Constants
 SIZE_N_IN = 3;

@@ -44,16 +44,18 @@
 ###################################################################################
 %}
 
-% Package
-addpath(genpath('../../../library/math/algebra/vector'));
-addpath(genpath('../../../library/math/algebra/matrix'));
-addpath(genpath('../../../library/math/calculus/matrix'));
+warning('off','all');
 
-addpath(genpath('../../../library/dnc/memory'));
+% Package
+addpath(genpath('../../../../library/algebra/vector'));
+addpath(genpath('../../../../library/algebra/matrix'));
+
+addpath(genpath('../../../../library/nn/DNC/memory'));
 
 % Constants
 SIZE_N_IN = 3;
 SIZE_W_IN = 3;
+SIZE_R_IN = 3;
 
 % Signals
 K_IN = rand(SIZE_R_IN, SIZE_W_IN);

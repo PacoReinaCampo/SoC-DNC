@@ -44,23 +44,25 @@
 ###################################################################################
 %}
 
+warning('off','all');
+
 % Package
-addpath(genpath('../../../library/math/algebra/scalar'));
-addpath(genpath('../../../library/math/algebra/vector'));
-addpath(genpath('../../../library/math/algebra/matrix'));
-addpath(genpath('../../../library/math/algebra/tensor'));
-addpath(genpath('../../../library/math/calculus/vector'));
-addpath(genpath('../../../library/math/calculus/matrix'));
-addpath(genpath('../../../library/math/function/vector'));
+addpath(genpath('../../../../library/algebra/scalar'));
+addpath(genpath('../../../../library/algebra/vector'));
+addpath(genpath('../../../../library/algebra/matrix'));
+addpath(genpath('../../../../library/algebra/tensor'));
+addpath(genpath('../../../../library/math/vector'));
+addpath(genpath('../../../../library/math/matrix'));
+addpath(genpath('../../../../library/math/vector'));
 
-addpath(genpath('../../../library/controller/FNN/standard'));
+addpath(genpath('../../../../library/nn/FNN/standard'));
 
-addpath(genpath('../../../library/dnc/memory'));
-addpath(genpath('../../../library/dnc/top'));
-addpath(genpath('../../../library/dnc/trained'));
+addpath(genpath('../../../../library/nn/DNC/memory'));
+addpath(genpath('../../../../library/nn/DNC/top'));
+addpath(genpath('../../../../library/nn/DNC/trained'));
 
-addpath(genpath('../../../library/trainer/differentiation'));
-addpath(genpath('../../../library/trainer/FNN'));
+addpath(genpath('../../../../library/trainer/differentiation'));
+addpath(genpath('../../../../library/trainer/FNN'));
 
 % Constants
 SIZE_T_IN = 3;
