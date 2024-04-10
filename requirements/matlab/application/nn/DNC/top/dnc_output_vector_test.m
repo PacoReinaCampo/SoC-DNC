@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,17 +41,16 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/matrix'));
 addpath(genpath('../../../../library/algebra/tensor'));
 
 addpath(genpath('../../../../library/nn/DNC/top'));
 
-% Constants
+# Constants
 SIZE_X_IN = 3;
 SIZE_Y_IN = 3;
 SIZE_N_IN = 3;
@@ -63,11 +61,11 @@ SIZE_R_IN = 3;
 SIZE_S_IN = 3*SIZE_W_IN + 3;
 SIZE_M_IN = SIZE_W_IN + 5;
 
-% Signals
+# Signals
 P_IN = rand(SIZE_R_IN, SIZE_Y_IN, SIZE_W_IN);
 R_IN = rand(SIZE_R_IN, SIZE_W_IN);
 Q_IN = rand(SIZE_Y_IN, SIZE_L_IN);
 H_IN = rand(SIZE_L_IN, 1);
 
-% DUT
+# DUT
 Y_OUT = dnc_output_vector(P_IN, R_IN, Q_IN, H_IN);

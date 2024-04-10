@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,21 +41,20 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 function R_OUT = dnc_read_vectors(M_IN, W_IN)
-  % Constants
+  # Constants
   [SIZE_N_IN, SIZE_W_IN] = size(M_IN);
   [SIZE_R_IN, ~] = size(W_IN);
 
-  % Internal Signals
+  # Internal Signals
   vector_operation_int = zeros(SIZE_N_IN, 1);
 
-  % Output Signals
+  # Output Signals
   R_OUT = zeros(SIZE_R_IN, SIZE_W_IN);
 
-  % Body
-  % r(t;i;k) = transpose(M(t;j;k))·w(t;i;j)
+  # Body
+  # r(t;i;k) = transpose(M(t;j;k))·w(t;i;j)
 
   for i = 1:SIZE_R_IN
     for j = 1:SIZE_N_IN

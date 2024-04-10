@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,11 +41,10 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/scalar'));
 addpath(genpath('../../../../library/algebra/vector'));
 addpath(genpath('../../../../library/algebra/matrix'));
@@ -55,12 +53,12 @@ addpath(genpath('../../../../library/math/matrix'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_R_IN = 3;
 SIZE_N_IN = 3;
 SIZE_W_IN = 3;
 
-% Signals
+# Signals
 K_READ_IN = rand(SIZE_R_IN, SIZE_W_IN);
 BETA_READ_IN = rand(SIZE_R_IN, 1);
 F_READ_IN = rand(SIZE_R_IN, 1);
@@ -80,5 +78,5 @@ U_IN = rand(SIZE_N_IN, 1);
 WR_IN = rand(SIZE_R_IN, SIZE_N_IN);
 WW_IN = rand(SIZE_N_IN, 1);
 
-% DUT
+# DUT
 R_OUT = dnc_addressing(K_READ_IN, BETA_READ_IN, F_READ_IN, PI_READ_IN, K_WRITE_IN, BETA_WRITE_IN, E_WRITE_IN, V_WRITE_IN, GA_WRITE_IN, GW_WRITE_IN, M_IN, L_IN, P_IN, U_IN, WR_IN, WW_IN);

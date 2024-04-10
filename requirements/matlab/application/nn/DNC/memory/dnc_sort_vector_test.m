@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,18 +41,17 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_IN = 3;
 
-% Signals
+# Signals
 U_IN = rand(SIZE_IN, 1);
 
-% DUT
+# DUT
 PHI_OUT = dnc_sort_vector(U_IN);

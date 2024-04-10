@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,24 +41,23 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/matrix'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_N_IN = 3;
 SIZE_W_IN = 3;
 
-% Signals
+# Signals
 M_IN = rand(SIZE_N_IN, SIZE_W_IN);
 W_IN = rand(SIZE_N_IN, 1);
 V_IN = rand(1, SIZE_W_IN);
 E_IN = rand(1, SIZE_W_IN);
 
-% DUT
+# DUT
 M_OUT = dnc_memory_matrix(M_IN, W_IN, V_IN, E_IN);

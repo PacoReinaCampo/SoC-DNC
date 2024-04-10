@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,22 +41,21 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/matrix'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_R_IN = 3;
 SIZE_N_IN = 3;
 
-% Signals
+# Signals
 L_IN = rand(SIZE_N_IN, SIZE_N_IN);
 W_IN = rand(SIZE_R_IN, SIZE_N_IN);
 
-% DUT
+# DUT
 F_OUT = dnc_forward_weighting(L_IN, W_IN);

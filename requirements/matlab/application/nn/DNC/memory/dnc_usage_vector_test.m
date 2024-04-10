@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,22 +41,21 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/vector'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_N_IN = 3;
 
-% Signals
+# Signals
 U_IN = rand(SIZE_N_IN, 1);
 W_IN = rand(SIZE_N_IN, 1);
 PSI_IN = rand(SIZE_N_IN, 1);
 
-% DUT
+# DUT
 U_OUT = dnc_usage_vector(U_IN, W_IN, PSI_IN);

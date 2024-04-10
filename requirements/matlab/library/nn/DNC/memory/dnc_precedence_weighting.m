@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,19 +41,18 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 function P_OUT = dnc_precedence_weighting(W_IN, P_IN)
-  % Constants
+  # Constants
   SIZE_N_IN = length(W_IN);
 
-  % Internal Signals
+  # Internal Signals
   vector_operation_int = zeros(SIZE_N_IN, 1);
 
-  % Body
-  % p(t;j) = (1 - summation(w(t;j))[j in 1 to N])·p(t-1;j) + w(t;j)
+  # Body
+  # p(t;j) = (1 - summation(w(t;j))[j in 1 to N])·p(t-1;j) + w(t;j)
 
-  % p(t=0) = 0
+  # p(t=0) = 0
 
   data_summation_int = ntm_scalar_summation(W_IN);
 

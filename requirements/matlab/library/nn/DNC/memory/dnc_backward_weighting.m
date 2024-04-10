@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,16 +41,15 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 function B_OUT = dnc_backward_weighting(L_IN, W_IN)
-  % Constants
+  # Constants
   [SIZE_R_IN, SIZE_N_IN] = size(W_IN);
 
-  % Body
-  % b(t;i;j) = transpose(L(t;g;j))·w(t-1;i;j)
+  # Body
+  # b(t;i;j) = transpose(L(t;g;j))·w(t-1;i;j)
 
-  % Signals
+  # Signals
   vector_operation_int = zeros(SIZE_R_IN, 1);
 
   B_OUT = zeros(SIZE_R_IN, SIZE_N_IN);

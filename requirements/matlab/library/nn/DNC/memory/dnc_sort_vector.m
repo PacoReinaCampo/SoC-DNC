@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,16 +41,15 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 function PHI_OUT = dnc_sort_vector(U_IN)
-  % Constants
+  # Constants
   SIZE_IN = length(U_IN);
 
-  % Internal Signals
+  # Internal Signals
   vector_index_int = zeros(SIZE_IN, 1);
 
-  % Body
+  # Body
   vector_operation_int = U_IN;
 
   for i = 1:SIZE_IN

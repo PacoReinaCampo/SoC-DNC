@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,11 +41,10 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/scalar'));
 addpath(genpath('../../../../library/algebra/vector'));
 addpath(genpath('../../../../library/algebra/matrix'));
@@ -64,12 +62,12 @@ addpath(genpath('../../../../library/nn/DNC/trained'));
 addpath(genpath('../../../../library/trainer/differentiation'));
 addpath(genpath('../../../../library/trainer/FNN'));
 
-% Constants
+# Constants
 SIZE_T_IN = 3;
 SIZE_X_IN = 3;
 
-% Signals
+# Signals
 X_IN = rand(SIZE_T_IN, SIZE_X_IN);
 
-% DUT
+# DUT
 Y_OUT = dnc_trained_top(X_IN);

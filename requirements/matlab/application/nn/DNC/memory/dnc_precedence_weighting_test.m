@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,21 +41,20 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/scalar'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_N_IN = 3;
 
-% Signals
+# Signals
 W_IN = rand(SIZE_N_IN, 1);
 P_IN = rand(SIZE_N_IN, 1);
 
-% DUT
+# DUT
 P_OUT = dnc_precedence_weighting(W_IN, P_IN);

@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,18 +41,17 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 function W_OUT = dnc_write_weighting(A_IN, C_IN, GA_IN, GW_IN)
-  % Constants
+  # Constants
   SIZE_N_IN = length(A_IN);
 
-  % Signals
+  # Signals
   vector_ga_int = zeros(SIZE_N_IN, 1);
   vector_gw_int = zeros(SIZE_N_IN, 1);
 
-  % Body
-  % w(t;j) = gw(t)·(ga(t)·a(t;j) + (1 - ga(t))·c(t;j))
+  # Body
+  # w(t;j) = gw(t)·(ga(t)·a(t;j) + (1 - ga(t))·c(t;j))
 
   for j = 1:SIZE_N_IN
     vector_ga_int(j) = GA_IN;

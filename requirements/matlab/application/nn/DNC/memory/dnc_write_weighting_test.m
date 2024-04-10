@@ -1,4 +1,3 @@
-%{
 ###################################################################################
 ##                                            __ _      _     _                  ##
 ##                                           / _(_)    | |   | |                 ##
@@ -42,24 +41,23 @@
 ##   Paco Reina Campo <pacoreinacampo@queenfield.tech>                           ##
 ##                                                                               ##
 ###################################################################################
-%}
 
 warning('off','all');
 
-% Package
+# Package
 addpath(genpath('../../../../library/algebra/vector'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
 
-% Constants
+# Constants
 SIZE_N_IN = 3;
 
-% Signals
+# Signals
 A_IN = rand(SIZE_N_IN, 1);
 C_IN = rand(SIZE_N_IN, 1);
 
 GA_IN = rand(1);
 GW_IN = rand(1);
 
-% DUT
+# DUT
 W_OUT = dnc_write_weighting(A_IN, C_IN, GA_IN, GW_IN);
