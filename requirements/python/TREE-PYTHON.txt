@@ -28,10 +28,6 @@ library
 │   │   ├── ntm_tensor_softmax.py
 │   │   ├── ntm_tensor_summation.py
 │   │   └── ntm_tensor_transpose.py
-│   ├── test_matrix_algebra.py
-│   ├── test_scalar_algebra.py
-│   ├── test_tensor_algebra.py
-│   ├── test_vector_algebra.py
 │   └── vector
 │       ├── ntm_dot_product.py
 │       ├── ntm_vector_convolution.py
@@ -70,10 +66,6 @@ library
 │   │   │   └── ntm_tensor_multiplier.py
 │   │   └── subtractor
 │   │       └── ntm_tensor_subtractor.py
-│   ├── test_matrix_arithmetic.py
-│   ├── test_scalar_arithmetic.py
-│   ├── test_tensor_arithmetic.py
-│   ├── test_vector_arithmetic.py
 │   └── vector
 │       ├── adder
 │       │   └── ntm_vector_adder.py
@@ -94,9 +86,6 @@ library
 │   │   ├── ntm_scalar_logistic_function.py
 │   │   ├── ntm_scalar_mean.py
 │   │   └── ntm_scalar_oneplus_function.py
-│   ├── test_matrix_math.py
-│   ├── test_scalar_math.py
-│   ├── test_vector_math.py
 │   └── vector
 │       ├── ntm_vector_deviation.py
 │       ├── ntm_vector_logistic_function.py
@@ -122,11 +111,6 @@ library
 │   │   │   ├── ntm_keys_vector.py
 │   │   │   ├── ntm_queries_vector.py
 │   │   │   └── ntm_values_vector.py
-│   │   ├── test_transformer_components.py
-│   │   ├── test_transformer_controller.py
-│   │   ├── test_transformer_functions.py
-│   │   ├── test_transformer_inputs.py
-│   │   ├── test_transformer_top.py
 │   │   └── top
 │   │       ├── ntm_controller.py
 │   │       ├── ntm_decoder.py
@@ -150,9 +134,6 @@ library
 │   │   │   ├── dnc_vector_content_based_addressing.py
 │   │   │   ├── dnc_write_content_weighting.py
 │   │   │   └── dnc_write_weighting.py
-│   │   ├── test_dnc_memory.py
-│   │   ├── test_dnc_top.py
-│   │   ├── test_dnc_trained.py
 │   │   ├── top
 │   │   │   ├── dnc_interface_matrix.py
 │   │   │   ├── dnc_interface_top.py
@@ -164,10 +145,8 @@ library
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── ntm_controller.py
-│   │   ├── standard
-│   │   │   └── ntm_controller.py
-│   │   ├── test_convolutional_fnn_controller.py
-│   │   └── test_standard_fnn_controller.py
+│   │   └── standard
+│   │       └── ntm_controller.py
 │   └── LSTM
 │       ├── convolutional
 │       │   ├── ntm_activation_gate_vector.py
@@ -177,16 +156,14 @@ library
 │       │   ├── ntm_input_gate_vector.py
 │       │   ├── ntm_output_gate_vector.py
 │       │   └── ntm_state_gate_vector.py
-│       ├── standard
-│       │   ├── ntm_activation_gate_vector.py
-│       │   ├── ntm_controller.py
-│       │   ├── ntm_forget_gate_vector.py
-│       │   ├── ntm_hidden_gate_vector.py
-│       │   ├── ntm_input_gate_vector.py
-│       │   ├── ntm_output_gate_vector.py
-│       │   └── ntm_state_gate_vector.py
-│       ├── test_convolutional_lstm_controller.py
-│       └── test_standard_lstm_controller.py
+│       └── standard
+│           ├── ntm_activation_gate_vector.py
+│           ├── ntm_controller.py
+│           ├── ntm_forget_gate_vector.py
+│           ├── ntm_hidden_gate_vector.py
+│           ├── ntm_input_gate_vector.py
+│           ├── ntm_output_gate_vector.py
+│           └── ntm_state_gate_vector.py
 ├── state
 │   ├── feedback
 │   │   ├── ntm_state_matrix_feedforward.py
@@ -196,9 +173,6 @@ library
 │   ├── outputs
 │   │   ├── ntm_state_vector_output.py
 │   │   └── ntm_state_vector_state.py
-│   ├── test_state_feedback.py
-│   ├── test_state_outputs.py
-│   ├── test_state_top.py
 │   └── top
 │       └── ntm_state_top.py
 └── trainer
@@ -213,41 +187,38 @@ library
     │   ├── ntm_fnn_u_trainer.py
     │   ├── ntm_fnn_v_trainer.py
     │   └── ntm_fnn_w_trainer.py
-    ├── LSTM
-    │   ├── activation
-    │   │   ├── ntm_lstm_activation_b_trainer.py
-    │   │   ├── ntm_lstm_activation_d_trainer.py
-    │   │   ├── ntm_lstm_activation_k_trainer.py
-    │   │   ├── ntm_lstm_activation_trainer.py
-    │   │   ├── ntm_lstm_activation_u_trainer.py
-    │   │   ├── ntm_lstm_activation_v_trainer.py
-    │   │   └── ntm_lstm_activation_w_trainer.py
-    │   ├── forget
-    │   │   ├── ntm_lstm_forget_b_trainer.py
-    │   │   ├── ntm_lstm_forget_d_trainer.py
-    │   │   ├── ntm_lstm_forget_k_trainer.py
-    │   │   ├── ntm_lstm_forget_trainer.py
-    │   │   ├── ntm_lstm_forget_u_trainer.py
-    │   │   ├── ntm_lstm_forget_v_trainer.py
-    │   │   └── ntm_lstm_forget_w_trainer.py
-    │   ├── input
-    │   │   ├── ntm_lstm_input_b_trainer.py
-    │   │   ├── ntm_lstm_input_d_trainer.py
-    │   │   ├── ntm_lstm_input_k_trainer.py
-    │   │   ├── ntm_lstm_input_trainer.py
-    │   │   ├── ntm_lstm_input_u_trainer.py
-    │   │   ├── ntm_lstm_input_v_trainer.py
-    │   │   └── ntm_lstm_input_w_trainer.py
-    │   └── output
-    │       ├── ntm_lstm_output_b_trainer.py
-    │       ├── ntm_lstm_output_d_trainer.py
-    │       ├── ntm_lstm_output_k_trainer.py
-    │       ├── ntm_lstm_output_trainer.py
-    │       ├── ntm_lstm_output_u_trainer.py
-    │       ├── ntm_lstm_output_v_trainer.py
-    │       └── ntm_lstm_output_w_trainer.py
-    ├── test_trainer_differentiation.py
-    ├── test_trainer_fnn.py
-    └── test_trainer_lstm.py
+    └── LSTM
+        ├── activation
+        │   ├── ntm_lstm_activation_b_trainer.py
+        │   ├── ntm_lstm_activation_d_trainer.py
+        │   ├── ntm_lstm_activation_k_trainer.py
+        │   ├── ntm_lstm_activation_trainer.py
+        │   ├── ntm_lstm_activation_u_trainer.py
+        │   ├── ntm_lstm_activation_v_trainer.py
+        │   └── ntm_lstm_activation_w_trainer.py
+        ├── forget
+        │   ├── ntm_lstm_forget_b_trainer.py
+        │   ├── ntm_lstm_forget_d_trainer.py
+        │   ├── ntm_lstm_forget_k_trainer.py
+        │   ├── ntm_lstm_forget_trainer.py
+        │   ├── ntm_lstm_forget_u_trainer.py
+        │   ├── ntm_lstm_forget_v_trainer.py
+        │   └── ntm_lstm_forget_w_trainer.py
+        ├── input
+        │   ├── ntm_lstm_input_b_trainer.py
+        │   ├── ntm_lstm_input_d_trainer.py
+        │   ├── ntm_lstm_input_k_trainer.py
+        │   ├── ntm_lstm_input_trainer.py
+        │   ├── ntm_lstm_input_u_trainer.py
+        │   ├── ntm_lstm_input_v_trainer.py
+        │   └── ntm_lstm_input_w_trainer.py
+        └── output
+            ├── ntm_lstm_output_b_trainer.py
+            ├── ntm_lstm_output_d_trainer.py
+            ├── ntm_lstm_output_k_trainer.py
+            ├── ntm_lstm_output_trainer.py
+            ├── ntm_lstm_output_u_trainer.py
+            ├── ntm_lstm_output_v_trainer.py
+            └── ntm_lstm_output_w_trainer.py
 
-61 directories, 189 files
+61 directories, 160 files
