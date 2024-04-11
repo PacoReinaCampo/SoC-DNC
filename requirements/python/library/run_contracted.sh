@@ -66,8 +66,10 @@ python3 -B nn/ANN/test_ann_functions.py
 python3 -B nn/ANN/test_ann_inputs.py
 python3 -B nn/ANN/test_ann_top.py
 python3 -B nn/DNC/test_dnc_memory.py
+python3 -B nn/DNC/test_dnc_read_heads.py
 python3 -B nn/DNC/test_dnc_top.py
 python3 -B nn/DNC/test_dnc_trained.py
+python3 -B nn/DNC/test_dnc_write_heads.py
 python3 -B nn/FNN/test_convolutional_fnn_controller.py
 python3 -B nn/FNN/test_standard_fnn_controller.py
 python3 -B nn/LSTM/test_convolutional_lstm_controller.py

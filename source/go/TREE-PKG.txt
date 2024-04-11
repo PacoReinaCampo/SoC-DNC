@@ -30,8 +30,10 @@ library
 │   │   └── top
 │   ├── DNC
 │   │   ├── memory
+│   │   ├── read_heads
 │   │   ├── top
-│   │   └── trained
+│   │   ├── trained
+│   │   └── write_heads
 │   ├── FNN
 │   │   ├── convolutional
 │   │   └── standard
@@ -51,4 +53,4 @@ library
         ├── input
         └── output
 
-51 directories, 0 files
+53 directories, 0 files

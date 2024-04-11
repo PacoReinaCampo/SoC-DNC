@@ -210,23 +210,23 @@ code
 │   │   │   ├── accelerator_memory_matrix.vhd
 │   │   │   ├── accelerator_memory_retention_vector.vhd
 │   │   │   ├── accelerator_precedence_weighting.vhd
-│   │   │   ├── accelerator_read_content_weighting.vhd
-│   │   │   ├── accelerator_read_vectors.vhd
-│   │   │   ├── accelerator_read_weighting.vhd
 │   │   │   ├── accelerator_sort_vector.vhd
 │   │   │   ├── accelerator_temporal_link_matrix.vhd
-│   │   │   ├── accelerator_usage_vector.vhd
-│   │   │   ├── accelerator_write_content_weighting.vhd
-│   │   │   └── accelerator_write_weighting.vhd
+│   │   │   └── accelerator_usage_vector.vhd
 │   │   ├── read_heads
-│   │   │   └── accelerator_read_heads.vhd
+│   │   │   ├── accelerator_read_content_weighting.vhd
+│   │   │   ├── accelerator_read_heads.vhd
+│   │   │   ├── accelerator_read_vectors.vhd
+│   │   │   └── accelerator_read_weighting.vhd
 │   │   ├── top
 │   │   │   ├── accelerator_interface_matrix.vhd
 │   │   │   ├── accelerator_interface_vector.vhd
 │   │   │   ├── accelerator_output_vector.vhd
 │   │   │   └── accelerator_top.vhd
 │   │   └── write_heads
-│   │       └── accelerator_write_heads.vhd
+│   │       ├── accelerator_write_content_weighting.vhd
+│   │       ├── accelerator_write_heads.vhd
+│   │       └── accelerator_write_weighting.vhd
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── accelerator_controller.vhd

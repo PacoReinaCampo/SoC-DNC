@@ -125,23 +125,25 @@ library
 │   │   │   ├── dnc_memory_matrix.py
 │   │   │   ├── dnc_memory_retention_vector.py
 │   │   │   ├── dnc_precedence_weighting.py
-│   │   │   ├── dnc_read_content_weighting.py
-│   │   │   ├── dnc_read_vectors.py
-│   │   │   ├── dnc_read_weighting.py
 │   │   │   ├── dnc_sort_vector.py
 │   │   │   ├── dnc_temporal_link_matrix.py
 │   │   │   ├── dnc_usage_vector.py
-│   │   │   ├── dnc_vector_content_based_addressing.py
-│   │   │   ├── dnc_write_content_weighting.py
-│   │   │   └── dnc_write_weighting.py
+│   │   │   └── dnc_vector_content_based_addressing.py
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting.py
+│   │   │   ├── dnc_read_vectors.py
+│   │   │   └── dnc_read_weighting.py
 │   │   ├── top
 │   │   │   ├── dnc_interface_matrix.py
 │   │   │   ├── dnc_interface_top.py
 │   │   │   ├── dnc_interface_vector.py
 │   │   │   ├── dnc_output_vector.py
 │   │   │   └── dnc_top.py
-│   │   └── trained
-│   │       └── dnc_trained_top.py
+│   │   ├── trained
+│   │   │   └── dnc_trained_top.py
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting.py
+│   │       └── dnc_write_weighting.py
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── ntm_controller.py
@@ -221,4 +223,4 @@ library
             ├── ntm_lstm_output_v_trainer.py
             └── ntm_lstm_output_w_trainer.py
 
-61 directories, 160 files
+63 directories, 160 files

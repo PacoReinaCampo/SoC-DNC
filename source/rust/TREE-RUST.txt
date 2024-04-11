@@ -145,23 +145,25 @@ library
 │   │   │   ├── dnc_memory_matrix.rs
 │   │   │   ├── dnc_memory_retention_vector.rs
 │   │   │   ├── dnc_precedence_weighting.rs
-│   │   │   ├── dnc_read_content_weighting.rs
-│   │   │   ├── dnc_read_vectors.rs
-│   │   │   ├── dnc_read_weighting.rs
 │   │   │   ├── dnc_sort_vector.rs
 │   │   │   ├── dnc_temporal_link_matrix.rs
 │   │   │   ├── dnc_usage_vector.rs
-│   │   │   ├── dnc_vector_content_based_addressing.rs
-│   │   │   ├── dnc_write_content_weighting.rs
-│   │   │   └── dnc_write_weighting.rs
+│   │   │   └── dnc_vector_content_based_addressing.rs
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting.rs
+│   │   │   ├── dnc_read_vectors.rs
+│   │   │   └── dnc_read_weighting.rs
 │   │   ├── top
 │   │   │   ├── dnc_interface_matrix.rs
 │   │   │   ├── dnc_interface_top.rs
 │   │   │   ├── dnc_interface_vector.rs
 │   │   │   ├── dnc_output_vector.rs
 │   │   │   └── dnc_top.rs
-│   │   └── trained
-│   │       └── dnc_trained_top.rs
+│   │   ├── trained
+│   │   │   └── dnc_trained_top.rs
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting.rs
+│   │       └── dnc_write_weighting.rs
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── ntm_controller.rs
@@ -251,4 +253,4 @@ library
     ├── ntm_fnn.rs
     └── ntm_lstm.rs
 
-49 directories, 202 files
+51 directories, 202 files

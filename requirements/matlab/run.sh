@@ -151,20 +151,20 @@ cd application/nn/DNC/memory; octave dnc_matrix_content_based_addressing_test.m;
 cd application/nn/DNC/memory; octave dnc_memory_matrix_test.m; cd ../../../..
 cd application/nn/DNC/memory; octave dnc_memory_retention_vector_test.m; cd ../../../..
 cd application/nn/DNC/memory; octave dnc_precedence_weighting_test.m; cd ../../../..
-cd application/nn/DNC/memory; octave dnc_read_content_weighting_test.m; cd ../../../..
-cd application/nn/DNC/memory; octave dnc_read_vectors_test.m; cd ../../../..
-cd application/nn/DNC/memory; octave dnc_read_weighting_test.m; cd ../../../..
 cd application/nn/DNC/memory; octave dnc_sort_vector_test.m; cd ../../../..
 cd application/nn/DNC/memory; octave dnc_temporal_link_matrix_test.m; cd ../../../..
 cd application/nn/DNC/memory; octave dnc_usage_vector_test.m; cd ../../../..
 cd application/nn/DNC/memory; octave dnc_vector_content_based_addressing_test.m; cd ../../../..
-cd application/nn/DNC/memory; octave dnc_write_content_weighting_test.m; cd ../../../..
-cd application/nn/DNC/memory; octave dnc_write_weighting_test.m; cd ../../../..
+cd application/nn/DNC/read_heads; octave dnc_read_content_weighting_test.m; cd ../../../..
+cd application/nn/DNC/read_heads; octave dnc_read_vectors_test.m; cd ../../../..
+cd application/nn/DNC/read_heads; octave dnc_read_weighting_test.m; cd ../../../..
 cd application/nn/DNC/top; octave dnc_interface_matrix_test.m; cd ../../../..
 cd application/nn/DNC/top; octave dnc_interface_top_test.m; cd ../../../..
 cd application/nn/DNC/top; octave dnc_interface_vector_test.m; cd ../../../..
 cd application/nn/DNC/top; octave dnc_output_vector_test.m; cd ../../../..
 cd application/nn/DNC/top; octave dnc_top_test.m; cd ../../../..
+cd application/nn/DNC/write_heads; octave dnc_write_content_weighting_test.m; cd ../../../..
+cd application/nn/DNC/write_heads; octave dnc_write_weighting_test.m; cd ../../../..
 #cd application/nn/DNC/trained; octave dnc_trained_top_test.m; cd ../../../..
 
 cd application/trainer/differentiation; octave ntm_matrix_controller_differentiation_test.m; cd ../../..

@@ -364,18 +364,6 @@ library
 │   │   │   │   ├── ntm_model_pkg.vhd
 │   │   │   │   ├── ntm_model.vhd
 │   │   │   │   └── ntm_testbench.vhd
-│   │   │   ├── dnc_read_content_weighting
-│   │   │   │   ├── ntm_model_pkg.vhd
-│   │   │   │   ├── ntm_model.vhd
-│   │   │   │   └── ntm_testbench.vhd
-│   │   │   ├── dnc_read_vectors
-│   │   │   │   ├── ntm_model_pkg.vhd
-│   │   │   │   ├── ntm_model.vhd
-│   │   │   │   └── ntm_testbench.vhd
-│   │   │   ├── dnc_read_weighting
-│   │   │   │   ├── ntm_model_pkg.vhd
-│   │   │   │   ├── ntm_model.vhd
-│   │   │   │   └── ntm_testbench.vhd
 │   │   │   ├── dnc_sort_vector
 │   │   │   │   ├── ntm_model_pkg.vhd
 │   │   │   │   ├── ntm_model.vhd
@@ -388,15 +376,20 @@ library
 │   │   │   │   ├── ntm_model_pkg.vhd
 │   │   │   │   ├── ntm_model.vhd
 │   │   │   │   └── ntm_testbench.vhd
-│   │   │   ├── dnc_vector_content_based_addressing
+│   │   │   └── dnc_vector_content_based_addressing
+│   │   │       ├── ntm_model_pkg.vhd
+│   │   │       ├── ntm_model.vhd
+│   │   │       └── ntm_testbench.vhd
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting
 │   │   │   │   ├── ntm_model_pkg.vhd
 │   │   │   │   ├── ntm_model.vhd
 │   │   │   │   └── ntm_testbench.vhd
-│   │   │   ├── dnc_write_content_weighting
+│   │   │   ├── dnc_read_vectors
 │   │   │   │   ├── ntm_model_pkg.vhd
 │   │   │   │   ├── ntm_model.vhd
 │   │   │   │   └── ntm_testbench.vhd
-│   │   │   └── dnc_write_weighting
+│   │   │   └── dnc_read_weighting
 │   │   │       ├── ntm_model_pkg.vhd
 │   │   │       ├── ntm_model.vhd
 │   │   │       └── ntm_testbench.vhd
@@ -421,8 +414,17 @@ library
 │   │   │       ├── ntm_model_pkg.vhd
 │   │   │       ├── ntm_model.vhd
 │   │   │       └── ntm_testbench.vhd
-│   │   └── trained
-│   │       └── dnc_trained_top
+│   │   ├── trained
+│   │   │   └── dnc_trained_top
+│   │   │       ├── ntm_model_pkg.vhd
+│   │   │       ├── ntm_model.vhd
+│   │   │       └── ntm_testbench.vhd
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting
+│   │       │   ├── ntm_model_pkg.vhd
+│   │       │   ├── ntm_model.vhd
+│   │       │   └── ntm_testbench.vhd
+│   │       └── dnc_write_weighting
 │   │           ├── ntm_model_pkg.vhd
 │   │           ├── ntm_model.vhd
 │   │           └── ntm_testbench.vhd
@@ -685,4 +687,4 @@ library
                 ├── ntm_model.vhd
                 └── ntm_testbench.vhd
 
-205 directories, 480 files
+207 directories, 480 files

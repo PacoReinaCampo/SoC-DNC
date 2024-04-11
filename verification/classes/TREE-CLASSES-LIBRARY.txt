@@ -1044,42 +1044,6 @@ library
 │   │   │   │   ├── ntm_testbench.sv
 │   │   │   │   ├── ntm_test.sv
 │   │   │   │   └── ntm_transaction.sv
-│   │   │   ├── dnc_read_content_weighting
-│   │   │   │   ├── ntm_agent.sv
-│   │   │   │   ├── ntm_driver.sv
-│   │   │   │   ├── ntm_environment.sv
-│   │   │   │   ├── ntm_generator.sv
-│   │   │   │   ├── ntm_interface.sv
-│   │   │   │   ├── ntm_monitor.sv
-│   │   │   │   ├── ntm_package.sv
-│   │   │   │   ├── ntm_scoreboard.sv
-│   │   │   │   ├── ntm_testbench.sv
-│   │   │   │   ├── ntm_test.sv
-│   │   │   │   └── ntm_transaction.sv
-│   │   │   ├── dnc_read_vectors
-│   │   │   │   ├── ntm_agent.sv
-│   │   │   │   ├── ntm_driver.sv
-│   │   │   │   ├── ntm_environment.sv
-│   │   │   │   ├── ntm_generator.sv
-│   │   │   │   ├── ntm_interface.sv
-│   │   │   │   ├── ntm_monitor.sv
-│   │   │   │   ├── ntm_package.sv
-│   │   │   │   ├── ntm_scoreboard.sv
-│   │   │   │   ├── ntm_testbench.sv
-│   │   │   │   ├── ntm_test.sv
-│   │   │   │   └── ntm_transaction.sv
-│   │   │   ├── dnc_read_weighting
-│   │   │   │   ├── ntm_agent.sv
-│   │   │   │   ├── ntm_driver.sv
-│   │   │   │   ├── ntm_environment.sv
-│   │   │   │   ├── ntm_generator.sv
-│   │   │   │   ├── ntm_interface.sv
-│   │   │   │   ├── ntm_monitor.sv
-│   │   │   │   ├── ntm_package.sv
-│   │   │   │   ├── ntm_scoreboard.sv
-│   │   │   │   ├── ntm_testbench.sv
-│   │   │   │   ├── ntm_test.sv
-│   │   │   │   └── ntm_transaction.sv
 │   │   │   ├── dnc_sort_vector
 │   │   │   │   ├── ntm_agent.sv
 │   │   │   │   ├── ntm_driver.sv
@@ -1116,7 +1080,20 @@ library
 │   │   │   │   ├── ntm_testbench.sv
 │   │   │   │   ├── ntm_test.sv
 │   │   │   │   └── ntm_transaction.sv
-│   │   │   ├── dnc_vector_content_based_addressing
+│   │   │   └── dnc_vector_content_based_addressing
+│   │   │       ├── ntm_agent.sv
+│   │   │       ├── ntm_driver.sv
+│   │   │       ├── ntm_environment.sv
+│   │   │       ├── ntm_generator.sv
+│   │   │       ├── ntm_interface.sv
+│   │   │       ├── ntm_monitor.sv
+│   │   │       ├── ntm_package.sv
+│   │   │       ├── ntm_scoreboard.sv
+│   │   │       ├── ntm_testbench.sv
+│   │   │       ├── ntm_test.sv
+│   │   │       └── ntm_transaction.sv
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting
 │   │   │   │   ├── ntm_agent.sv
 │   │   │   │   ├── ntm_driver.sv
 │   │   │   │   ├── ntm_environment.sv
@@ -1128,7 +1105,7 @@ library
 │   │   │   │   ├── ntm_testbench.sv
 │   │   │   │   ├── ntm_test.sv
 │   │   │   │   └── ntm_transaction.sv
-│   │   │   ├── dnc_write_content_weighting
+│   │   │   ├── dnc_read_vectors
 │   │   │   │   ├── ntm_agent.sv
 │   │   │   │   ├── ntm_driver.sv
 │   │   │   │   ├── ntm_environment.sv
@@ -1140,7 +1117,7 @@ library
 │   │   │   │   ├── ntm_testbench.sv
 │   │   │   │   ├── ntm_test.sv
 │   │   │   │   └── ntm_transaction.sv
-│   │   │   └── dnc_write_weighting
+│   │   │   └── dnc_read_weighting
 │   │   │       ├── ntm_agent.sv
 │   │   │       ├── ntm_driver.sv
 │   │   │       ├── ntm_environment.sv
@@ -1213,8 +1190,33 @@ library
 │   │   │       ├── ntm_testbench.sv
 │   │   │       ├── ntm_test.sv
 │   │   │       └── ntm_transaction.sv
-│   │   └── trained
-│   │       └── dnc_trained_top
+│   │   ├── trained
+│   │   │   └── dnc_trained_top
+│   │   │       ├── ntm_agent.sv
+│   │   │       ├── ntm_driver.sv
+│   │   │       ├── ntm_environment.sv
+│   │   │       ├── ntm_generator.sv
+│   │   │       ├── ntm_interface.sv
+│   │   │       ├── ntm_monitor.sv
+│   │   │       ├── ntm_package.sv
+│   │   │       ├── ntm_scoreboard.sv
+│   │   │       ├── ntm_testbench.sv
+│   │   │       ├── ntm_test.sv
+│   │   │       └── ntm_transaction.sv
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting
+│   │       │   ├── ntm_agent.sv
+│   │       │   ├── ntm_driver.sv
+│   │       │   ├── ntm_environment.sv
+│   │       │   ├── ntm_generator.sv
+│   │       │   ├── ntm_interface.sv
+│   │       │   ├── ntm_monitor.sv
+│   │       │   ├── ntm_package.sv
+│   │       │   ├── ntm_scoreboard.sv
+│   │       │   ├── ntm_testbench.sv
+│   │       │   ├── ntm_test.sv
+│   │       │   └── ntm_transaction.sv
+│   │       └── dnc_write_weighting
 │   │           ├── ntm_agent.sv
 │   │           ├── ntm_driver.sv
 │   │           ├── ntm_environment.sv
@@ -1965,4 +1967,4 @@ library
                 ├── ntm_test.sv
                 └── ntm_transaction.sv
 
-205 directories, 1760 files
+207 directories, 1760 files

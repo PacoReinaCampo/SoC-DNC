@@ -279,15 +279,6 @@ application
 │   │   │   ├── dnc_precedence_weighting
 │   │   │   │   ├── ntm_design.sv
 │   │   │   │   └── ntm_testbench.sv
-│   │   │   ├── dnc_read_content_weighting
-│   │   │   │   ├── ntm_design.sv
-│   │   │   │   └── ntm_testbench.sv
-│   │   │   ├── dnc_read_vectors
-│   │   │   │   ├── ntm_design.sv
-│   │   │   │   └── ntm_testbench.sv
-│   │   │   ├── dnc_read_weighting
-│   │   │   │   ├── ntm_design.sv
-│   │   │   │   └── ntm_testbench.sv
 │   │   │   ├── dnc_sort_vector
 │   │   │   │   ├── ntm_design.sv
 │   │   │   │   └── ntm_testbench.sv
@@ -297,13 +288,17 @@ application
 │   │   │   ├── dnc_usage_vector
 │   │   │   │   ├── ntm_design.sv
 │   │   │   │   └── ntm_testbench.sv
-│   │   │   ├── dnc_vector_content_based_addressing
+│   │   │   └── dnc_vector_content_based_addressing
+│   │   │       ├── ntm_design.sv
+│   │   │       └── ntm_testbench.sv
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting
 │   │   │   │   ├── ntm_design.sv
 │   │   │   │   └── ntm_testbench.sv
-│   │   │   ├── dnc_write_content_weighting
+│   │   │   ├── dnc_read_vectors
 │   │   │   │   ├── ntm_design.sv
 │   │   │   │   └── ntm_testbench.sv
-│   │   │   └── dnc_write_weighting
+│   │   │   └── dnc_read_weighting
 │   │   │       ├── ntm_design.sv
 │   │   │       └── ntm_testbench.sv
 │   │   ├── top
@@ -322,8 +317,15 @@ application
 │   │   │   └── dnc_top
 │   │   │       ├── ntm_design.sv
 │   │   │       └── ntm_testbench.sv
-│   │   └── trained
-│   │       └── dnc_trained_top
+│   │   ├── trained
+│   │   │   └── dnc_trained_top
+│   │   │       ├── ntm_design.sv
+│   │   │       └── ntm_testbench.sv
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting
+│   │       │   ├── ntm_design.sv
+│   │       │   └── ntm_testbench.sv
+│   │       └── dnc_write_weighting
 │   │           ├── ntm_design.sv
 │   │           └── ntm_testbench.sv
 │   ├── FNN
@@ -525,4 +527,4 @@ application
                 ├── ntm_design.sv
                 └── ntm_testbench.sv
 
-205 directories, 320 files
+207 directories, 320 files

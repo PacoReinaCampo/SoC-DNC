@@ -58,23 +58,25 @@ library
 │   │   │   ├── dnc_memory_matrix.adb
 │   │   │   ├── dnc_memory_retention_vector.adb
 │   │   │   ├── dnc_precedence_weighting.adb
-│   │   │   ├── dnc_read_content_weighting.adb
-│   │   │   ├── dnc_read_vectors.adb
-│   │   │   ├── dnc_read_weighting.adb
 │   │   │   ├── dnc_sort_vector.adb
 │   │   │   ├── dnc_temporal_link_matrix.adb
 │   │   │   ├── dnc_usage_vector.adb
-│   │   │   ├── dnc_vector_content_based_addressing.adb
-│   │   │   ├── dnc_write_content_weighting.adb
-│   │   │   └── dnc_write_weighting.adb
+│   │   │   └── dnc_vector_content_based_addressing.adb
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting.adb
+│   │   │   ├── dnc_read_vectors.adb
+│   │   │   └── dnc_read_weighting.adb
 │   │   ├── top
 │   │   │   ├── dnc_interface_matrix.adb
 │   │   │   ├── dnc_interface_top.adb
 │   │   │   ├── dnc_interface_vector.adb
 │   │   │   ├── dnc_output_vector.adb
 │   │   │   └── dnc_top.adb
-│   │   └── trained
-│   │       └── dnc_trained_top.adb
+│   │   ├── trained
+│   │   │   └── dnc_trained_top.adb
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting.adb
+│   │       └── dnc_write_weighting.adb
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── ntm_controller.adb
@@ -150,4 +152,4 @@ library
             ├── ntm_lstm_output_v_trainer.adb
             └── ntm_lstm_output_w_trainer.adb
 
-45 directories, 105 files
+47 directories, 105 files

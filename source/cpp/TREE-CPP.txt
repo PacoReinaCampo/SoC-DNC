@@ -308,13 +308,10 @@ library
 │   │   │   ├── dnc_precedence_weighting.cpp
 │   │   │   ├── dnc_precedence_weighting_design.cpp
 │   │   │   ├── dnc_precedence_weighting_testbench.cpp
-│   │   │   ├── dnc_read_content_weighting.cpp
 │   │   │   ├── dnc_read_content_weighting_design.cpp
 │   │   │   ├── dnc_read_content_weighting_testbench.cpp
-│   │   │   ├── dnc_read_vectors.cpp
 │   │   │   ├── dnc_read_vectors_design.cpp
 │   │   │   ├── dnc_read_vectors_testbench.cpp
-│   │   │   ├── dnc_read_weighting.cpp
 │   │   │   ├── dnc_read_weighting_design.cpp
 │   │   │   ├── dnc_read_weighting_testbench.cpp
 │   │   │   ├── dnc_sort_vector.cpp
@@ -329,12 +326,14 @@ library
 │   │   │   ├── dnc_vector_content_based_addressing.cpp
 │   │   │   ├── dnc_vector_content_based_addressing_design.cpp
 │   │   │   ├── dnc_vector_content_based_addressing_testbench.cpp
-│   │   │   ├── dnc_write_content_weighting.cpp
 │   │   │   ├── dnc_write_content_weighting_design.cpp
 │   │   │   ├── dnc_write_content_weighting_testbench.cpp
-│   │   │   ├── dnc_write_weighting.cpp
 │   │   │   ├── dnc_write_weighting_design.cpp
 │   │   │   └── dnc_write_weighting_testbench.cpp
+│   │   ├── read_heads
+│   │   │   ├── dnc_read_content_weighting.cpp
+│   │   │   ├── dnc_read_vectors.cpp
+│   │   │   └── dnc_read_weighting.cpp
 │   │   ├── top
 │   │   │   ├── dnc_interface_matrix.cpp
 │   │   │   ├── dnc_interface_matrix_design.cpp
@@ -351,10 +350,13 @@ library
 │   │   │   ├── dnc_top.cpp
 │   │   │   ├── dnc_top_design.cpp
 │   │   │   └── dnc_top_testbench.cpp
-│   │   └── trained
-│   │       ├── dnc_trained_top.cpp
-│   │       ├── dnc_trained_top_design.cpp
-│   │       └── dnc_trained_top_testbench.cpp
+│   │   ├── trained
+│   │   │   ├── dnc_trained_top.cpp
+│   │   │   ├── dnc_trained_top_design.cpp
+│   │   │   └── dnc_trained_top_testbench.cpp
+│   │   └── write_heads
+│   │       ├── dnc_write_content_weighting.cpp
+│   │       └── dnc_write_weighting.cpp
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   ├── ntm_controller.cpp
@@ -559,4 +561,4 @@ library
     ├── ntm_fnn.cpp
     └── ntm_lstm.cpp
 
-61 directories, 498 files
+63 directories, 498 files

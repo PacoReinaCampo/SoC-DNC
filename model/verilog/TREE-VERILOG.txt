@@ -189,19 +189,17 @@ code
 │   │   │   ├── model_memory_matrix.sv
 │   │   │   ├── model_memory_retention_vector.sv
 │   │   │   ├── model_precedence_weighting.sv
-│   │   │   ├── model_read_content_weighting.sv
-│   │   │   ├── model_read_vectors.sv
-│   │   │   ├── model_read_weighting.sv
 │   │   │   ├── model_sort_vector.sv
 │   │   │   ├── model_temporal_link_matrix.sv
-│   │   │   ├── model_usage_vector.sv
-│   │   │   ├── model_write_content_weighting.sv
-│   │   │   └── model_write_weighting.sv
+│   │   │   └── model_usage_vector.sv
 │   │   ├── read_heads
 │   │   │   ├── model_free_gates.sv
+│   │   │   ├── model_read_content_weighting.sv
 │   │   │   ├── model_read_keys.sv
 │   │   │   ├── model_read_modes.sv
-│   │   │   └── model_read_strengths.sv
+│   │   │   ├── model_read_strengths.sv
+│   │   │   ├── model_read_vectors.sv
+│   │   │   └── model_read_weighting.sv
 │   │   ├── top
 │   │   │   ├── model_interface_vector.sv
 │   │   │   ├── model_output_vector.sv
@@ -209,10 +207,12 @@ code
 │   │   └── write_heads
 │   │       ├── model_allocation_gate.sv
 │   │       ├── model_erase_vector.sv
+│   │       ├── model_write_content_weighting.sv
 │   │       ├── model_write_gate.sv
 │   │       ├── model_write_key.sv
 │   │       ├── model_write_strength.sv
-│   │       └── model_write_vector.sv
+│   │       ├── model_write_vector.sv
+│   │       └── model_write_weighting.sv
 │   ├── FNN
 │   │   ├── convolutional
 │   │   │   └── model_controller.sv
