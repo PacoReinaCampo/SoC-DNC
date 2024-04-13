@@ -56,6 +56,8 @@ addpath(genpath('../../../../library/math/vector'));
 addpath(genpath('../../../../library/nn/FNN/standard'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
+addpath(genpath('../../../../library/nn/DNC/read_heads'));
+addpath(genpath('../../../../library/nn/DNC/write_heads'));
 addpath(genpath('../../../../library/nn/DNC/top'));
 
 # Constants

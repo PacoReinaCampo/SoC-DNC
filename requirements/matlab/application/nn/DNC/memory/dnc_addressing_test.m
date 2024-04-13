@@ -52,6 +52,8 @@ addpath(genpath('../../../../library/math/vector'));
 addpath(genpath('../../../../library/math/matrix'));
 
 addpath(genpath('../../../../library/nn/DNC/memory'));
+addpath(genpath('../../../../library/nn/DNC/read_heads'));
+addpath(genpath('../../../../library/nn/DNC/write_heads'));
 
 # Constants
 SIZE_R_IN = 3;
