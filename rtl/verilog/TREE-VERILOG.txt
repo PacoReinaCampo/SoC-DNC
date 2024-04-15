@@ -171,7 +171,7 @@ code
 │       ├── accelerator_vector_sinh_function.sv
 │       └── accelerator_vector_tanh_function.sv
 ├── nn
-│   ├── ANN
+│   ├── ann
 │   │   ├── components
 │   │   │   ├── accelerator_masked_multi_head_attention.sv
 │   │   │   ├── accelerator_masked_scaled_dot_product_attention.sv
@@ -234,12 +234,12 @@ code
 │   │       ├── accelerator_write_strength.sv
 │   │       ├── accelerator_write_vector.sv
 │   │       └── accelerator_write_weighting.sv
-│   ├── FNN
+│   ├── fnn
 │   │   ├── convolutional
 │   │   │   └── accelerator_controller.sv
 │   │   └── standard
 │   │       └── accelerator_controller.sv
-│   └── LSTM
+│   └── lstm
 │       ├── convolutional
 │       │   ├── accelerator_activation_gate_vector.sv
 │       │   ├── accelerator_controller.sv
@@ -257,42 +257,42 @@ code
 │           ├── accelerator_output_gate_vector.sv
 │           └── accelerator_state_gate_vector.sv
 ├── pkg
+│   ├── accelerator_ann_controller_verilog_pkg.sv
 │   ├── accelerator_arithmetic_verilog_pkg.sv
 │   ├── accelerator_core_verilog_pkg.sv
 │   ├── accelerator_fnn_controller_verilog_pkg.sv
-│   ├── accelerator_linear_controller_verilog_pkg.sv
 │   ├── accelerator_lstm_controller_verilog_pkg.sv
 │   ├── accelerator_math_verilog_pkg.sv
-│   ├── accelerator_state_verilog_pkg.sv
-│   └── accelerator_transformer_controller_verilog_pkg.sv
+│   ├── accelerator_pnn_controller_verilog_pkg.sv
+│   └── accelerator_state_verilog_pkg.sv
 ├── state
 │   ├── feedback
 │   │   ├── accelerator_state_matrix_feedforward.sv
 │   │   ├── accelerator_state_matrix_input.sv
 │   │   ├── accelerator_state_matrix_output.sv
 │   │   └── accelerator_state_matrix_state.sv
-│   ├── linear
+│   ├── outputs
+│   │   ├── accelerator_state_vector_output.sv
+│   │   └── accelerator_state_vector_state.sv
+│   ├── pnn
 │   │   ├── convolutional
 │   │   │   └── accelerator_controller.sv
 │   │   └── standard
 │   │       └── accelerator_controller.sv
-│   ├── outputs
-│   │   ├── accelerator_state_vector_output.sv
-│   │   └── accelerator_state_vector_state.sv
 │   └── top
 │       └── accelerator_state_top.sv
 └── trainer
     ├── differentiation
     │   ├── accelerator_trainer_matrix_differentiation.sv
     │   └── accelerator_trainer_vector_differentiation.sv
-    ├── FNN
+    ├── fnn
     │   └── accelerator_trainer.sv
-    ├── linear
-    │   └── accelerator_trainer.sv
-    └── LSTM
-        ├── accelerator_activation_trainer.sv
-        ├── accelerator_forget_trainer.sv
-        ├── accelerator_input_trainer.sv
-        └── accelerator_output_trainer.sv
+    ├── lstm
+    │   ├── accelerator_activation_trainer.sv
+    │   ├── accelerator_forget_trainer.sv
+    │   ├── accelerator_input_trainer.sv
+    │   └── accelerator_output_trainer.sv
+    └── pnn
+        └── accelerator_trainer.sv
 
 81 directories, 214 files

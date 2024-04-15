@@ -150,7 +150,7 @@ code
 │       ├── model_vector_sinh_function.vhd
 │       └── model_vector_tanh_function.vhd
 ├── nn
-│   ├── ANN
+│   ├── ann
 │   │   ├── components
 │   │   │   ├── model_masked_multi_head_attention.vhd
 │   │   │   ├── model_masked_scaled_dot_product_attention.vhd
@@ -206,12 +206,12 @@ code
 │   │       ├── model_write_content_weighting.vhd
 │   │       ├── model_write_heads.vhd
 │   │       └── model_write_weighting.vhd
-│   ├── FNN
+│   ├── fnn
 │   │   ├── convolutional
 │   │   │   └── model_controller.vhd
 │   │   └── standard
 │   │       └── model_controller.vhd
-│   └── LSTM
+│   └── lstm
 │       ├── convolutional
 │       │   ├── model_activation_gate_vector.vhd
 │       │   ├── model_controller.vhd
@@ -229,42 +229,42 @@ code
 │           ├── model_output_gate_vector.vhd
 │           └── model_state_gate_vector.vhd
 ├── pkg
+│   ├── model_ann_controller_vhdl_pkg.vhd
 │   ├── model_arithmetic_vhdl_pkg.vhd
 │   ├── model_fnn_controller_vhdl_pkg.vhd
-│   ├── model_linear_controller_vhdl_pkg.vhd
 │   ├── model_lstm_controller_vhdl_pkg.vhd
 │   ├── model_math_vhdl_pkg.vhd
 │   ├── model_ntm_core_vhdl_pkg.vhd
-│   ├── model_state_vhdl_pkg.vhd
-│   └── model_transformer_controller_vhdl_pkg.vhd
+│   ├── model_pnn_controller_vhdl_pkg.vhd
+│   └── model_state_vhdl_pkg.vhd
 ├── state
 │   ├── feedback
 │   │   ├── model_state_matrix_feedforward.vhd
 │   │   ├── model_state_matrix_input.vhd
 │   │   ├── model_state_matrix_output.vhd
 │   │   └── model_state_matrix_state.vhd
-│   ├── linear
+│   ├── outputs
+│   │   ├── model_state_vector_output.vhd
+│   │   └── model_state_vector_state.vhd
+│   ├── pnn
 │   │   ├── convolutional
 │   │   │   └── model_controller.vhd
 │   │   └── standard
 │   │       └── model_controller.vhd
-│   ├── outputs
-│   │   ├── model_state_vector_output.vhd
-│   │   └── model_state_vector_state.vhd
 │   └── top
 │       └── model_state_top.vhd
 └── trainer
     ├── differentiation
     │   ├── model_trainer_matrix_differentiation.vhd
     │   └── model_trainer_vector_differentiation.vhd
-    ├── FNN
+    ├── fnn
     │   └── model_trainer.vhd
-    ├── linear
-    │   └── model_trainer.vhd
-    └── LSTM
-        ├── model_activation_trainer.vhd
-        ├── model_forget_trainer.vhd
-        ├── model_input_trainer.vhd
-        └── model_output_trainer.vhd
+    ├── lstm
+    │   ├── model_activation_trainer.vhd
+    │   ├── model_forget_trainer.vhd
+    │   ├── model_input_trainer.vhd
+    │   └── model_output_trainer.vhd
+    └── pnn
+        └── model_trainer.vhd
 
 76 directories, 191 files

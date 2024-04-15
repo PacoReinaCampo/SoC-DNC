@@ -76,7 +76,7 @@ library
 │       ├── ntm_vector_mean.c
 │       └── ntm_vector_oneplus_function.c
 ├── nn
-│   ├── ANN
+│   ├── ann
 │   │   ├── components
 │   │   │   ├── ntm_masked_multi_head_attention.c
 │   │   │   ├── ntm_masked_scaled_dot_product_attention.c
@@ -99,7 +99,7 @@ library
 │   │       ├── ntm_controller.c
 │   │       ├── ntm_decoder.c
 │   │       └── ntm_encoder.c
-│   ├── DNC
+│   ├── dnc
 │   │   ├── memory
 │   │   │   ├── dnc_addressing.c
 │   │   │   ├── dnc_allocation_weighting.c
@@ -128,12 +128,12 @@ library
 │   │   └── write_heads
 │   │       ├── dnc_write_content_weighting.c
 │   │       └── dnc_write_weighting.c
-│   ├── FNN
+│   ├── fnn
 │   │   ├── convolutional
 │   │   │   └── ntm_controller.c
 │   │   └── standard
 │   │       └── ntm_controller.c
-│   └── LSTM
+│   └── lstm
 │       ├── convolutional
 │       │   ├── ntm_activation_gate_vector.c
 │       │   ├── ntm_controller.c
@@ -165,7 +165,7 @@ library
     ├── differentiation
     │   ├── ntm_matrix_controller_differentiation.c
     │   └── ntm_vector_controller_differentiation.c
-    ├── FNN
+    ├── fnn
     │   ├── ntm_fnn_b_trainer.c
     │   ├── ntm_fnn_d_trainer.c
     │   ├── ntm_fnn_k_trainer.c
@@ -173,7 +173,7 @@ library
     │   ├── ntm_fnn_u_trainer.c
     │   ├── ntm_fnn_v_trainer.c
     │   └── ntm_fnn_w_trainer.c
-    └── LSTM
+    └── lstm
         ├── activation
         │   ├── ntm_lstm_activation_b_trainer.c
         │   ├── ntm_lstm_activation_d_trainer.c

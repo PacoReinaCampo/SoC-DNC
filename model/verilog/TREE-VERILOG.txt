@@ -150,7 +150,7 @@ code
 │       ├── model_vector_sinh_function.sv
 │       └── model_vector_tanh_function.sv
 ├── nn
-│   ├── ANN
+│   ├── ann
 │   │   ├── components
 │   │   │   ├── model_masked_multi_head_attention.sv
 │   │   │   ├── model_masked_scaled_dot_product_attention.sv
@@ -213,12 +213,12 @@ code
 │   │       ├── model_write_strength.sv
 │   │       ├── model_write_vector.sv
 │   │       └── model_write_weighting.sv
-│   ├── FNN
+│   ├── fnn
 │   │   ├── convolutional
 │   │   │   └── model_controller.sv
 │   │   └── standard
 │   │       └── model_controller.sv
-│   └── LSTM
+│   └── lstm
 │       ├── convolutional
 │       │   ├── model_activation_gate_vector.sv
 │       │   ├── model_controller.sv
@@ -236,42 +236,42 @@ code
 │           ├── model_output_gate_vector.sv
 │           └── model_state_gate_vector.sv
 ├── pkg
+│   ├── model_ann_controller_verilog_pkg.sv
 │   ├── model_arithmetic_verilog_pkg.sv
 │   ├── model_fnn_controller_verilog_pkg.sv
-│   ├── model_linear_controller_verilog_pkg.sv
 │   ├── model_lstm_controller_verilog_pkg.sv
 │   ├── model_math_verilog_pkg.sv
 │   ├── model_ntm_core_verilog_pkg.sv
-│   ├── model_state_verilog_pkg.sv
-│   └── model_transformer_controller_verilog_pkg.sv
+│   ├── model_pnn_controller_verilog_pkg.sv
+│   └── model_state_verilog_pkg.sv
 ├── state
 │   ├── feedback
 │   │   ├── model_state_matrix_feedforward.sv
 │   │   ├── model_state_matrix_input.sv
 │   │   ├── model_state_matrix_output.sv
 │   │   └── model_state_matrix_state.sv
-│   ├── linear
+│   ├── outputs
+│   │   ├── model_state_vector_output.sv
+│   │   └── model_state_vector_state.sv
+│   ├── pnn
 │   │   ├── convolutional
 │   │   │   └── model_controller.sv
 │   │   └── standard
 │   │       └── model_controller.sv
-│   ├── outputs
-│   │   ├── model_state_vector_output.sv
-│   │   └── model_state_vector_state.sv
 │   └── top
 │       └── model_state_top.sv
 └── trainer
     ├── differentiation
     │   ├── model_trainer_matrix_differentiation.sv
     │   └── model_trainer_vector_differentiation.sv
-    ├── FNN
+    ├── fnn
     │   └── model_trainer.sv
-    ├── linear
-    │   └── model_trainer.sv
-    └── LSTM
-        ├── model_activation_trainer.sv
-        ├── model_forget_trainer.sv
-        ├── model_input_trainer.sv
-        └── model_output_trainer.sv
+    ├── lstm
+    │   ├── model_activation_trainer.sv
+    │   ├── model_forget_trainer.sv
+    │   ├── model_input_trainer.sv
+    │   └── model_output_trainer.sv
+    └── pnn
+        └── model_trainer.sv
 
 76 directories, 198 files

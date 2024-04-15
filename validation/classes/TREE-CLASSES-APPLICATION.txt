@@ -200,7 +200,7 @@ application
 │           ├── ntm_design.sv
 │           └── ntm_testbench.sv
 ├── nn
-│   ├── ANN
+│   ├── ann
 │   │   ├── components
 │   │   │   ├── ntm_masked_multi_head_attention
 │   │   │   │   ├── ntm_design.sv
@@ -328,7 +328,7 @@ application
 │   │       └── dnc_write_weighting
 │   │           ├── ntm_design.sv
 │   │           └── ntm_testbench.sv
-│   ├── FNN
+│   ├── fnn
 │   │   ├── convolutional
 │   │   │   └── ntm_controller
 │   │   │       ├── ntm_design.sv
@@ -337,7 +337,7 @@ application
 │   │       └── ntm_controller
 │   │           ├── ntm_design.sv
 │   │           └── ntm_testbench.sv
-│   └── LSTM
+│   └── lstm
 │       ├── convolutional
 │       │   ├── ntm_activation_gate_vector
 │       │   │   ├── ntm_design.sv
@@ -415,7 +415,7 @@ application
     │   └── ntm_vector_controller_differentiation
     │       ├── ntm_design.sv
     │       └── ntm_testbench.sv
-    ├── FNN
+    ├── fnn
     │   ├── ntm_fnn_b_trainer
     │   │   ├── ntm_design.sv
     │   │   └── ntm_testbench.sv
@@ -437,7 +437,7 @@ application
     │   └── ntm_fnn_w_trainer
     │       ├── ntm_design.sv
     │       └── ntm_testbench.sv
-    └── LSTM
+    └── lstm
         ├── activation
         │   ├── ntm_lstm_activation_b_trainer
         │   │   ├── ntm_design.sv
