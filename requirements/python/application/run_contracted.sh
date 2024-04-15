@@ -60,20 +60,20 @@ python3 -B state/test_state_feedback.py
 python3 -B state/test_state_outputs.py
 python3 -B state/test_state_top.py
 
-python3 -B nn/ANN/test_ann_components.py
-python3 -B nn/ANN/test_ann_controller.py
-python3 -B nn/ANN/test_ann_functions.py
-python3 -B nn/ANN/test_ann_inputs.py
-python3 -B nn/ANN/test_ann_top.py
-python3 -B nn/DNC/test_dnc_memory.py
-python3 -B nn/DNC/test_dnc_read_heads.py
-python3 -B nn/DNC/test_dnc_top.py
-python3 -B nn/DNC/test_dnc_trained.py
-python3 -B nn/DNC/test_dnc_write_heads.py
-python3 -B nn/FNN/test_convolutional_fnn_controller.py
-python3 -B nn/FNN/test_standard_fnn_controller.py
-python3 -B nn/LSTM/test_convolutional_lstm_controller.py
-python3 -B nn/LSTM/test_standard_lstm_controller.py
+python3 -B nn/ann/test_ann_components.py
+python3 -B nn/ann/test_ann_controller.py
+python3 -B nn/ann/test_ann_functions.py
+python3 -B nn/ann/test_ann_inputs.py
+python3 -B nn/ann/test_ann_top.py
+python3 -B nn/dnc/test_dnc_memory.py
+python3 -B nn/dnc/test_dnc_read_heads.py
+python3 -B nn/dnc/test_dnc_top.py
+python3 -B nn/dnc/test_dnc_trained.py
+python3 -B nn/dnc/test_dnc_write_heads.py
+python3 -B nn/fnn/test_convolutional_fnn_controller.py
+python3 -B nn/fnn/test_standard_fnn_controller.py
+python3 -B nn/lstm/test_convolutional_lstm_controller.py
+python3 -B nn/lstm/test_standard_lstm_controller.py
 
 python3 -B trainer/test_trainer_differentiation.py
 python3 -B trainer/test_trainer_fnn.py
