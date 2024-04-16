@@ -253,7 +253,7 @@ application
 │   │       └── ntm_encoder
 │   │           ├── ntm_design.sv
 │   │           └── ntm_testbench.sv
-│   ├── DNC
+│   ├── dnc
 │   │   ├── memory
 │   │   │   ├── dnc_addressing
 │   │   │   │   ├── ntm_design.sv

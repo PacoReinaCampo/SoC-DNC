@@ -946,7 +946,7 @@ library
 │   │           ├── ntm_uvm_sequence.sv
 │   │           ├── ntm_uvm_testbench.sv
 │   │           └── ntm_uvm_test.sv
-│   ├── DNC
+│   ├── dnc
 │   │   ├── memory
 │   │   │   ├── dnc_addressing
 │   │   │   │   ├── ntm_uvm_agent.sv

@@ -330,7 +330,7 @@ library
 │   │           ├── ntm_model_pkg.vhd
 │   │           ├── ntm_model.vhd
 │   │           └── ntm_testbench.vhd
-│   ├── DNC
+│   ├── dnc
 │   │   ├── memory
 │   │   │   ├── dnc_addressing
 │   │   │   │   ├── ntm_model_pkg.vhd
