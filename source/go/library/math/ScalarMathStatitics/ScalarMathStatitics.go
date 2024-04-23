@@ -44,7 +44,7 @@
 
 package ScalarMathStatitics
 
-func ScalarMean(data_in []float64) []float64 {
+func ScalarMeanFunction(data_in []float64) []float64 {
   data_out := make([]float64, len(data_in))
   for i := range data_in {
     data_out = append(data_out, data_in[i])
@@ -52,7 +52,7 @@ func ScalarMean(data_in []float64) []float64 {
   return data_out
 }
 
-func ScalarDeviation(data_in []float64) []float64 {
+func ScalarDeviationFunction(data_in []float64) []float64 {
   data_out := make([]float64, len(data_in))
   for i := range data_in {
     data_out = append(data_out, data_in[i])

@@ -44,7 +44,7 @@
 
 package VectorMathStatitics
 
-func VectorMean(data_in [][]float64) [][]float64 {
+func VectorMeanFunction(data_in [][]float64) [][]float64 {
   data_out := make([][]float64, len(data_in))
   for i, x := range data_in {
     for j, _ := range x {
@@ -54,7 +54,7 @@ func VectorMean(data_in [][]float64) [][]float64 {
   return data_out
 }
 
-func VectorDeviation(data_in [][]float64) [][]float64 {
+func VectorDeviationFunction(data_in [][]float64) [][]float64 {
   data_out := make([][]float64, len(data_in))
   for i, x := range data_in {
     for j, _ := range x {
