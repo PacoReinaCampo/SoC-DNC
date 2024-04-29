@@ -79,6 +79,6 @@ verilog work ../../../../../../../rtl/verilog/code/nn/DNC/read_heads/accelerator
 verilog work ../../../../../../../rtl/verilog/code/nn/DNC/read_heads/accelerator_read_modes.sv
 verilog work ../../../../../../../rtl/verilog/code/nn/DNC/read_heads/accelerator_read_strengths.sv
 
-verilog work ../../../../../../../validation/tasks/verilog/library/nn/DNC/read_heads/accelerator_read_heads_pkg.sv
-verilog work ../../../../../../../validation/tasks/verilog/library/nn/DNC/read_heads/accelerator_read_heads_stimulus.sv
-verilog work ../../../../../../../validation/tasks/verilog/library/nn/DNC/read_heads/accelerator_read_heads_testbench.sv
+verilog work ../../../../../../../verification/tasks/verilog/library/nn/DNC/read_heads/accelerator_read_heads_pkg.sv
+verilog work ../../../../../../../verification/tasks/verilog/library/nn/DNC/read_heads/accelerator_read_heads_stimulus.sv
+verilog work ../../../../../../../verification/tasks/verilog/library/nn/DNC/read_heads/accelerator_read_heads_testbench.sv

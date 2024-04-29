@@ -91,6 +91,6 @@ vhdl2008 work ../../../../../../../rtl/vhdl/code/nn/DNC/memory/accelerator_write
 vhdl2008 work ../../../../../../../rtl/vhdl/code/nn/DNC/memory/accelerator_write_weighting.vhd
 vhdl2008 work ../../../../../../../rtl/vhdl/code/nn/DNC/memory/accelerator_addressing.vhd
 
-vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/memory/accelerator_memory_pkg.vhd
-vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/memory/accelerator_memory_stimulus.vhd
-vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/memory/accelerator_memory_testbench.vhd
+vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/memory/accelerator_memory_pkg.vhd
+vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/memory/accelerator_memory_stimulus.vhd
+vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/memory/accelerator_memory_testbench.vhd

@@ -91,6 +91,6 @@ verilog work ../../../../../../../model/verilog/code/nn/DNC/memory/model_write_c
 verilog work ../../../../../../../model/verilog/code/nn/DNC/memory/model_write_weighting.sv
 verilog work ../../../../../../../model/verilog/code/nn/DNC/memory/model_addressing.sv
 
-verilog work ../../../../../../../verification/tasks/verilog/library/nn/DNC/memory/model_memory_pkg.sv
-verilog work ../../../../../../../verification/tasks/verilog/library/nn/DNC/memory/model_memory_stimulus.sv
-verilog work ../../../../../../../verification/tasks/verilog/library/nn/DNC/memory/model_memory_testbench.sv
+verilog work ../../../../../../../validation/tasks/verilog/library/nn/DNC/memory/model_memory_pkg.sv
+verilog work ../../../../../../../validation/tasks/verilog/library/nn/DNC/memory/model_memory_stimulus.sv
+verilog work ../../../../../../../validation/tasks/verilog/library/nn/DNC/memory/model_memory_testbench.sv

@@ -76,6 +76,6 @@ vhdl2008 work ../../../../../../../model/vhdl/code/math/calculus/tensor/model_te
 
 vhdl2008 work ../../../../../../../model/vhdl/code/nn/DNC/read_heads/model_read_heads.vhd
 
-vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/read_heads/model_read_heads_pkg.vhd
-vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/read_heads/model_read_heads_stimulus.vhd
-vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/read_heads/model_read_heads_testbench.vhd
+vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/read_heads/model_read_heads_pkg.vhd
+vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/read_heads/model_read_heads_stimulus.vhd
+vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/read_heads/model_read_heads_testbench.vhd

@@ -121,6 +121,6 @@
 ../../../../../../../rtl/verilog/code/nn/DNC/top/accelerator_output_vector.sv
 ../../../../../../../rtl/verilog/code/nn/DNC/top/accelerator_interface_vector.sv
 
-../../../../../../../validation/tasks/verilog/library/nn/DNC/top/accelerator_top_pkg.sv
-../../../../../../../validation/tasks/verilog/library/nn/DNC/top/accelerator_top_stimulus.sv
-../../../../../../../validation/tasks/verilog/library/nn/DNC/top/accelerator_top_testbench.sv
+../../../../../../../verification/tasks/verilog/library/nn/DNC/top/accelerator_top_pkg.sv
+../../../../../../../verification/tasks/verilog/library/nn/DNC/top/accelerator_top_stimulus.sv
+../../../../../../../verification/tasks/verilog/library/nn/DNC/top/accelerator_top_testbench.sv

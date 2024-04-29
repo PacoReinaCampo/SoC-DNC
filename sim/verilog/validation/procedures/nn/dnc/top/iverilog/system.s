@@ -115,6 +115,6 @@
 ../../../../../../../model/verilog/code/nn/DNC/top/model_output_vector.sv
 ../../../../../../../model/verilog/code/nn/DNC/top/model_interface_vector.sv
 
-../../../../../../../verification/tasks/verilog/library/nn/DNC/top/model_top_pkg.sv
-../../../../../../../verification/tasks/verilog/library/nn/DNC/top/model_top_stimulus.sv
-../../../../../../../verification/tasks/verilog/library/nn/DNC/top/model_top_testbench.sv
+../../../../../../../validation/tasks/verilog/library/nn/DNC/top/model_top_pkg.sv
+../../../../../../../validation/tasks/verilog/library/nn/DNC/top/model_top_stimulus.sv
+../../../../../../../validation/tasks/verilog/library/nn/DNC/top/model_top_testbench.sv

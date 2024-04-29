@@ -72,6 +72,6 @@
 ../../../../../../../model/verilog/code/nn/DNC/read_heads/model_read_keys.sv
 ../../../../../../../model/verilog/code/nn/DNC/read_heads/model_read_strengths.sv
 
-../../../../../../../verification/tasks/verilog/library/nn/DNC/read_heads/model_read_heads_pkg.sv
-../../../../../../../verification/tasks/verilog/library/nn/DNC/read_heads/model_read_heads_stimulus.sv
-../../../../../../../verification/tasks/verilog/library/nn/DNC/read_heads/model_read_heads_testbench.sv
+../../../../../../../validation/tasks/verilog/library/nn/DNC/read_heads/model_read_heads_pkg.sv
+../../../../../../../validation/tasks/verilog/library/nn/DNC/read_heads/model_read_heads_stimulus.sv
+../../../../../../../validation/tasks/verilog/library/nn/DNC/read_heads/model_read_heads_testbench.sv

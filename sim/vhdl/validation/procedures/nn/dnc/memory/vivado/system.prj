@@ -91,6 +91,6 @@ vhdl2008 work ../../../../../../../model/vhdl/code/nn/DNC/memory/model_write_con
 vhdl2008 work ../../../../../../../model/vhdl/code/nn/DNC/memory/model_write_weighting.vhd
 vhdl2008 work ../../../../../../../model/vhdl/code/nn/DNC/memory/model_addressing.vhd
 
-vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/memory/model_memory_pkg.vhd
-vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/memory/model_memory_stimulus.vhd
-vhdl2008 work ../../../../../../../verification/tasks/vhdl/library/nn/DNC/memory/model_memory_testbench.vhd
+vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/memory/model_memory_pkg.vhd
+vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/memory/model_memory_stimulus.vhd
+vhdl2008 work ../../../../../../../validation/tasks/vhdl/library/nn/DNC/memory/model_memory_testbench.vhd
