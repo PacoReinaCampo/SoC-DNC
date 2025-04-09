@@ -14,26 +14,26 @@
 ../../../../../../../rtl/verilog/code/arithmetic/float/matrix/accelerator_matrix_float_multiplier.sv
 ../../../../../../../rtl/verilog/code/arithmetic/float/matrix/accelerator_matrix_float_divider.sv
 
-../../../../../../../rtl/verilog/code/math/algebra/vector/accelerator_dot_product.sv
-../../../../../../../rtl/verilog/code/math/algebra/vector/accelerator_vector_convolution.sv
-../../../../../../../rtl/verilog/code/math/algebra/vector/accelerator_vector_cosine_similarity.sv
-../../../../../../../rtl/verilog/code/math/algebra/vector/accelerator_vector_multiplication.sv
-../../../../../../../rtl/verilog/code/math/algebra/vector/accelerator_vector_summation.sv
-../../../../../../../rtl/verilog/code/math/algebra/vector/accelerator_vector_module.sv
+../../../../../../../rtl/verilog/code/algebra/vector/accelerator_dot_product.sv
+../../../../../../../rtl/verilog/code/algebra/vector/accelerator_vector_convolution.sv
+../../../../../../../rtl/verilog/code/algebra/vector/accelerator_vector_cosine_similarity.sv
+../../../../../../../rtl/verilog/code/algebra/vector/accelerator_vector_multiplication.sv
+../../../../../../../rtl/verilog/code/algebra/vector/accelerator_vector_summation.sv
+../../../../../../../rtl/verilog/code/algebra/vector/accelerator_vector_module.sv
 
-../../../../../../../rtl/verilog/code/math/algebra/matrix/accelerator_matrix_convolution.sv
-../../../../../../../rtl/verilog/code/math/algebra/matrix/accelerator_matrix_inverse.sv
-../../../../../../../rtl/verilog/code/math/algebra/matrix/accelerator_matrix_multiplication.sv
-../../../../../../../rtl/verilog/code/math/algebra/matrix/accelerator_matrix_product.sv
-../../../../../../../rtl/verilog/code/math/algebra/matrix/accelerator_matrix_summation.sv
-../../../../../../../rtl/verilog/code/math/algebra/matrix/accelerator_matrix_transpose.sv
+../../../../../../../rtl/verilog/code/algebra/matrix/accelerator_matrix_convolution.sv
+../../../../../../../rtl/verilog/code/algebra/matrix/accelerator_matrix_inverse.sv
+../../../../../../../rtl/verilog/code/algebra/matrix/accelerator_matrix_multiplication.sv
+../../../../../../../rtl/verilog/code/algebra/matrix/accelerator_matrix_product.sv
+../../../../../../../rtl/verilog/code/algebra/matrix/accelerator_matrix_summation.sv
+../../../../../../../rtl/verilog/code/algebra/matrix/accelerator_matrix_transpose.sv
 
-../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_convolution.sv
-../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_inverse.sv
-../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_multiplication.sv
-../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_product.sv
-../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_summation.sv
-../../../../../../../rtl/verilog/code/math/algebra/tensor/accelerator_tensor_transpose.sv
+../../../../../../../rtl/verilog/code/algebra/tensor/accelerator_tensor_convolution.sv
+../../../../../../../rtl/verilog/code/algebra/tensor/accelerator_tensor_inverse.sv
+../../../../../../../rtl/verilog/code/algebra/tensor/accelerator_tensor_multiplication.sv
+../../../../../../../rtl/verilog/code/algebra/tensor/accelerator_tensor_product.sv
+../../../../../../../rtl/verilog/code/algebra/tensor/accelerator_tensor_summation.sv
+../../../../../../../rtl/verilog/code/algebra/tensor/accelerator_tensor_transpose.sv
 
 ../../../../../../../rtl/verilog/code/math/series/scalar/accelerator_scalar_cosh_function.sv
 ../../../../../../../rtl/verilog/code/math/series/scalar/accelerator_scalar_exponentiator_function.sv
@@ -53,26 +53,26 @@
 ../../../../../../../rtl/verilog/code/math/series/matrix/accelerator_matrix_sinh_function.sv
 ../../../../../../../rtl/verilog/code/math/series/matrix/accelerator_matrix_tanh_function.sv
 
-../../../../../../../rtl/verilog/code/math/function/scalar/accelerator_scalar_logistic_function.sv
-../../../../../../../rtl/verilog/code/math/function/scalar/accelerator_scalar_oneplus_function.sv
+../../../../../../../rtl/verilog/code/math/scalar/accelerator_scalar_logistic_function.sv
+../../../../../../../rtl/verilog/code/math/scalar/accelerator_scalar_oneplus_function.sv
 
-../../../../../../../rtl/verilog/code/math/function/vector/accelerator_vector_logistic_function.sv
-../../../../../../../rtl/verilog/code/math/function/vector/accelerator_vector_oneplus_function.sv
+../../../../../../../rtl/verilog/code/math/vector/accelerator_vector_logistic_function.sv
+../../../../../../../rtl/verilog/code/math/vector/accelerator_vector_oneplus_function.sv
 
-../../../../../../../rtl/verilog/code/math/function/matrix/accelerator_matrix_logistic_function.sv
-../../../../../../../rtl/verilog/code/math/function/matrix/accelerator_matrix_oneplus_function.sv
+../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_logistic_function.sv
+../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_oneplus_function.sv
 
-../../../../../../../rtl/verilog/code/math/calculus/vector/accelerator_vector_differentiation.sv
-../../../../../../../rtl/verilog/code/math/calculus/vector/accelerator_vector_integration.sv
-../../../../../../../rtl/verilog/code/math/calculus/vector/accelerator_vector_softmax.sv
+../../../../../../../rtl/verilog/code/math/vector/accelerator_vector_differentiation.sv
+../../../../../../../rtl/verilog/code/math/vector/accelerator_vector_integration.sv
+../../../../../../../rtl/verilog/code/math/vector/accelerator_vector_softmax.sv
 
-../../../../../../../rtl/verilog/code/math/calculus/matrix/accelerator_matrix_differentiation.sv
-../../../../../../../rtl/verilog/code/math/calculus/matrix/accelerator_matrix_integration.sv
-../../../../../../../rtl/verilog/code/math/calculus/matrix/accelerator_matrix_softmax.sv
+../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_differentiation.sv
+../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_integration.sv
+../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_softmax.sv
 
-../../../../../../../rtl/verilog/code/math/calculus/tensor/accelerator_tensor_differentiation.sv
-../../../../../../../rtl/verilog/code/math/calculus/tensor/accelerator_tensor_integration.sv
-../../../../../../../rtl/verilog/code/math/calculus/tensor/accelerator_tensor_softmax.sv
+../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_differentiation.sv
+../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_integration.sv
+../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_softmax.sv
 
 ../../../../../../../rtl/verilog/code/nn/DNC/memory/accelerator_content_based_addressing.sv
 ../../../../../../../rtl/verilog/code/nn/DNC/memory/accelerator_allocation_weighting.sv
