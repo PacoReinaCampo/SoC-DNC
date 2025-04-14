@@ -1,4 +1,4 @@
-# SoC-DNC (T-DNC/NTM-SoC)
+# SoC-DNC
 ## QueenField
 
 ![QueenField](../main/icon.jpg)
