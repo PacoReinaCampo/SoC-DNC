@@ -171,35 +171,6 @@ code
 │       ├── accelerator_vector_sinh_function.vhd
 │       └── accelerator_vector_tanh_function.vhd
 ├── nn
-│   ├── ann
-│   │   ├── components
-│   │   │   ├── accelerator_masked_multi_head_attention.vhd
-│   │   │   ├── accelerator_masked_scaled_dot_product_attention.vhd
-│   │   │   ├── accelerator_multi_head_attention.vhd
-│   │   │   └── accelerator_scaled_dot_product_attention.vhd
-│   │   ├── controller
-│   │   │   ├── fnn
-│   │   │   │   ├── convolutional
-│   │   │   │   │   └── accelerator_fnn.vhd
-│   │   │   │   └── standard
-│   │   │   │       └── accelerator_fnn.vhd
-│   │   │   └── lstm
-│   │   │       ├── convolutional
-│   │   │       │   └── accelerator_lstm.vhd
-│   │   │       └── standard
-│   │   │           └── accelerator_lstm.vhd
-│   │   ├── functions
-│   │   │   ├── accelerator_layer_norm.vhd
-│   │   │   └── accelerator_positional_encoding.vhd
-│   │   ├── inputs
-│   │   │   ├── accelerator_inputs_vector.vhd
-│   │   │   ├── accelerator_keys_vector.vhd
-│   │   │   ├── accelerator_queries_vector.vhd
-│   │   │   └── accelerator_values_vector.vhd
-│   │   └── top
-│   │       ├── accelerator_controller.vhd
-│   │       ├── accelerator_decoder.vhd
-│   │       └── accelerator_encoder.vhd
 │   ├── dnc
 │   │   ├── memory
 │   │   │   ├── accelerator_addressing.vhd
@@ -288,4 +259,4 @@ code
     └── pnn
         └── accelerator_trainer.vhd
 
-81 directories, 207 files
+69 directories, 190 files
