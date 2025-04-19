@@ -25,29 +25,6 @@ library
 │   └── vector
 │       └── ntm_vector_math.adb
 ├── nn
-│   ├── ann
-│   │   ├── components
-│   │   │   ├── ntm_masked_multi_head_attention.adb
-│   │   │   ├── ntm_masked_scaled_dot_product_attention.adb
-│   │   │   ├── ntm_multi_head_attention.adb
-│   │   │   └── ntm_scaled_dot_product_attention.adb
-│   │   ├── controller
-│   │   │   ├── fnn
-│   │   │   │   └── ntm_fnn.adb
-│   │   │   └── lstm
-│   │   │       └── ntm_lstm.adb
-│   │   ├── functions
-│   │   │   ├── ntm_layer_norm.adb
-│   │   │   └── ntm_positional_encoding.adb
-│   │   ├── inputs
-│   │   │   ├── ntm_inputs_vector.adb
-│   │   │   ├── ntm_keys_vector.adb
-│   │   │   ├── ntm_queries_vector.adb
-│   │   │   └── ntm_values_vector.adb
-│   │   └── top
-│   │       ├── ntm_controller.adb
-│   │       ├── ntm_decoder.adb
-│   │       └── ntm_encoder.adb
 │   ├── dnc
 │   │   ├── memory
 │   │   │   ├── dnc_addressing.adb
@@ -82,48 +59,23 @@ library
 │   │   │   └── ntm_controller.adb
 │   │   └── standard
 │   │       └── ntm_controller.adb
-│   ├── lstm
-│   │   ├── convolutional
-│   │   │   ├── ntm_activation_gate_vector.adb
-│   │   │   ├── ntm_controller.adb
-│   │   │   ├── ntm_forget_gate_vector.adb
-│   │   │   ├── ntm_hidden_gate_vector.adb
-│   │   │   ├── ntm_input_gate_vector.adb
-│   │   │   ├── ntm_output_gate_vector.adb
-│   │   │   └── ntm_state_gate_vector.adb
-│   │   └── standard
-│   │       ├── ntm_activation_gate_vector.adb
-│   │       ├── ntm_controller.adb
-│   │       ├── ntm_forget_gate_vector.adb
-│   │       ├── ntm_hidden_gate_vector.adb
-│   │       ├── ntm_input_gate_vector.adb
-│   │       ├── ntm_output_gate_vector.adb
-│   │       └── ntm_state_gate_vector.adb
-│   └── ntm
-│       ├── memory
-│       │   ├── ntm_addressing.adb
-│       │   ├── ntm_matrix_content_based_addressing.adb
-│       │   └── ntm_vector_content_based_addressing.adb
-│       ├── read_heads
-│       │   └── ntm_reading.adb
-│       ├── top
-│       │   ├── ntm_interface_matrix.adb
-│       │   ├── ntm_interface_top.adb
-│       │   ├── ntm_interface_vector.adb
-│       │   ├── ntm_output_vector.adb
-│       │   └── ntm_top.adb
-│       ├── trained
-│       │   └── ntm_trained_top.adb
-│       └── write_heads
-│           ├── ntm_erasing.adb
-│           └── ntm_writing.adb
-├── state
-│   ├── feedback
-│   │   └── ntm_state_feedback.adb
-│   ├── outputs
-│   │   └── ntm_state_outputs.adb
-│   └── top
-│       └── ntm_state_top.adb
+│   └── lstm
+│       ├── convolutional
+│       │   ├── ntm_activation_gate_vector.adb
+│       │   ├── ntm_controller.adb
+│       │   ├── ntm_forget_gate_vector.adb
+│       │   ├── ntm_hidden_gate_vector.adb
+│       │   ├── ntm_input_gate_vector.adb
+│       │   ├── ntm_output_gate_vector.adb
+│       │   └── ntm_state_gate_vector.adb
+│       └── standard
+│           ├── ntm_activation_gate_vector.adb
+│           ├── ntm_controller.adb
+│           ├── ntm_forget_gate_vector.adb
+│           ├── ntm_hidden_gate_vector.adb
+│           ├── ntm_input_gate_vector.adb
+│           ├── ntm_output_gate_vector.adb
+│           └── ntm_state_gate_vector.adb
 └── trainer
     ├── differentiation
     │   ├── ntm_matrix_controller_differentiation.adb
@@ -170,4 +122,4 @@ library
             ├── ntm_lstm_output_v_trainer.adb
             └── ntm_lstm_output_w_trainer.adb
 
-53 directories, 117 files
+35 directories, 87 files
