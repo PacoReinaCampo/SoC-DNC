@@ -92,6 +92,29 @@ library
 │       ├── ntm_vector_mean_function.py
 │       └── ntm_vector_oneplus_function.py
 ├── nn
+│   ├── ann
+│   │   ├── components
+│   │   │   ├── ntm_masked_multi_head_attention.py
+│   │   │   ├── ntm_masked_scaled_dot_product_attention.py
+│   │   │   ├── ntm_multi_head_attention.py
+│   │   │   └── ntm_scaled_dot_product_attention.py
+│   │   ├── controller
+│   │   │   ├── fnn
+│   │   │   │   └── ntm_fnn.py
+│   │   │   └── lstm
+│   │   │       └── ntm_lstm.py
+│   │   ├── functions
+│   │   │   ├── ntm_layer_norm.py
+│   │   │   └── ntm_positional_encoding.py
+│   │   ├── inputs
+│   │   │   ├── ntm_inputs_vector.py
+│   │   │   ├── ntm_keys_vector.py
+│   │   │   ├── ntm_queries_vector.py
+│   │   │   └── ntm_values_vector.py
+│   │   └── top
+│   │       ├── ntm_controller.py
+│   │       ├── ntm_decoder.py
+│   │       └── ntm_encoder.py
 │   ├── dnc
 │   │   ├── memory
 │   │   │   ├── dnc_addressing.py
@@ -126,23 +149,52 @@ library
 │   │   │   └── ntm_controller.py
 │   │   └── standard
 │   │       └── ntm_controller.py
-│   └── lstm
-│       ├── convolutional
-│       │   ├── ntm_activation_gate_vector.py
-│       │   ├── ntm_controller.py
-│       │   ├── ntm_forget_gate_vector.py
-│       │   ├── ntm_hidden_gate_vector.py
-│       │   ├── ntm_input_gate_vector.py
-│       │   ├── ntm_output_gate_vector.py
-│       │   └── ntm_state_gate_vector.py
-│       └── standard
-│           ├── ntm_activation_gate_vector.py
-│           ├── ntm_controller.py
-│           ├── ntm_forget_gate_vector.py
-│           ├── ntm_hidden_gate_vector.py
-│           ├── ntm_input_gate_vector.py
-│           ├── ntm_output_gate_vector.py
-│           └── ntm_state_gate_vector.py
+│   ├── lstm
+│   │   ├── convolutional
+│   │   │   ├── ntm_activation_gate_vector.py
+│   │   │   ├── ntm_controller.py
+│   │   │   ├── ntm_forget_gate_vector.py
+│   │   │   ├── ntm_hidden_gate_vector.py
+│   │   │   ├── ntm_input_gate_vector.py
+│   │   │   ├── ntm_output_gate_vector.py
+│   │   │   └── ntm_state_gate_vector.py
+│   │   └── standard
+│   │       ├── ntm_activation_gate_vector.py
+│   │       ├── ntm_controller.py
+│   │       ├── ntm_forget_gate_vector.py
+│   │       ├── ntm_hidden_gate_vector.py
+│   │       ├── ntm_input_gate_vector.py
+│   │       ├── ntm_output_gate_vector.py
+│   │       └── ntm_state_gate_vector.py
+│   └── ntm
+│       ├── memory
+│       │   ├── ntm_addressing.py
+│       │   ├── ntm_matrix_content_based_addressing.py
+│       │   └── ntm_vector_content_based_addressing.py
+│       ├── read_heads
+│       │   └── ntm_reading.py
+│       ├── top
+│       │   ├── ntm_interface_matrix.py
+│       │   ├── ntm_interface_top.py
+│       │   ├── ntm_interface_vector.py
+│       │   ├── ntm_output_vector.py
+│       │   └── ntm_top.py
+│       ├── trained
+│       │   └── ntm_trained_top.py
+│       └── write_heads
+│           ├── ntm_erasing.py
+│           └── ntm_writing.py
+├── state
+│   ├── feedback
+│   │   ├── ntm_state_matrix_feedforward.py
+│   │   ├── ntm_state_matrix_input.py
+│   │   ├── ntm_state_matrix_output.py
+│   │   └── ntm_state_matrix_state.py
+│   ├── outputs
+│   │   ├── ntm_state_vector_output.py
+│   │   └── ntm_state_vector_state.py
+│   └── top
+│       └── ntm_state_top.py
 └── trainer
     ├── differentiation
     │   ├── ntm_matrix_controller_differentiation.py
@@ -189,4 +241,4 @@ library
             ├── ntm_lstm_output_v_trainer.py
             └── ntm_lstm_output_w_trainer.py
 
-51 directories, 138 files
+69 directories, 172 files

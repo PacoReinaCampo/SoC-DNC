@@ -18,6 +18,29 @@ library
 │   └── vector
 ├── nn
 │   ├── ntm_controller.h
+│   ├── ann
+│   │   ├── components
+│   │   │   ├── ntm_masked_multi_head_attention.h
+│   │   │   ├── ntm_masked_scaled_dot_product_attention.h
+│   │   │   ├── ntm_multi_head_attention.h
+│   │   │   └── ntm_scaled_dot_product_attention.h
+│   │   ├── controller
+│   │   │   ├── fnn
+│   │   │   │   └── ntm_fnn.h
+│   │   │   └── lstm
+│   │   │       └── ntm_lstm.h
+│   │   ├── functions
+│   │   │   ├── ntm_layer_norm.h
+│   │   │   └── ntm_positional_encoding.h
+│   │   ├── inputs
+│   │   │   ├── ntm_inputs_vector.h
+│   │   │   ├── ntm_keys_vector.h
+│   │   │   ├── ntm_queries_vector.h
+│   │   │   └── ntm_values_vector.h
+│   │   └── top
+│   │       ├── ntm_controller.h
+│   │       ├── ntm_decoder.h
+│   │       └── ntm_encoder.h
 │   ├── dnc
 │   │   ├── dnc.h
 │   │   ├── memory
@@ -53,23 +76,47 @@ library
 │   │   │   └── ntm_controller.h
 │   │   └── standard
 │   │       └── ntm_controller.h
-│   └── lstm
-│       ├── convolutional
-│       │   ├── ntm_activation_gate_vector.h
-│       │   ├── ntm_controller.h
-│       │   ├── ntm_forget_gate_vector.h
-│       │   ├── ntm_hidden_gate_vector.h
-│       │   ├── ntm_input_gate_vector.h
-│       │   ├── ntm_output_gate_vector.h
-│       │   └── ntm_state_gate_vector.h
-│       └── standard
-│           ├── ntm_activation_gate_vector.h
-│           ├── ntm_controller.h
-│           ├── ntm_forget_gate_vector.h
-│           ├── ntm_hidden_gate_vector.h
-│           ├── ntm_input_gate_vector.h
-│           ├── ntm_output_gate_vector.h
-│           └── ntm_state_gate_vector.h
+│   ├── lstm
+│   │   ├── convolutional
+│   │   │   ├── ntm_activation_gate_vector.h
+│   │   │   ├── ntm_controller.h
+│   │   │   ├── ntm_forget_gate_vector.h
+│   │   │   ├── ntm_hidden_gate_vector.h
+│   │   │   ├── ntm_input_gate_vector.h
+│   │   │   ├── ntm_output_gate_vector.h
+│   │   │   └── ntm_state_gate_vector.h
+│   │   └── standard
+│   │       ├── ntm_activation_gate_vector.h
+│   │       ├── ntm_controller.h
+│   │       ├── ntm_forget_gate_vector.h
+│   │       ├── ntm_hidden_gate_vector.h
+│   │       ├── ntm_input_gate_vector.h
+│   │       ├── ntm_output_gate_vector.h
+│   │       └── ntm_state_gate_vector.h
+│   └── ntm
+│       ├── ntm.h
+│       ├── memory
+│       │   ├── ntm_addressing.h
+│       │   ├── ntm_matrix_content_based_addressing.h
+│       │   └── ntm_vector_content_based_addressing.h
+│       ├── read_heads
+│       │   └── ntm_reading.h
+│       ├── top
+│       │   ├── ntm_interface_matrix.h
+│       │   ├── ntm_interface_top.h
+│       │   ├── ntm_interface_vector.h
+│       │   ├── ntm_output_vector.h
+│       │   └── ntm_top.h
+│       ├── trained
+│       │   └── ntm_trained_top.h
+│       └── write_heads
+│           ├── ntm_erasing.h
+│           └── ntm_writing.h
+├── state
+│   ├── ntm_state.h
+│   ├── feedback
+│   ├── outputs
+│   └── top
 └── trainer
     ├── ntm_trainer.h
     ├── differentiation
@@ -117,4 +164,4 @@ library
             ├── ntm_lstm_output_v_trainer.h
             └── ntm_lstm_output_w_trainer.h
 
-35 directories, 82 files
+53 directories, 111 files

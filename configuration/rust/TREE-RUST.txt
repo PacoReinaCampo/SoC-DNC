@@ -104,6 +104,30 @@ library
 │           ├── ntm_vector_mean_function.rs
 │           └── ntm_vector_oneplus_function.rs
 ├── nn
+│   ├── ann
+│   │   ├── components
+│   │   │   ├── ntm_masked_multi_head_attention.rs
+│   │   │   ├── ntm_masked_scaled_dot_product_attention.rs
+│   │   │   ├── ntm_multi_head_attention.rs
+│   │   │   └── ntm_scaled_dot_product_attention.rs
+│   │   ├── controller
+│   │   │   ├── fnn
+│   │   │   │   └── ntm_fnn.rs
+│   │   │   └── lstm
+│   │   │       └── ntm_lstm.rs
+│   │   ├── functions
+│   │   │   ├── ntm_layer_norm.rs
+│   │   │   └── ntm_positional_encoding.rs
+│   │   ├── inputs
+│   │   │   ├── ntm_inputs_vector.rs
+│   │   │   ├── ntm_keys_vector.rs
+│   │   │   ├── ntm_queries_vector.rs
+│   │   │   └── ntm_values_vector.rs
+│   │   ├── ntm_ann_controller.rs
+│   │   └── top
+│   │       ├── ntm_controller.rs
+│   │       ├── ntm_decoder.rs
+│   │       └── ntm_encoder.rs
 │   ├── dnc
 │   │   ├── dnc.rs
 │   │   ├── memory
@@ -156,8 +180,44 @@ library
 │   │       ├── ntm_input_gate_vector.rs
 │   │       ├── ntm_output_gate_vector.rs
 │   │       └── ntm_state_gate_vector.rs
+│   ├── ntm
+│   │   ├── memory
+│   │   │   ├── ntm_addressing.rs
+│   │   │   ├── ntm_matrix_content_based_addressing.rs
+│   │   │   └── ntm_vector_content_based_addressing.rs
+│   │   ├── ntm.rs
+│   │   ├── read_heads
+│   │   │   └── ntm_reading.rs
+│   │   ├── top
+│   │   │   ├── ntm_interface_matrix.rs
+│   │   │   ├── ntm_interface_top.rs
+│   │   │   ├── ntm_interface_vector.rs
+│   │   │   ├── ntm_output_vector.rs
+│   │   │   └── ntm_top.rs
+│   │   ├── trained
+│   │   │   └── ntm_trained_top.rs
+│   │   └── write_heads
+│   │       ├── ntm_erasing.rs
+│   │       └── ntm_writing.rs
 │   ├── ntm_fnn_controller.rs
 │   └── ntm_lstm_controller.rs
+├── state
+│   └── src
+│       ├── feedback
+│       │   ├── mod.rs
+│       │   ├── ntm_state_matrix_feedforward.rs
+│       │   ├── ntm_state_matrix_input.rs
+│       │   ├── ntm_state_matrix_output.rs
+│       │   └── ntm_state_matrix_state.rs
+│       ├── lib.rs
+│       ├── ntm_state.rs
+│       ├── outputs
+│       │   ├── mod.rs
+│       │   ├── ntm_state_vector_output.rs
+│       │   └── ntm_state_vector_state.rs
+│       └── top
+│           ├── mod.rs
+│           └── ntm_state_top.rs
 └── trainer
     ├── differentiation
     │   ├── ntm_matrix_controller_differentiation.rs
@@ -206,4 +266,4 @@ library
     ├── ntm_fnn.rs
     └── ntm_lstm.rs
 
-38 directories, 168 files
+57 directories, 209 files
