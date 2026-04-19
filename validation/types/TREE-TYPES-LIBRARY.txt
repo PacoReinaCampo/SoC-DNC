@@ -262,74 +262,6 @@ library
 │           ├── accelerator_model.vhd
 │           └── accelerator_testbench.vhd
 ├── nn
-│   ├── ann
-│   │   ├── components
-│   │   │   ├── accelerator_masked_multi_head_attention
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_masked_scaled_dot_product_attention
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_multi_head_attention
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   └── accelerator_scaled_dot_product_attention
-│   │   │       ├── accelerator_model_pkg.vhd
-│   │   │       ├── accelerator_model.vhd
-│   │   │       └── accelerator_testbench.vhd
-│   │   ├── controller
-│   │   │   ├── fnn
-│   │   │   │   └── accelerator_fnn
-│   │   │   │       ├── accelerator_model_pkg.vhd
-│   │   │   │       ├── accelerator_model.vhd
-│   │   │   │       └── accelerator_testbench.vhd
-│   │   │   └── lstm
-│   │   │       └── accelerator_lstm
-│   │   │           ├── accelerator_model_pkg.vhd
-│   │   │           ├── accelerator_model.vhd
-│   │   │           └── accelerator_testbench.vhd
-│   │   ├── functions
-│   │   │   ├── accelerator_layer_norm
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   └── accelerator_positional_encoding
-│   │   │       ├── accelerator_model_pkg.vhd
-│   │   │       ├── accelerator_model.vhd
-│   │   │       └── accelerator_testbench.vhd
-│   │   ├── inputs
-│   │   │   ├── accelerator_inputs_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_keys_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_queries_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   └── accelerator_values_vector
-│   │   │       ├── accelerator_model_pkg.vhd
-│   │   │       ├── accelerator_model.vhd
-│   │   │       └── accelerator_testbench.vhd
-│   │   └── top
-│   │       ├── accelerator_controller
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       ├── accelerator_decoder
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       └── accelerator_encoder
-│   │           ├── accelerator_model_pkg.vhd
-│   │           ├── accelerator_model.vhd
-│   │           └── accelerator_testbench.vhd
 │   ├── dnc
 │   │   ├── memory
 │   │   │   ├── accelerator_addressing
@@ -439,116 +371,62 @@ library
 │   │           ├── accelerator_model_pkg.vhd
 │   │           ├── accelerator_model.vhd
 │   │           └── accelerator_testbench.vhd
-│   ├── lstm
-│   │   ├── convolutional
-│   │   │   ├── accelerator_activation_gate_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_controller
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_forget_gate_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_hidden_gate_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_input_gate_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   ├── accelerator_output_gate_vector
-│   │   │   │   ├── accelerator_model_pkg.vhd
-│   │   │   │   ├── accelerator_model.vhd
-│   │   │   │   └── accelerator_testbench.vhd
-│   │   │   └── accelerator_state_gate_vector
-│   │   │       ├── accelerator_model_pkg.vhd
-│   │   │       ├── accelerator_model.vhd
-│   │   │       └── accelerator_testbench.vhd
-│   │   └── standard
-│   │       ├── accelerator_activation_gate_vector
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       ├── accelerator_controller
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       ├── accelerator_forget_gate_vector
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       ├── accelerator_hidden_gate_vector
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       ├── accelerator_input_gate_vector
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       ├── accelerator_output_gate_vector
-│   │       │   ├── accelerator_model_pkg.vhd
-│   │       │   ├── accelerator_model.vhd
-│   │       │   └── accelerator_testbench.vhd
-│   │       └── accelerator_state_gate_vector
-│   │           ├── accelerator_model_pkg.vhd
-│   │           ├── accelerator_model.vhd
-│   │           └── accelerator_testbench.vhd
-│   └── ntm
-│       ├── memory
-│       │   ├── accelerator_addressing
+│   └── lstm
+│       ├── convolutional
+│       │   ├── accelerator_activation_gate_vector
 │       │   │   ├── accelerator_model_pkg.vhd
 │       │   │   ├── accelerator_model.vhd
 │       │   │   └── accelerator_testbench.vhd
-│       │   ├── accelerator_matrix_content_based_addressing
+│       │   ├── accelerator_controller
 │       │   │   ├── accelerator_model_pkg.vhd
 │       │   │   ├── accelerator_model.vhd
 │       │   │   └── accelerator_testbench.vhd
-│       │   └── accelerator_vector_content_based_addressing
+│       │   ├── accelerator_forget_gate_vector
+│       │   │   ├── accelerator_model_pkg.vhd
+│       │   │   ├── accelerator_model.vhd
+│       │   │   └── accelerator_testbench.vhd
+│       │   ├── accelerator_hidden_gate_vector
+│       │   │   ├── accelerator_model_pkg.vhd
+│       │   │   ├── accelerator_model.vhd
+│       │   │   └── accelerator_testbench.vhd
+│       │   ├── accelerator_input_gate_vector
+│       │   │   ├── accelerator_model_pkg.vhd
+│       │   │   ├── accelerator_model.vhd
+│       │   │   └── accelerator_testbench.vhd
+│       │   ├── accelerator_output_gate_vector
+│       │   │   ├── accelerator_model_pkg.vhd
+│       │   │   ├── accelerator_model.vhd
+│       │   │   └── accelerator_testbench.vhd
+│       │   └── accelerator_state_gate_vector
 │       │       ├── accelerator_model_pkg.vhd
 │       │       ├── accelerator_model.vhd
 │       │       └── accelerator_testbench.vhd
-│       ├── read_heads
-│       │   └── accelerator_reading
-│       │       ├── accelerator_model_pkg.vhd
-│       │       ├── accelerator_model.vhd
-│       │       └── accelerator_testbench.vhd
-│       ├── top
-│       │   ├── accelerator_interface_matrix
-│       │   │   ├── accelerator_model_pkg.vhd
-│       │   │   ├── accelerator_model.vhd
-│       │   │   └── accelerator_testbench.vhd
-│       │   ├── accelerator_interface_top
-│       │   │   ├── accelerator_model_pkg.vhd
-│       │   │   ├── accelerator_model.vhd
-│       │   │   └── accelerator_testbench.vhd
-│       │   ├── accelerator_interface_vector
-│       │   │   ├── accelerator_model_pkg.vhd
-│       │   │   ├── accelerator_model.vhd
-│       │   │   └── accelerator_testbench.vhd
-│       │   ├── accelerator_output_vector
-│       │   │   ├── accelerator_model_pkg.vhd
-│       │   │   ├── accelerator_model.vhd
-│       │   │   └── accelerator_testbench.vhd
-│       │   └── accelerator_top
-│       │       ├── accelerator_model_pkg.vhd
-│       │       ├── accelerator_model.vhd
-│       │       └── accelerator_testbench.vhd
-│       ├── trained
-│       │   └── accelerator_trained_top
-│       │       ├── accelerator_model_pkg.vhd
-│       │       ├── accelerator_model.vhd
-│       │       └── accelerator_testbench.vhd
-│       └── write_heads
-│           ├── accelerator_erasing
+│       └── standard
+│           ├── accelerator_activation_gate_vector
 │           │   ├── accelerator_model_pkg.vhd
 │           │   ├── accelerator_model.vhd
 │           │   └── accelerator_testbench.vhd
-│           └── accelerator_writing
+│           ├── accelerator_controller
+│           │   ├── accelerator_model_pkg.vhd
+│           │   ├── accelerator_model.vhd
+│           │   └── accelerator_testbench.vhd
+│           ├── accelerator_forget_gate_vector
+│           │   ├── accelerator_model_pkg.vhd
+│           │   ├── accelerator_model.vhd
+│           │   └── accelerator_testbench.vhd
+│           ├── accelerator_hidden_gate_vector
+│           │   ├── accelerator_model_pkg.vhd
+│           │   ├── accelerator_model.vhd
+│           │   └── accelerator_testbench.vhd
+│           ├── accelerator_input_gate_vector
+│           │   ├── accelerator_model_pkg.vhd
+│           │   ├── accelerator_model.vhd
+│           │   └── accelerator_testbench.vhd
+│           ├── accelerator_output_gate_vector
+│           │   ├── accelerator_model_pkg.vhd
+│           │   ├── accelerator_model.vhd
+│           │   └── accelerator_testbench.vhd
+│           └── accelerator_state_gate_vector
 │               ├── accelerator_model_pkg.vhd
 │               ├── accelerator_model.vhd
 │               └── accelerator_testbench.vhd
@@ -709,4 +587,4 @@ library
                 ├── accelerator_model.vhd
                 └── accelerator_testbench.vhd
 
-214 directories, 495 files
+173 directories, 414 files

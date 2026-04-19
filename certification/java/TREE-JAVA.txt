@@ -36,29 +36,6 @@ library
 │   └── vector
 │       └── accelerator_vector_math.java
 ├── nn
-│   ├── ann
-│   │   ├── components
-│   │   │   ├── accelerator_masked_multi_head_attention.java
-│   │   │   ├── accelerator_masked_scaled_dot_product_attention.java
-│   │   │   ├── accelerator_multi_head_attention.java
-│   │   │   └── accelerator_scaled_dot_product_attention.java
-│   │   ├── controller
-│   │   │   ├── fnn
-│   │   │   │   └── accelerator_fnn.java
-│   │   │   └── lstm
-│   │   │       └── accelerator_lstm.java
-│   │   ├── functions
-│   │   │   ├── accelerator_layer_norm.java
-│   │   │   └── accelerator_positional_encoding.java
-│   │   ├── inputs
-│   │   │   ├── accelerator_inputs_vector.java
-│   │   │   ├── accelerator_keys_vector.java
-│   │   │   ├── accelerator_queries_vector.java
-│   │   │   └── accelerator_values_vector.java
-│   │   └── top
-│   │       ├── accelerator_controller.java
-│   │       ├── accelerator_decoder.java
-│   │       └── accelerator_encoder.java
 │   ├── dnc
 │   │   ├── memory
 │   │   │   ├── accelerator_addressing.java
@@ -93,41 +70,23 @@ library
 │   │   │   └── accelerator_controller.java
 │   │   └── standard
 │   │       └── accelerator_controller.java
-│   ├── lstm
-│   │   ├── convolutional
-│   │   │   ├── accelerator_activation_gate_vector.java
-│   │   │   ├── accelerator_controller.java
-│   │   │   ├── accelerator_forget_gate_vector.java
-│   │   │   ├── accelerator_hidden_gate_vector.java
-│   │   │   ├── accelerator_input_gate_vector.java
-│   │   │   ├── accelerator_output_gate_vector.java
-│   │   │   └── accelerator_state_gate_vector.java
-│   │   └── standard
-│   │       ├── accelerator_activation_gate_vector.java
-│   │       ├── accelerator_controller.java
-│   │       ├── accelerator_forget_gate_vector.java
-│   │       ├── accelerator_hidden_gate_vector.java
-│   │       ├── accelerator_input_gate_vector.java
-│   │       ├── accelerator_output_gate_vector.java
-│   │       └── accelerator_state_gate_vector.java
-│   └── ntm
-│       ├── memory
-│       │   ├── accelerator_addressing.java
-│       │   ├── accelerator_matrix_content_based_addressing.java
-│       │   └── accelerator_vector_content_based_addressing.java
-│       ├── read_heads
-│       │   └── accelerator_reading.java
-│       ├── top
-│       │   ├── accelerator_interface_matrix.java
-│       │   ├── accelerator_interface_top.java
-│       │   ├── accelerator_interface_vector.java
-│       │   ├── accelerator_output_vector.java
-│       │   └── accelerator_top.java
-│       ├── trained
-│       │   └── accelerator_trained_top.java
-│       └── write_heads
-│           ├── accelerator_erasing.java
-│           └── accelerator_writing.java
+│   └── lstm
+│       ├── convolutional
+│       │   ├── accelerator_activation_gate_vector.java
+│       │   ├── accelerator_controller.java
+│       │   ├── accelerator_forget_gate_vector.java
+│       │   ├── accelerator_hidden_gate_vector.java
+│       │   ├── accelerator_input_gate_vector.java
+│       │   ├── accelerator_output_gate_vector.java
+│       │   └── accelerator_state_gate_vector.java
+│       └── standard
+│           ├── accelerator_activation_gate_vector.java
+│           ├── accelerator_controller.java
+│           ├── accelerator_forget_gate_vector.java
+│           ├── accelerator_hidden_gate_vector.java
+│           ├── accelerator_input_gate_vector.java
+│           ├── accelerator_output_gate_vector.java
+│           └── accelerator_state_gate_vector.java
 └── trainer
     ├── differentiation
     │   ├── accelerator_matrix_controller_differentiation.java
@@ -174,4 +133,4 @@ library
             ├── accelerator_lstm_output_v_trainer.java
             └── accelerator_lstm_output_w_trainer.java
 
-49 directories, 125 files
+35 directories, 98 files

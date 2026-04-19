@@ -18,29 +18,6 @@ library
 │   └── vector
 ├── nn
 │   ├── accelerator_controller.h
-│   ├── ann
-│   │   ├── components
-│   │   │   ├── accelerator_masked_multi_head_attention.h
-│   │   │   ├── accelerator_masked_scaled_dot_product_attention.h
-│   │   │   ├── accelerator_multi_head_attention.h
-│   │   │   └── accelerator_scaled_dot_product_attention.h
-│   │   ├── controller
-│   │   │   ├── fnn
-│   │   │   │   └── accelerator_fnn.h
-│   │   │   └── lstm
-│   │   │       └── accelerator_lstm.h
-│   │   ├── functions
-│   │   │   ├── accelerator_layer_norm.h
-│   │   │   └── accelerator_positional_encoding.h
-│   │   ├── inputs
-│   │   │   ├── accelerator_inputs_vector.h
-│   │   │   ├── accelerator_keys_vector.h
-│   │   │   ├── accelerator_queries_vector.h
-│   │   │   └── accelerator_values_vector.h
-│   │   └── top
-│   │       ├── accelerator_controller.h
-│   │       ├── accelerator_decoder.h
-│   │       └── accelerator_encoder.h
 │   ├── dnc
 │   │   ├── dnc.h
 │   │   ├── memory
@@ -76,42 +53,23 @@ library
 │   │   │   └── accelerator_controller.h
 │   │   └── standard
 │   │       └── accelerator_controller.h
-│   ├── lstm
-│   │   ├── convolutional
-│   │   │   ├── accelerator_activation_gate_vector.h
-│   │   │   ├── accelerator_controller.h
-│   │   │   ├── accelerator_forget_gate_vector.h
-│   │   │   ├── accelerator_hidden_gate_vector.h
-│   │   │   ├── accelerator_input_gate_vector.h
-│   │   │   ├── accelerator_output_gate_vector.h
-│   │   │   └── accelerator_state_gate_vector.h
-│   │   └── standard
-│   │       ├── accelerator_activation_gate_vector.h
-│   │       ├── accelerator_controller.h
-│   │       ├── accelerator_forget_gate_vector.h
-│   │       ├── accelerator_hidden_gate_vector.h
-│   │       ├── accelerator_input_gate_vector.h
-│   │       ├── accelerator_output_gate_vector.h
-│   │       └── accelerator_state_gate_vector.h
-│   └── ntm
-│       ├── ntm.h
-│       ├── memory
-│       │   ├── accelerator_addressing.h
-│       │   ├── accelerator_matrix_content_based_addressing.h
-│       │   └── accelerator_vector_content_based_addressing.h
-│       ├── read_heads
-│       │   └── accelerator_reading.h
-│       ├── top
-│       │   ├── accelerator_interface_matrix.h
-│       │   ├── accelerator_interface_top.h
-│       │   ├── accelerator_interface_vector.h
-│       │   ├── accelerator_output_vector.h
-│       │   └── accelerator_top.h
-│       ├── trained
-│       │   └── accelerator_trained_top.h
-│       └── write_heads
-│           ├── accelerator_erasing.h
-│           └── accelerator_writing.h
+│   └── lstm
+│       ├── convolutional
+│       │   ├── accelerator_activation_gate_vector.h
+│       │   ├── accelerator_controller.h
+│       │   ├── accelerator_forget_gate_vector.h
+│       │   ├── accelerator_hidden_gate_vector.h
+│       │   ├── accelerator_input_gate_vector.h
+│       │   ├── accelerator_output_gate_vector.h
+│       │   └── accelerator_state_gate_vector.h
+│       └── standard
+│           ├── accelerator_activation_gate_vector.h
+│           ├── accelerator_controller.h
+│           ├── accelerator_forget_gate_vector.h
+│           ├── accelerator_hidden_gate_vector.h
+│           ├── accelerator_input_gate_vector.h
+│           ├── accelerator_output_gate_vector.h
+│           └── accelerator_state_gate_vector.h
 └── trainer
     ├── accelerator_trainer.h
     ├── differentiation
@@ -159,4 +117,4 @@ library
             ├── accelerator_lstm_output_v_trainer.h
             └── accelerator_lstm_output_w_trainer.h
 
-49 directories, 110 files
+35 directories, 82 files
