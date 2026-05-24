@@ -576,7 +576,7 @@ library
 │       ├── accelerator_vector_arithmetic_structural_package.dot
 │       └── accelerator_vector_arithmetic_structural_profile.dot
 ├── intelligence
-│   ├── nn
+│   ├── model
 │   │   ├── dnc
 │   │   │   ├── memory
 │   │   │   │   ├── accelerator_addressing

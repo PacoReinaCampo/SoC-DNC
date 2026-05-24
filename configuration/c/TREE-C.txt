@@ -60,7 +60,7 @@ library
 │       ├── accelerator_vector_multiplier.c
 │       └── accelerator_vector_subtractor.c
 ├── intelligence
-│   ├── nn
+│   ├── model
 │   │   ├── dnc
 │   │   │   ├── memory
 │   │   │   │   ├── accelerator_addressing.c

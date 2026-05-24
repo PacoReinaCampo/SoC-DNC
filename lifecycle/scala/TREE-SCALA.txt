@@ -26,7 +26,7 @@ library
 │   └── vector
 │       └── accelerator_vector_arithmetic.scala
 ├── intelligence
-│   ├── nn
+│   ├── model
 │   │   ├── dnc
 │   │   │   ├── memory
 │   │   │   │   ├── accelerator_addressing.scala
