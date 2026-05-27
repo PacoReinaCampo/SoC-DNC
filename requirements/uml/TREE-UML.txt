@@ -576,7 +576,7 @@ library
 │       ├── accelerator_vector_arithmetic_structural_package.dot
 │       └── accelerator_vector_arithmetic_structural_profile.dot
 ├── intelligence
-│   ├── model
+│   ├── modeling
 │   │   ├── dnc
 │   │   │   ├── memory
 │   │   │   │   ├── accelerator_addressing
@@ -1174,7 +1174,7 @@ library
 │   │               ├── accelerator_state_gate_vector_structural_object.dot
 │   │               ├── accelerator_state_gate_vector_structural_package.dot
 │   │               └── accelerator_state_gate_vector_structural_profile.dot
-│   └── trainer
+│   └── training
 │       ├── differentiation
 │       │   ├── accelerator_matrix_controller_differentiation
 │       │   │   ├── accelerator_matrix_controller_differentiation_behavioral_activity.dot
