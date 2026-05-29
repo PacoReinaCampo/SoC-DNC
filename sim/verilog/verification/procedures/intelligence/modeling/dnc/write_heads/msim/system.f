@@ -74,13 +74,13 @@
 ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_integration.sv
 ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_softmax.sv
 
-../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_allocation_gate.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_erase_vector.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_gate.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_key.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_strength.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_vector.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_allocation_gate.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_erase_vector.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_gate.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_key.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_strength.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_vector.sv
 
-../../../../../../../../verification/procedures/verilog/library/nn/dnc/write_heads/accelerator_write_heads_pkg.sv
-../../../../../../../../verification/procedures/verilog/library/nn/dnc/write_heads/accelerator_write_heads_stimulus.sv
-../../../../../../../../verification/procedures/verilog/library/nn/dnc/write_heads/accelerator_write_heads_testbench.sv
+../../../../../../../../verification/procedures/verilog/library/intelligence/modeling/dnc/write_heads/accelerator_write_heads_pkg.sv
+../../../../../../../../verification/procedures/verilog/library/intelligence/modeling/dnc/write_heads/accelerator_write_heads_stimulus.sv
+../../../../../../../../verification/procedures/verilog/library/intelligence/modeling/dnc/write_heads/accelerator_write_heads_testbench.sv

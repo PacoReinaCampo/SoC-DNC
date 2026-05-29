@@ -74,8 +74,8 @@ vhdl2008 work ../../../../../../../../model/vhdl/code/math/tensor/model_tensor_d
 vhdl2008 work ../../../../../../../../model/vhdl/code/math/tensor/model_tensor_integration.vhd
 vhdl2008 work ../../../../../../../../model/vhdl/code/math/tensor/model_tensor_softmax.vhd
 
-vhdl2008 work ../../../../../../../../model/vhdl/code/nn/dnc/write_heads/model_write_heads.vhd
+vhdl2008 work ../../../../../../../../model/vhdl/code/intelligence/modeling/dnc/write_heads/model_write_heads.vhd
 
-vhdl2008 work ../../../../../../../../validation/tasks/vhdl/library/nn/dnc/write_heads/model_write_heads_pkg.vhd
-vhdl2008 work ../../../../../../../../validation/tasks/vhdl/library/nn/dnc/write_heads/model_write_heads_stimulus.vhd
-vhdl2008 work ../../../../../../../../validation/tasks/vhdl/library/nn/dnc/write_heads/model_write_heads_testbench.vhd
+vhdl2008 work ../../../../../../../../validation/tasks/vhdl/library/intelligence/modeling/dnc/write_heads/model_write_heads_pkg.vhd
+vhdl2008 work ../../../../../../../../validation/tasks/vhdl/library/intelligence/modeling/dnc/write_heads/model_write_heads_stimulus.vhd
+vhdl2008 work ../../../../../../../../validation/tasks/vhdl/library/intelligence/modeling/dnc/write_heads/model_write_heads_testbench.vhd

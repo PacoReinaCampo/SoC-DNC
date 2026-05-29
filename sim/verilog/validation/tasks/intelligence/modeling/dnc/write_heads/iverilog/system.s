@@ -68,13 +68,13 @@
 ../../../../../../../../model/verilog/code/math/matrix/model_matrix_summation_function.sv
 ../../../../../../../../model/verilog/code/math/matrix/model_matrix_tanh_function.sv
 
-../../../../../../../../model/verilog/code/nn/dnc/write_heads/model_allocation_gate.sv
-../../../../../../../../model/verilog/code/nn/dnc/write_heads/model_erase_vector.sv
-../../../../../../../../model/verilog/code/nn/dnc/write_heads/model_write_gate.sv
-../../../../../../../../model/verilog/code/nn/dnc/write_heads/model_write_key.sv
-../../../../../../../../model/verilog/code/nn/dnc/write_heads/model_write_strength.sv
-../../../../../../../../model/verilog/code/nn/dnc/write_heads/model_write_vector.sv
+../../../../../../../../model/verilog/code/intelligence/modeling/dnc/write_heads/model_allocation_gate.sv
+../../../../../../../../model/verilog/code/intelligence/modeling/dnc/write_heads/model_erase_vector.sv
+../../../../../../../../model/verilog/code/intelligence/modeling/dnc/write_heads/model_write_gate.sv
+../../../../../../../../model/verilog/code/intelligence/modeling/dnc/write_heads/model_write_key.sv
+../../../../../../../../model/verilog/code/intelligence/modeling/dnc/write_heads/model_write_strength.sv
+../../../../../../../../model/verilog/code/intelligence/modeling/dnc/write_heads/model_write_vector.sv
 
-../../../../../../../../validation/tasks/verilog/library/nn/dnc/write_heads/model_write_heads_pkg.sv
-../../../../../../../../validation/tasks/verilog/library/nn/dnc/write_heads/model_write_heads_stimulus.sv
-../../../../../../../../validation/tasks/verilog/library/nn/dnc/write_heads/model_write_heads_testbench.sv
+../../../../../../../../validation/tasks/verilog/library/intelligence/modeling/dnc/write_heads/model_write_heads_pkg.sv
+../../../../../../../../validation/tasks/verilog/library/intelligence/modeling/dnc/write_heads/model_write_heads_stimulus.sv
+../../../../../../../../validation/tasks/verilog/library/intelligence/modeling/dnc/write_heads/model_write_heads_testbench.sv

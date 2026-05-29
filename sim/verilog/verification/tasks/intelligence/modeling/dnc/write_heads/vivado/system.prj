@@ -74,13 +74,13 @@ verilog work ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_te
 verilog work ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_integration.sv
 verilog work ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_softmax.sv
 
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_allocation_gate.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_erase_vector.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_gate.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_key.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_strength.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/write_heads/accelerator_write_vector.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_allocation_gate.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_erase_vector.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_gate.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_key.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_strength.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/write_heads/accelerator_write_vector.sv
 
-verilog work ../../../../../../../../verification/tasks/verilog/library/nn/dnc/write_heads/accelerator_write_heads_pkg.sv
-verilog work ../../../../../../../../verification/tasks/verilog/library/nn/dnc/write_heads/accelerator_write_heads_stimulus.sv
-verilog work ../../../../../../../../verification/tasks/verilog/library/nn/dnc/write_heads/accelerator_write_heads_testbench.sv
+verilog work ../../../../../../../../verification/tasks/verilog/library/intelligence/modeling/dnc/write_heads/accelerator_write_heads_pkg.sv
+verilog work ../../../../../../../../verification/tasks/verilog/library/intelligence/modeling/dnc/write_heads/accelerator_write_heads_stimulus.sv
+verilog work ../../../../../../../../verification/tasks/verilog/library/intelligence/modeling/dnc/write_heads/accelerator_write_heads_testbench.sv

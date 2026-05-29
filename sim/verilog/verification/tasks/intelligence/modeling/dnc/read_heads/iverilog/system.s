@@ -68,10 +68,10 @@
 ../../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_summation_function.sv
 ../../../../../../../../rtl/verilog/code/math/matrix/accelerator_matrix_tanh_function.sv
 
-../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_free_gates.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_read_keys.sv
-../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_read_strengths.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_free_gates.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_read_keys.sv
+../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_read_strengths.sv
 
-../../../../../../../../verification/tasks/verilog/library/nn/dnc/read_heads/accelerator_read_heads_pkg.sv
-../../../../../../../../verification/tasks/verilog/library/nn/dnc/read_heads/accelerator_read_heads_stimulus.sv
-../../../../../../../../verification/tasks/verilog/library/nn/dnc/read_heads/accelerator_read_heads_testbench.sv
+../../../../../../../../verification/tasks/verilog/library/intelligence/modeling/dnc/read_heads/accelerator_read_heads_pkg.sv
+../../../../../../../../verification/tasks/verilog/library/intelligence/modeling/dnc/read_heads/accelerator_read_heads_stimulus.sv
+../../../../../../../../verification/tasks/verilog/library/intelligence/modeling/dnc/read_heads/accelerator_read_heads_testbench.sv

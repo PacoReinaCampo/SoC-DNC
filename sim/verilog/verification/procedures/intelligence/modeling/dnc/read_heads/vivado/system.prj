@@ -74,11 +74,11 @@ verilog work ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_te
 verilog work ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_integration.sv
 verilog work ../../../../../../../../rtl/verilog/code/math/tensor/accelerator_tensor_softmax.sv
 
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_free_gates.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_read_keys.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_read_modes.sv
-verilog work ../../../../../../../../rtl/verilog/code/nn/dnc/read_heads/accelerator_read_strengths.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_free_gates.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_read_keys.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_read_modes.sv
+verilog work ../../../../../../../../rtl/verilog/code/intelligence/modeling/dnc/read_heads/accelerator_read_strengths.sv
 
-verilog work ../../../../../../../../verification/procedures/verilog/library/nn/dnc/read_heads/accelerator_read_heads_pkg.sv
-verilog work ../../../../../../../../verification/procedures/verilog/library/nn/dnc/read_heads/accelerator_read_heads_stimulus.sv
-verilog work ../../../../../../../../verification/procedures/verilog/library/nn/dnc/read_heads/accelerator_read_heads_testbench.sv
+verilog work ../../../../../../../../verification/procedures/verilog/library/intelligence/modeling/dnc/read_heads/accelerator_read_heads_pkg.sv
+verilog work ../../../../../../../../verification/procedures/verilog/library/intelligence/modeling/dnc/read_heads/accelerator_read_heads_stimulus.sv
+verilog work ../../../../../../../../verification/procedures/verilog/library/intelligence/modeling/dnc/read_heads/accelerator_read_heads_testbench.sv

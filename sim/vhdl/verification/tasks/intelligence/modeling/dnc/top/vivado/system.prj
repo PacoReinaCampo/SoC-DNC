@@ -75,44 +75,44 @@ vhdl2008 work ../../../../../../../../rtl/vhdl/code/math/tensor/accelerator_tens
 vhdl2008 work ../../../../../../../../rtl/vhdl/code/math/tensor/accelerator_tensor_integration.vhd
 vhdl2008 work ../../../../../../../../rtl/vhdl/code/math/tensor/accelerator_tensor_softmax.vhd
 
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/trainer/lstm/accelerator_activation_trainer.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/trainer/lstm/accelerator_forget_trainer.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/trainer/lstm/accelerator_input_trainer.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/trainer/lstm/accelerator_output_trainer.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/training/lstm/accelerator_activation_trainer.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/training/lstm/accelerator_forget_trainer.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/training/lstm/accelerator_input_trainer.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/training/lstm/accelerator_output_trainer.vhd
 
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_controller.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_activation_gate_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_forget_gate_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_hidden_gate_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_input_gate_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_output_gate_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/lstm/convolutional/accelerator_state_gate_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_controller.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_activation_gate_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_forget_gate_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_hidden_gate_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_input_gate_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_output_gate_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/lstm/convolutional/accelerator_state_gate_vector.vhd
 
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/read_heads/accelerator_read_heads.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/read_heads/accelerator_read_heads.vhd
 
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/write_heads/accelerator_write_heads.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/write_heads/accelerator_write_heads.vhd
 
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_content_based_addressing.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_allocation_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_backward_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_forward_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_memory_matrix.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_memory_retention_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_precedence_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_read_content_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_read_vectors.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_read_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_sort_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_temporal_link_matrix.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_usage_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_write_content_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_write_weighting.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/memory/accelerator_addressing.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_content_based_addressing.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_allocation_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_backward_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_forward_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_memory_matrix.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_memory_retention_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_precedence_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_read_content_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_read_vectors.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_read_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_sort_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_temporal_link_matrix.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_usage_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_write_content_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_write_weighting.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/memory/accelerator_addressing.vhd
 
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/top/accelerator_top.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/top/accelerator_output_vector.vhd
-vhdl2008 work ../../../../../../../../rtl/vhdl/code/nn/dnc/top/accelerator_interface_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/top/accelerator_top.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/top/accelerator_output_vector.vhd
+vhdl2008 work ../../../../../../../../rtl/vhdl/code/intelligence/modeling/dnc/top/accelerator_interface_vector.vhd
 
-vhdl2008 work ../../../../../../../../verification/tasks/vhdl/library/nn/dnc/top/accelerator_top_pkg.vhd
-vhdl2008 work ../../../../../../../../verification/tasks/vhdl/library/nn/dnc/top/accelerator_top_stimulus.vhd
-vhdl2008 work ../../../../../../../../verification/tasks/vhdl/library/nn/dnc/top/accelerator_top_testbench.vhd
+vhdl2008 work ../../../../../../../../verification/tasks/vhdl/library/intelligence/modeling/dnc/top/accelerator_top_pkg.vhd
+vhdl2008 work ../../../../../../../../verification/tasks/vhdl/library/intelligence/modeling/dnc/top/accelerator_top_stimulus.vhd
+vhdl2008 work ../../../../../../../../verification/tasks/vhdl/library/intelligence/modeling/dnc/top/accelerator_top_testbench.vhd
